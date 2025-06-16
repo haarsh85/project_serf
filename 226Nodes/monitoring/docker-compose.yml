@@ -1,0 +1,52 @@
+services:
+  statsd-exporter:
+    image: prom/statsd-exporter
+    container_name: statsd-exporter
+    ports:
+      - "9125:9125/udp"
+      - "9102:9102"
+    networks:
+      - serf-monitoring
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - prometheus_data:/prometheus  # Use named volume for data
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+    networks:
+      - serf-monitoring
+    depends_on:
+      - statsd-exporter
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana  # Use named volume for data
+      - ./grafana/provisioning:/etc/grafana/provisioning
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    networks:
+      - serf-monitoring
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+networks:
+  serf-monitoring:
+    driver: bridge
+
+volumes:
+  prometheus_data:  # Docker-managed volume for Prometheus
+  grafana_data:     # Docker-managed volume for Grafana

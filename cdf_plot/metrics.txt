@@ -1,0 +1,9 @@
+Source file: serf_ping_rtt_signed_diff_2D_13062025.log
+
+        Total Samples          |        Mean Difference         |       Median Difference        |       Standard Deviation       |       Minimum Difference       |       Maximum Difference       |    50th Percentile (Median)    |        80th Percentile         |        90th Percentile         |        95th Percentile         | % Overestimations (Serf > Actual) | % Underestimations (Serf < Actual)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            13041              |            1.409 ms            |            1.195 ms            |            4.752 ms            |           -37.834 ms           |           52.903 ms            |            1.195 ms            |            3.937 ms            |            6.065 ms            |            8.744 ms            |            66.544%             |            33.441%            
+
+Nodes with Minimum and Maximum Difference:
+Minimum Difference: -37.834 ms → [net_15] clab-nebula-serf41 (10.0.15.16) → [net_77] clab-nebula-serf147 (10.0.77.10): -37.834 ms [serf_rtt: 14.844 ms, ping_rtt: 52.678 ms]
+Maximum Difference: 52.903 ms → [net_5] clab-nebula-serf18 (10.0.5.10) → [net_66] clab-nebula-serf121 (10.0.66.10): +52.903 ms [serf_rtt: 87.511 ms, ping_rtt: 34.608 ms]

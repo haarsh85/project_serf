@@ -1,0 +1,16 @@
+Node: Serf1:
+=== Duplicate Hilbert Indices ===
+No duplicate Hilbert indices found
+
+=== Network Proximity Comparison for clab-nebula-serf1 ===
+Hilbert Index: 379195
+
+Top 3 Hilbert Neighbors:
+ 1. clab-nebula-serf5 (Index: 379380)
+ 2. clab-nebula-serf3 (Index: 380038)
+ 3. clab-nebula-serf4 (Index: 385265)
+
+Top 3 Actual Ping Neighbors:
+ 1. clab-nebula-serf4 (4.646 ms)
+ 2. clab-nebula-serf3 (4.810 ms)
+ 3. clab-nebula-serf5 (5.569 ms)

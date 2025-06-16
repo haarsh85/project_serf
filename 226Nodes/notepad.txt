@@ -1,0 +1,83 @@
+{
+  "node_name": "$container",
+  "bind": "0.0.0.0:7946",
+  "rpc_addr": "0.0.0.0:7373",
+  "advertise": "$ip_address:7946",
+  "log_level": "debug",
+  "statsd_addr": "172.22.120.21:9125"
+}
+
+
+docker stats --no-trunc
+
+
+sudo ip link add name br0 type bridge
+sudo ip link set br0 up
+
+while true; do for i in {2..25}; do ./serf_2D rtt clab-century-serf1 clab-century-serf$i; sleep 1; done; done
+while true; do for i in {2..162}; do ./serf_2D rtt clab-nebula-serf1 clab-nebula-serf$i; sleep 1; done; done
+
+while true; do for i in {2..25}; do ./serf_2D rtt clab-century-serf1 clab-century-serf$i; sleep 1; done; done | tee serf_rtt_values_2D_serf.txt
+
+
+ovs- commands
+sudo ovs-vsctl list-br
+sudo ovs-vsctl list-ports br_left
+sudo ovs-vsctl list Interface port1
+sudo ovs-ofctl dump-ports-desc br_left
+sudo tc -s qdisc show dev port1
+
+docker exec -d "$container" '/opt/serfapp/serf_2D agent -log-level=debug -profile=lan -config-file=/opt/serfapp/node.json > /opt/serfapp/serf.log 2>&1'
+
+Wireshark capturing
+ip netns exec $lab_node_name tcpdump -U -nni $if_name -w -" | sudo wireshark -k -i -
+sudo ip netns exec clab-century-serf1 tcpdump -U -nni eth1 -w - | wireshark -k -i -
+sudo tcpdump -U -nni port2 -w - | wireshark -k -i -tos
+
+
+sudo tcpdump -i port1 -vv -n -c 100
+tcpdump -i eth1 udp port 7946 -vv
+
+sudo chmod +x /usr/bin/dumpcap
+
+sudo tcpdump -i port1 -nn -ttt 'udp port 7946' -c 1000 -w serf_udp.pcap &
+
+iperf3 -c 10.0.1.35 -t 5 -P 2 => bandwidth check
+
+
+sudo watch -n 0.5 '
+for iface in port1 port2 port3 port4; do
+  echo "==== $iface ====";
+  tc -s qdisc show dev $iface;
+done'
+
+sudo watch -n 0.5 '
+for iface in $(ip -o link show | awk -F": " '\''{print $2}'\'' | cut -d@ -f1 | grep "^ovs"); do
+  echo "==== $iface ====";
+  tc -s qdisc show dev $iface;
+done'
+
+sudo watch -n 0.5 "tc -s qdisc show dev port1; \
+tc -s qdisc show dev port2; \
+ovs-appctl dpctl/show -s; \
+nstat -az Udp*"
+
+sysctl net.core.rmem_default
+sysctl net.core.wmem_default
+sysctl net.core.rmem_max
+sysctl net.core.wmem_max
+sysctl net.ipv4.udp_rmem_min
+sysctl net.ipv4.udp_wmem_min
+
+sysctl -w net.ipv4.udp_rmem_min=10485760
+sysctl -w net.ipv4.udp_wmem_min=10485760
+
+
+for i in {1..25}; do docker exec -d clab-century-serf$i sockperf server -p 11111; done
+
+nping --echo-server "public" --udp --echo-port 11111
+
+for i in {1..25}; do docker cp udp_probe clab-century-serf$i:/opt/serfapp/; done;
+for i in {1..25}; do docker cp clab-century-serf$i:/opt/serfapp/udp.log ./25node/udpcustom/udp_serf$i.log; done
+
+sudo ip netns exec clab-century-serf1 tcpdump -U -nni eth1 -w - | wireshark -k -i -

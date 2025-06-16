@@ -1,0 +1,463 @@
+all:
+  vars:
+    # The generated inventory is assumed to be used from the clab host.
+    # Hence no http proxy should be used. Therefore we make sure the http
+    # module does not attempt using any global http proxy.
+    ansible_httpapi_use_proxy: false
+  children:
+    linux:
+      hosts:
+        clab-nebula-router1:
+          ansible_host: 172.20.20.36
+        clab-nebula-router10:
+          ansible_host: 172.20.20.162
+        clab-nebula-router11:
+          ansible_host: 172.20.20.11
+        clab-nebula-router12:
+          ansible_host: 172.20.20.65
+        clab-nebula-router13:
+          ansible_host: 172.20.20.55
+        clab-nebula-router14:
+          ansible_host: 172.20.20.12
+        clab-nebula-router15:
+          ansible_host: 172.20.20.30
+        clab-nebula-router16:
+          ansible_host: 172.20.20.174
+        clab-nebula-router17:
+          ansible_host: 172.20.20.104
+        clab-nebula-router18:
+          ansible_host: 172.20.20.129
+        clab-nebula-router19:
+          ansible_host: 172.20.20.155
+        clab-nebula-router2:
+          ansible_host: 172.20.20.179
+        clab-nebula-router20:
+          ansible_host: 172.20.20.10
+        clab-nebula-router21:
+          ansible_host: 172.20.20.147
+        clab-nebula-router22:
+          ansible_host: 172.20.20.128
+        clab-nebula-router23:
+          ansible_host: 172.20.20.171
+        clab-nebula-router24:
+          ansible_host: 172.20.20.48
+        clab-nebula-router25:
+          ansible_host: 172.20.20.77
+        clab-nebula-router26:
+          ansible_host: 172.20.20.116
+        clab-nebula-router27:
+          ansible_host: 172.20.20.90
+        clab-nebula-router3:
+          ansible_host: 172.20.20.180
+        clab-nebula-router4:
+          ansible_host: 172.20.20.151
+        clab-nebula-router5:
+          ansible_host: 172.20.20.18
+        clab-nebula-router6:
+          ansible_host: 172.20.20.152
+        clab-nebula-router7:
+          ansible_host: 172.20.20.165
+        clab-nebula-router8:
+          ansible_host: 172.20.20.79
+        clab-nebula-router9:
+          ansible_host: 172.20.20.46
+        clab-nebula-serf1:
+          ansible_host: 172.20.20.44
+        clab-nebula-serf10:
+          ansible_host: 172.20.20.102
+        clab-nebula-serf100:
+          ansible_host: 172.20.20.122
+        clab-nebula-serf101:
+          ansible_host: 172.20.20.41
+        clab-nebula-serf102:
+          ansible_host: 172.20.20.124
+        clab-nebula-serf103:
+          ansible_host: 172.20.20.43
+        clab-nebula-serf104:
+          ansible_host: 172.20.20.60
+        clab-nebula-serf105:
+          ansible_host: 172.20.20.132
+        clab-nebula-serf106:
+          ansible_host: 172.20.20.96
+        clab-nebula-serf107:
+          ansible_host: 172.20.20.29
+        clab-nebula-serf108:
+          ansible_host: 172.20.20.101
+        clab-nebula-serf109:
+          ansible_host: 172.20.20.156
+        clab-nebula-serf11:
+          ansible_host: 172.20.20.69
+        clab-nebula-serf110:
+          ansible_host: 172.20.20.72
+        clab-nebula-serf111:
+          ansible_host: 172.20.20.76
+        clab-nebula-serf112:
+          ansible_host: 172.20.20.52
+        clab-nebula-serf113:
+          ansible_host: 172.20.20.142
+        clab-nebula-serf114:
+          ansible_host: 172.20.20.153
+        clab-nebula-serf115:
+          ansible_host: 172.20.20.57
+        clab-nebula-serf116:
+          ansible_host: 172.20.20.158
+        clab-nebula-serf117:
+          ansible_host: 172.20.20.16
+        clab-nebula-serf118:
+          ansible_host: 172.20.20.25
+        clab-nebula-serf119:
+          ansible_host: 172.20.20.146
+        clab-nebula-serf12:
+          ansible_host: 172.20.20.139
+        clab-nebula-serf120:
+          ansible_host: 172.20.20.3
+        clab-nebula-serf121:
+          ansible_host: 172.20.20.125
+        clab-nebula-serf122:
+          ansible_host: 172.20.20.137
+        clab-nebula-serf123:
+          ansible_host: 172.20.20.59
+        clab-nebula-serf124:
+          ansible_host: 172.20.20.99
+        clab-nebula-serf125:
+          ansible_host: 172.20.20.111
+        clab-nebula-serf126:
+          ansible_host: 172.20.20.31
+        clab-nebula-serf127:
+          ansible_host: 172.20.20.115
+        clab-nebula-serf128:
+          ansible_host: 172.20.20.117
+        clab-nebula-serf129:
+          ansible_host: 172.20.20.134
+        clab-nebula-serf13:
+          ansible_host: 172.20.20.164
+        clab-nebula-serf130:
+          ansible_host: 172.20.20.4
+        clab-nebula-serf131:
+          ansible_host: 172.20.20.8
+        clab-nebula-serf132:
+          ansible_host: 172.20.20.24
+        clab-nebula-serf133:
+          ansible_host: 172.20.20.185
+        clab-nebula-serf134:
+          ansible_host: 172.20.20.183
+        clab-nebula-serf135:
+          ansible_host: 172.20.20.154
+        clab-nebula-serf136:
+          ansible_host: 172.20.20.144
+        clab-nebula-serf137:
+          ansible_host: 172.20.20.148
+        clab-nebula-serf138:
+          ansible_host: 172.20.20.121
+        clab-nebula-serf139:
+          ansible_host: 172.20.20.91
+        clab-nebula-serf14:
+          ansible_host: 172.20.20.166
+        clab-nebula-serf140:
+          ansible_host: 172.20.20.81
+        clab-nebula-serf141:
+          ansible_host: 172.20.20.34
+        clab-nebula-serf142:
+          ansible_host: 172.20.20.140
+        clab-nebula-serf143:
+          ansible_host: 172.20.20.45
+        clab-nebula-serf144:
+          ansible_host: 172.20.20.138
+        clab-nebula-serf145:
+          ansible_host: 172.20.20.161
+        clab-nebula-serf146:
+          ansible_host: 172.20.20.113
+        clab-nebula-serf147:
+          ansible_host: 172.20.20.110
+        clab-nebula-serf148:
+          ansible_host: 172.20.20.26
+        clab-nebula-serf149:
+          ansible_host: 172.20.20.6
+        clab-nebula-serf15:
+          ansible_host: 172.20.20.136
+        clab-nebula-serf150:
+          ansible_host: 172.20.20.15
+        clab-nebula-serf151:
+          ansible_host: 172.20.20.75
+        clab-nebula-serf152:
+          ansible_host: 172.20.20.170
+        clab-nebula-serf153:
+          ansible_host: 172.20.20.37
+        clab-nebula-serf154:
+          ansible_host: 172.20.20.103
+        clab-nebula-serf155:
+          ansible_host: 172.20.20.141
+        clab-nebula-serf156:
+          ansible_host: 172.20.20.118
+        clab-nebula-serf157:
+          ansible_host: 172.20.20.73
+        clab-nebula-serf158:
+          ansible_host: 172.20.20.21
+        clab-nebula-serf159:
+          ansible_host: 172.20.20.54
+        clab-nebula-serf16:
+          ansible_host: 172.20.20.127
+        clab-nebula-serf160:
+          ansible_host: 172.20.20.95
+        clab-nebula-serf161:
+          ansible_host: 172.20.20.64
+        clab-nebula-serf162:
+          ansible_host: 172.20.20.123
+        clab-nebula-serf17:
+          ansible_host: 172.20.20.120
+        clab-nebula-serf18:
+          ansible_host: 172.20.20.89
+        clab-nebula-serf19:
+          ansible_host: 172.20.20.167
+        clab-nebula-serf2:
+          ansible_host: 172.20.20.63
+        clab-nebula-serf20:
+          ansible_host: 172.20.20.108
+        clab-nebula-serf21:
+          ansible_host: 172.20.20.126
+        clab-nebula-serf22:
+          ansible_host: 172.20.20.19
+        clab-nebula-serf23:
+          ansible_host: 172.20.20.177
+        clab-nebula-serf24:
+          ansible_host: 172.20.20.53
+        clab-nebula-serf25:
+          ansible_host: 172.20.20.84
+        clab-nebula-serf26:
+          ansible_host: 172.20.20.92
+        clab-nebula-serf27:
+          ansible_host: 172.20.20.130
+        clab-nebula-serf28:
+          ansible_host: 172.20.20.20
+        clab-nebula-serf29:
+          ansible_host: 172.20.20.135
+        clab-nebula-serf3:
+          ansible_host: 172.20.20.70
+        clab-nebula-serf30:
+          ansible_host: 172.20.20.5
+        clab-nebula-serf31:
+          ansible_host: 172.20.20.169
+        clab-nebula-serf32:
+          ansible_host: 172.20.20.187
+        clab-nebula-serf33:
+          ansible_host: 172.20.20.40
+        clab-nebula-serf34:
+          ansible_host: 172.20.20.175
+        clab-nebula-serf35:
+          ansible_host: 172.20.20.173
+        clab-nebula-serf36:
+          ansible_host: 172.20.20.78
+        clab-nebula-serf37:
+          ansible_host: 172.20.20.97
+        clab-nebula-serf38:
+          ansible_host: 172.20.20.61
+        clab-nebula-serf39:
+          ansible_host: 172.20.20.172
+        clab-nebula-serf4:
+          ansible_host: 172.20.20.38
+        clab-nebula-serf40:
+          ansible_host: 172.20.20.160
+        clab-nebula-serf41:
+          ansible_host: 172.20.20.188
+        clab-nebula-serf42:
+          ansible_host: 172.20.20.83
+        clab-nebula-serf43:
+          ansible_host: 172.20.20.85
+        clab-nebula-serf44:
+          ansible_host: 172.20.20.56
+        clab-nebula-serf45:
+          ansible_host: 172.20.20.159
+        clab-nebula-serf46:
+          ansible_host: 172.20.20.9
+        clab-nebula-serf47:
+          ansible_host: 172.20.20.51
+        clab-nebula-serf48:
+          ansible_host: 172.20.20.49
+        clab-nebula-serf49:
+          ansible_host: 172.20.20.62
+        clab-nebula-serf5:
+          ansible_host: 172.20.20.190
+        clab-nebula-serf50:
+          ansible_host: 172.20.20.98
+        clab-nebula-serf51:
+          ansible_host: 172.20.20.186
+        clab-nebula-serf52:
+          ansible_host: 172.20.20.42
+        clab-nebula-serf53:
+          ansible_host: 172.20.20.133
+        clab-nebula-serf54:
+          ansible_host: 172.20.20.7
+        clab-nebula-serf55:
+          ansible_host: 172.20.20.28
+        clab-nebula-serf56:
+          ansible_host: 172.20.20.94
+        clab-nebula-serf57:
+          ansible_host: 172.20.20.184
+        clab-nebula-serf58:
+          ansible_host: 172.20.20.33
+        clab-nebula-serf59:
+          ansible_host: 172.20.20.13
+        clab-nebula-serf6:
+          ansible_host: 172.20.20.58
+        clab-nebula-serf60:
+          ansible_host: 172.20.20.17
+        clab-nebula-serf61:
+          ansible_host: 172.20.20.71
+        clab-nebula-serf62:
+          ansible_host: 172.20.20.14
+        clab-nebula-serf63:
+          ansible_host: 172.20.20.150
+        clab-nebula-serf64:
+          ansible_host: 172.20.20.100
+        clab-nebula-serf65:
+          ansible_host: 172.20.20.157
+        clab-nebula-serf66:
+          ansible_host: 172.20.20.2
+        clab-nebula-serf67:
+          ansible_host: 172.20.20.39
+        clab-nebula-serf68:
+          ansible_host: 172.20.20.82
+        clab-nebula-serf69:
+          ansible_host: 172.20.20.74
+        clab-nebula-serf7:
+          ansible_host: 172.20.20.66
+        clab-nebula-serf70:
+          ansible_host: 172.20.20.181
+        clab-nebula-serf71:
+          ansible_host: 172.20.20.87
+        clab-nebula-serf72:
+          ansible_host: 172.20.20.27
+        clab-nebula-serf73:
+          ansible_host: 172.20.20.80
+        clab-nebula-serf74:
+          ansible_host: 172.20.20.22
+        clab-nebula-serf75:
+          ansible_host: 172.20.20.149
+        clab-nebula-serf76:
+          ansible_host: 172.20.20.32
+        clab-nebula-serf77:
+          ansible_host: 172.20.20.145
+        clab-nebula-serf78:
+          ansible_host: 172.20.20.88
+        clab-nebula-serf79:
+          ansible_host: 172.20.20.182
+        clab-nebula-serf8:
+          ansible_host: 172.20.20.23
+        clab-nebula-serf80:
+          ansible_host: 172.20.20.105
+        clab-nebula-serf81:
+          ansible_host: 172.20.20.93
+        clab-nebula-serf82:
+          ansible_host: 172.20.20.86
+        clab-nebula-serf83:
+          ansible_host: 172.20.20.168
+        clab-nebula-serf84:
+          ansible_host: 172.20.20.189
+        clab-nebula-serf85:
+          ansible_host: 172.20.20.119
+        clab-nebula-serf86:
+          ansible_host: 172.20.20.68
+        clab-nebula-serf87:
+          ansible_host: 172.20.20.114
+        clab-nebula-serf88:
+          ansible_host: 172.20.20.112
+        clab-nebula-serf89:
+          ansible_host: 172.20.20.131
+        clab-nebula-serf9:
+          ansible_host: 172.20.20.50
+        clab-nebula-serf90:
+          ansible_host: 172.20.20.143
+        clab-nebula-serf91:
+          ansible_host: 172.20.20.47
+        clab-nebula-serf92:
+          ansible_host: 172.20.20.176
+        clab-nebula-serf93:
+          ansible_host: 172.20.20.106
+        clab-nebula-serf94:
+          ansible_host: 172.20.20.178
+        clab-nebula-serf95:
+          ansible_host: 172.20.20.109
+        clab-nebula-serf96:
+          ansible_host: 172.20.20.67
+        clab-nebula-serf97:
+          ansible_host: 172.20.20.35
+        clab-nebula-serf98:
+          ansible_host: 172.20.20.107
+        clab-nebula-serf99:
+          ansible_host: 172.20.20.163
+    ovs-bridge:
+      hosts:
+        clab-nebula-switch1:
+          ansible_host: 
+        clab-nebula-switch10:
+          ansible_host: 
+        clab-nebula-switch11:
+          ansible_host: 
+        clab-nebula-switch12:
+          ansible_host: 
+        clab-nebula-switch13:
+          ansible_host: 
+        clab-nebula-switch14:
+          ansible_host: 
+        clab-nebula-switch15:
+          ansible_host: 
+        clab-nebula-switch16:
+          ansible_host: 
+        clab-nebula-switch17:
+          ansible_host: 
+        clab-nebula-switch18:
+          ansible_host: 
+        clab-nebula-switch19:
+          ansible_host: 
+        clab-nebula-switch2:
+          ansible_host: 
+        clab-nebula-switch20:
+          ansible_host: 
+        clab-nebula-switch21:
+          ansible_host: 
+        clab-nebula-switch22:
+          ansible_host: 
+        clab-nebula-switch23:
+          ansible_host: 
+        clab-nebula-switch24:
+          ansible_host: 
+        clab-nebula-switch25:
+          ansible_host: 
+        clab-nebula-switch26:
+          ansible_host: 
+        clab-nebula-switch27:
+          ansible_host: 
+        clab-nebula-switch28:
+          ansible_host: 
+        clab-nebula-switch29:
+          ansible_host: 
+        clab-nebula-switch3:
+          ansible_host: 
+        clab-nebula-switch30:
+          ansible_host: 
+        clab-nebula-switch31:
+          ansible_host: 
+        clab-nebula-switch32:
+          ansible_host: 
+        clab-nebula-switch33:
+          ansible_host: 
+        clab-nebula-switch34:
+          ansible_host: 
+        clab-nebula-switch35:
+          ansible_host: 
+        clab-nebula-switch36:
+          ansible_host: 
+        clab-nebula-switch37:
+          ansible_host: 
+        clab-nebula-switch4:
+          ansible_host: 
+        clab-nebula-switch5:
+          ansible_host: 
+        clab-nebula-switch6:
+          ansible_host: 
+        clab-nebula-switch7:
+          ansible_host: 
+        clab-nebula-switch8:
+          ansible_host: 
+        clab-nebula-switch9:
+          ansible_host: 

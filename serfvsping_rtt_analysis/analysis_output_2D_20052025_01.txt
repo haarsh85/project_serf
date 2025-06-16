@@ -1,0 +1,30 @@
+
+--- Basic Statistics ---
+          diff  serf_rtt ping_rtt
+count  13041.0   13041.0  13041.0
+mean    +1.254   +34.012  +32.758
+std      5.115    15.204   15.257
+min    -21.727     3.628    0.071
+50%     +0.894   +32.247  +31.411
+80%     +3.978   +47.930  +46.806
+max    +81.971  +124.036  +82.282
+
+--- Network Type Counts ---
+| Network Type   | Count   | %     |
+|----------------|---------|-------|
+| inter          | 12,695  | 97.3% |
+| intra          | 346     | 2.7%  |
+
+--- Deviation Type Breakdown ---
+| Network Type   | High Positive (≫)   | High Negative (≪)   | Low Deviation (±3ms)   |
+|----------------|---------------------|---------------------|------------------------|
+| Inter          | 3,164               | 1,732               | 7,799                  |
+| Intra          | 336                 | 0                   | 10                     |
+
+--- Impact of Ping RTT on Accuracy ---
+| Ping RTT Range   | Avg Diff (Inter)   | Avg Diff (Intra)   | Count (Inter)   |   Count (Intra) |
+|------------------|--------------------|--------------------|-----------------|-----------------|
+| 0– 10 ms         | +4.14 ms           | +9.51 ms           | 490             |             149 |
+| 10– 30 ms        | +1.21 ms           | +13.76 ms          | 5,253           |             197 |
+| 30– 60 ms        | +0.59 ms           | —                  | 6,289           |               0 |
+| 60– 90 ms        | +0.17 ms           | —                  | 663             |               0 |

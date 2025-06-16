@@ -1,0 +1,1141 @@
+name: nebula
+
+topology:
+  nodes:
+    #---------------------------------Switches---------------------------------
+    switch1:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch2:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch3:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch4:
+      kind: ovs-bridge
+    switch5:
+      kind: ovs-bridge
+    switch6:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch7:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch8:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch9:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch10:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch11:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch12:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch13:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch14:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch15:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch16:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch17:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch18:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch19:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch20:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch21:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch22:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch23:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch24:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch25:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch26:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch27:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch28:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch29:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch30:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch31:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch32:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch33:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch34:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch35:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch36:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+    switch37:
+      kind: ceos
+      image: harsha258/ceos:4.32.0F
+
+    #---------------------------------Routers---------------------------------
+    router1:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router1/daemons:/etc/frr/daemons
+        - router1/frr.conf:/etc/frr/frr.conf
+    router2:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router2/daemons:/etc/frr/daemons
+        - router2/frr.conf:/etc/frr/frr.conf
+    router3:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router3/daemons:/etc/frr/daemons
+        - router3/frr.conf:/etc/frr/frr.conf
+    router4:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router4/daemons:/etc/frr/daemons
+        - router4/frr.conf:/etc/frr/frr.conf
+    router5:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router5/daemons:/etc/frr/daemons
+        - router5/frr.conf:/etc/frr/frr.conf
+    router6:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router6/daemons:/etc/frr/daemons
+        - router6/frr.conf:/etc/frr/frr.conf
+    router7:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router7/daemons:/etc/frr/daemons
+        - router7/frr.conf:/etc/frr/frr.conf
+    router8:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router8/daemons:/etc/frr/daemons
+        - router8/frr.conf:/etc/frr/frr.conf
+    router9:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router9/daemons:/etc/frr/daemons
+        - router9/frr.conf:/etc/frr/frr.conf
+    router10:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router10/daemons:/etc/frr/daemons
+        - router10/frr.conf:/etc/frr/frr.conf
+    router11:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router11/daemons:/etc/frr/daemons
+        - router11/frr.conf:/etc/frr/frr.conf
+    router12:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router12/daemons:/etc/frr/daemons
+        - router12/frr.conf:/etc/frr/frr.conf
+    router13:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router13/daemons:/etc/frr/daemons
+        - router13/frr.conf:/etc/frr/frr.conf
+    router14:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router14/daemons:/etc/frr/daemons
+        - router14/frr.conf:/etc/frr/frr.conf
+    router15:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router15/daemons:/etc/frr/daemons
+        - router15/frr.conf:/etc/frr/frr.conf
+    router16:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router16/daemons:/etc/frr/daemons
+        - router16/frr.conf:/etc/frr/frr.conf
+    router17:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router17/daemons:/etc/frr/daemons
+        - router17/frr.conf:/etc/frr/frr.conf
+    router18:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router18/daemons:/etc/frr/daemons
+        - router18/frr.conf:/etc/frr/frr.conf
+    router19:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router19/daemons:/etc/frr/daemons
+        - router19/frr.conf:/etc/frr/frr.conf
+    router20:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router20/daemons:/etc/frr/daemons
+        - router20/frr.conf:/etc/frr/frr.conf
+    router21:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router21/daemons:/etc/frr/daemons
+        - router21/frr.conf:/etc/frr/frr.conf
+    router22:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router22/daemons:/etc/frr/daemons
+        - router22/frr.conf:/etc/frr/frr.conf
+    router23:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router23/daemons:/etc/frr/daemons
+        - router23/frr.conf:/etc/frr/frr.conf
+    router24:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router24/daemons:/etc/frr/daemons
+        - router24/frr.conf:/etc/frr/frr.conf
+    router25:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router25/daemons:/etc/frr/daemons
+        - router25/frr.conf:/etc/frr/frr.conf
+    router26:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router26/daemons:/etc/frr/daemons
+        - router26/frr.conf:/etc/frr/frr.conf
+    router27:
+      kind: linux
+      image: quay.io/frrouting/frr:10.2.1
+      binds:
+        - router27/daemons:/etc/frr/daemons
+        - router27/frr.conf:/etc/frr/frr.conf
+
+    #---------------------------------Serf Nodes---------------------------------
+    serf1:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf2:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf3:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf4:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf5:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf6:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf7:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf8:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf9:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf10:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf11:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf12:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf13:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf14:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf15:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf16:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf17:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf18:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf19:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf20:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf21:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf22:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf23:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf24:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf25:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf26:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf27:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf28:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf29:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf30:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf31:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf32:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf33:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf34:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf35:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf36:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf37:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf38:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf39:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf40:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf41:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf42:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf43:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf44:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf45:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf46:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf47:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf48:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf49:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf50:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf51:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf52:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf53:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf54:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf55:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf56:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf57:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf58:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf59:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf60:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf61:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf62:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf63:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf64:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf65:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf66:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf67:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf68:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf69:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf70:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf71:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf72:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf73:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf74:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf75:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf76:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf77:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf78:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf79:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf80:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf81:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf82:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf83:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf84:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf85:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf86:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf87:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf88:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf89:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf90:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf91:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf92:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf93:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf94:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf95:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf96:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf97:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf98:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf99:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf100:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf101:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf102:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf103:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf104:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf105:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf106:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf107:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf108:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf109:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf110:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf111:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf112:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf113:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf114:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf115:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf116:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf117:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf118:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf119:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf120:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf121:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf122:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf123:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf124:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf125:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf126:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf127:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf128:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf129:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf130:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf131:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf132:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf133:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf134:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf135:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf136:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf137:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf138:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf139:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf140:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf141:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf142:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf143:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf144:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf145:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf146:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf147:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf148:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf149:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf150:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf151:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf152:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf153:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf154:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf155:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf156:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf157:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf158:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf159:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf160:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf161:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+    serf162:
+      kind: linux
+      image: harsha258/ubuntu-for-serf
+
+  #---------------------------------Links---------------------------------
+  links:
+    #---------------------------------Router2Router connections---------------------------------
+    #Router1
+    - endpoints: ["router1:eth1", "router2:eth1"]
+    - endpoints: ["router1:eth2", "router3:eth1"]
+    #Router2
+    - endpoints: ["router2:eth2", "router4:eth1"]
+    #Router3
+    - endpoints: ["router3:eth2", "router8:eth1"]
+    #Router4
+    - endpoints: ["router4:eth2", "router5:eth1"]
+    - endpoints: ["router4:eth3", "router6:eth1"]
+    #Router5
+    - endpoints: ["router5:eth2", "router9:eth1"]
+    #Router6
+    - endpoints: ["router6:eth2", "router7:eth1"]
+    #Router7
+    - endpoints: ["router7:eth2", "router8:eth2"]
+    #Router8
+    - endpoints: ["router8:eth3", "router9:eth2"]
+    - endpoints: ["router8:eth4", "router12:eth1"]
+    - endpoints: ["router8:eth5", "router14:eth1"]
+    #Router9
+    - endpoints: ["router9:eth3", "router10:eth1"]
+    - endpoints: ["router9:eth4", "router11:eth1"]
+    #Router10
+    - endpoints: ["router10:eth2", "router15:eth1"]
+    #Router11
+    - endpoints: ["router11:eth2", "router14:eth2"]
+    #Router12
+    - endpoints: ["router12:eth2", "router13:eth1"]
+    #Router13
+    - endpoints: ["router13:eth2", "router14:eth3"]
+    - endpoints: ["router13:eth3", "router16:eth1"]
+    #Router14
+    - endpoints: ["router14:eth4", "router15:eth2"]
+    #Router15
+    - endpoints: ["router15:eth3", "router17:eth1"]
+    #Router16 => no new connections
+    #Router17
+    - endpoints: ["router17:eth2", "router18:eth1"]
+    - endpoints: ["router17:eth3", "router19:eth1"]
+    - endpoints: ["router17:eth4", "router20:eth1"]
+    - endpoints: ["router17:eth5", "router25:eth1"]
+    #Router18
+    - endpoints: ["router18:eth2", "router20:eth2"]
+    #Router19
+    - endpoints: ["router19:eth2", "router24:eth1"]
+    #Router20
+    - endpoints: ["router20:eth3", "router21:eth1"]
+    - endpoints: ["router20:eth4", "router22:eth1"]
+    - endpoints: ["router20:eth5", "router23:eth1"]
+    - endpoints: ["router20:eth6", "router25:eth2"]
+    #Router21 => no new connections
+    #Router22 => no new connections
+    #Router23
+    - endpoints: ["router23:eth2", "router24:eth2"]
+    #Router24
+    - endpoints: ["router24:eth3", "router25:eth3"]
+    #Router25
+    # - endpoints: ["router25:eth4", "router26:eth1"]
+    #Router26 => no new connections
+    #Router27 => not connected to any router
+
+    #---------------------------------Router2Switch connections---------------------------------
+    #Router1
+    - endpoints: ["router1:eth3", "switch5:ovsp6"]
+    - endpoints: ["router1:eth4", "switch4:ovsp1"]
+    #Router2 => no switch connected
+    #Router3
+    - endpoints: ["router3:eth3", "switch15:eth1"]
+    #Router4
+    - endpoints: ["router4:eth4", "switch6:eth1"]
+    - endpoints: ["router4:eth5", "switch7:eth1"]
+    - endpoints: ["router4:eth6", "switch8:eth1"]
+    - endpoints: ["router4:eth7", "switch9:eth1"]
+    #Router5
+    - endpoints: ["router5:eth3", "switch12:eth1"]
+    - endpoints: ["router5:eth4", "switch13:eth1"]
+    - endpoints: ["router5:eth5", "switch14:eth1"]
+    #Router6
+    - endpoints: ["router6:eth3", "switch10:eth1"]
+    - endpoints: ["router6:eth4", "switch11:eth1"]
+    #Router7 => no switch connected
+    #Router8
+    - endpoints: [router8:"eth6", "switch16:eth1"]
+    - endpoints: [router8:"eth7", "switch17:eth1"]
+    #Router9 => no switch connected
+    #Router10
+    - endpoints: ["router10:eth3", "switch23:eth1"]
+    #Router11
+    - endpoints: ["router11:eth3", "switch18:eth1"]
+    - endpoints: ["router11:eth4", "switch19:eth1"]
+    #Router12 => no switch connected
+    #Router13
+    - endpoints: ["router13:eth4", "switch20:eth1"]
+    - endpoints: ["router13:eth5", "switch21:eth1"]
+    - endpoints: ["router13:eth6", "switch22:eth1"]
+    #Router14 => no switch connected
+    #Router15 => no switch connected
+    #Router16
+    - endpoints: ["router16:eth2", "switch24:eth1"]
+    - endpoints: ["router16:eth3", "switch26:eth1"]
+    #Router17 => no switch connected
+    #Router18 => no switch connected
+    #Router19 => no switch connected
+    #Router20
+    - endpoints: ["router20:eth7", "switch28:eth1"]
+    - endpoints: ["router20:eth8", "switch32:eth1"]
+    - endpoints: ["router20:eth9", "switch33:eth1"]
+    #Router21
+    - endpoints: ["router21:eth2", "switch29:eth1"]
+    - endpoints: ["router21:eth3", "switch30:eth1"]
+    #Router22
+    - endpoints: ["router22:eth2", "switch27:eth1"]
+    #Router23 => no switch connected
+    #Router24 => no switch connected
+    #Router25
+    - endpoints: ["router25:eth4", "switch34:eth1"]
+    - endpoints: ["router25:eth5", "switch35:eth1"]
+    - endpoints: ["router25:eth6", "switch36:eth1"]
+    #Router26
+    - endpoints: ["router26:eth1", "switch33:eth2"]
+    - endpoints: ["router26:eth2", "switch34:eth2"]
+    #Router27
+    - endpoints: ["router27:eth1", "switch34:eth3"]
+    - endpoints: ["router27:eth2", "switch35:eth2"]
+    - endpoints: ["router27:eth3", "switch36:eth2"]
+    - endpoints: ["router27:eth4", "switch37:eth1"]
+
+    #---------------------------------Switch2Switch connections---------------------------------
+    #Switch1
+    - endpoints: ["switch1:eth1", "switch2:eth1"]
+    #Switch2
+    - endpoints: ["switch2:eth2", "switch3:eth1"]
+    #Switch3
+    - endpoints: ["switch3:eth2", "switch4:ovsp2"]
+    #Switch24
+    - endpoints: ["switch24:eth2", "switch25:eth1"]
+    #Switch25
+    - endpoints: ["switch25:eth2", "switch26:eth2"]
+    #Switch30
+    - endpoints: ["switch30:eth2", "switch31:eth1"]
+
+    #---------------------------------SerfNode2Switch connections---------------------------------
+    #Switch1
+    - endpoints: ["switch1:eth2", "serf1:eth1"]
+    - endpoints: ["switch1:eth3", "serf2:eth1"]
+    - endpoints: ["switch1:eth4", "serf3:eth1"]
+    - endpoints: ["switch1:eth5", "serf4:eth1"]
+    - endpoints: ["switch1:eth6", "serf5:eth1"]
+    #Switch2
+    - endpoints: ["switch2:eth3", "serf6:eth1"]
+    - endpoints: ["switch2:eth4", "serf7:eth1"]
+    - endpoints: ["switch2:eth5", "serf8:eth1"]
+    #Switch3
+    - endpoints: ["switch3:eth3", "serf9:eth1"]
+    - endpoints: ["switch3:eth4", "serf10:eth1"]
+    - endpoints: ["switch3:eth5", "serf11:eth1"]
+    #Switch4
+    - endpoints: ["switch4:ovsp3", "serf12:eth1"]
+    - endpoints: ["switch4:ovsp4", "serf13:eth1"]
+    - endpoints: ["switch4:ovsp5", "serf14:eth1"]
+    #Switch5
+    - endpoints: ["switch5:ovsp7", "serf15:eth1"]
+    #Switch6
+    - endpoints: ["switch6:eth2", "serf22:eth1"]
+    - endpoints: ["switch6:eth3", "serf23:eth1"]
+    - endpoints: ["switch6:eth4", "serf24:eth1"]
+    - endpoints: ["switch6:eth5", "serf25:eth1"]
+    #Switch7
+    - endpoints: ["switch7:eth2", "serf26:eth1"]
+    #Switch8
+    - endpoints: ["switch8:eth2", "serf27:eth1"]
+    - endpoints: ["switch8:eth3", "serf28:eth1"]
+    - endpoints: ["switch8:eth4", "serf29:eth1"]
+    #Switch9
+    - endpoints: ["switch9:eth2", "serf20:eth1"]
+    - endpoints: ["switch9:eth3", "serf21:eth1"]
+    #Switch10
+    - endpoints: ["switch10:eth2", "serf33:eth1"]
+    - endpoints: ["switch10:eth3", "serf34:eth1"]
+    #Switch11
+    - endpoints: ["switch11:eth2", "serf35:eth1"]
+    - endpoints: ["switch11:eth3", "serf36:eth1"]
+    - endpoints: ["switch11:eth4", "serf37:eth1"]
+    - endpoints: ["switch11:eth5", "serf38:eth1"]
+    - endpoints: ["switch11:eth6", "serf39:eth1"]
+    - endpoints: ["switch11:eth7", "serf40:eth1"]
+    - endpoints: ["switch11:eth8", "serf41:eth1"]
+    - endpoints: ["switch11:eth9", "serf42:eth1"]
+    #Switch12
+    - endpoints: ["switch12:eth2", "serf43:eth1"]
+    - endpoints: ["switch12:eth3", "serf44:eth1"]
+    - endpoints: ["switch12:eth4", "serf45:eth1"]
+    #Switch13
+    - endpoints: ["switch13:eth2", "serf46:eth1"]
+    #Switch1
+    - endpoints: ["switch14:eth2", "serf47:eth1"]
+    #Switch15
+    - endpoints: ["switch15:eth2", "serf51:eth1"]
+    #Switch16
+    - endpoints: ["switch16:eth2", "serf62:eth1"]
+    #Switch17
+    - endpoints: ["switch17:eth2", "serf63:eth1"]
+    #Switch18
+    - endpoints: ["switch18:eth2", "serf64:eth1"]
+    #Switch19
+    - endpoints: ["switch19:eth2", "serf65:eth1"]
+    #Switch20
+    - endpoints: ["switch20:eth2", "serf66:eth1"]
+    - endpoints: ["switch20:eth3", "serf67:eth1"]
+    - endpoints: ["switch20:eth4", "serf68:eth1"]
+    #Switch21
+    - endpoints: ["switch21:eth2", "serf69:eth1"]
+    - endpoints: ["switch21:eth3", "serf70:eth1"]
+    - endpoints: ["switch21:eth4", "serf71:eth1"]
+    - endpoints: ["switch21:eth5", "serf72:eth1"]
+    - endpoints: ["switch21:eth6", "serf73:eth1"]
+    - endpoints: ["switch21:eth7", "serf74:eth1"]
+    - endpoints: ["switch21:eth8", "serf75:eth1"]
+    - endpoints: ["switch21:eth9", "serf76:eth1"]
+    - endpoints: ["switch21:eth10", "serf77:eth1"]
+    - endpoints: ["switch21:eth11", "serf78:eth1"]
+    - endpoints: ["switch21:eth12", "serf79:eth1"]
+    #Switch22
+    - endpoints: ["switch22:eth2", "serf80:eth1"]
+    #Switch23
+    - endpoints: ["switch23:eth2", "serf82:eth1"]
+    #Switch24
+    - endpoints: ["switch24:eth3", "serf83:eth1"]
+    - endpoints: ["switch24:eth4", "serf84:eth1"]
+    - endpoints: ["switch24:eth5", "serf85:eth1"]
+    #Switch25
+    - endpoints: ["switch25:eth3", "serf86:eth1"]
+    #Switch26
+    - endpoints: ["switch26:eth3", "serf87:eth1"]
+    - endpoints: ["switch26:eth4", "serf88:eth1"]
+    - endpoints: ["switch26:eth5", "serf89:eth1"]
+    #Switch27
+    - endpoints: ["switch27:eth2", "serf96:eth1"]
+    - endpoints: ["switch27:eth3", "serf97:eth1"]
+    - endpoints: ["switch27:eth4", "serf98:eth1"]
+    #Switch28
+    - endpoints: ["switch28:eth2", "serf112:eth1"]
+    - endpoints: ["switch28:eth3", "serf113:eth1"]
+    - endpoints: ["switch28:eth4", "serf114:eth1"]
+    #Switch29
+    - endpoints: ["switch29:eth2", "serf115:eth1"]
+    - endpoints: ["switch29:eth3", "serf116:eth1"]
+    #Switch30
+    - endpoints: ["switch30:eth3", "serf117:eth1"]
+    #Switch31
+    - endpoints: ["switch31:eth2", "serf118:eth1"]
+    - endpoints: ["switch31:eth3", "serf119:eth1"]
+    - endpoints: ["switch31:eth4", "serf120:eth1"]
+    #Switch32
+    - endpoints: ["switch32:eth2", "serf128:eth1"]
+    #Switch33
+    - endpoints: ["switch33:eth3", "serf129:eth1"]
+    #Switch34
+    - endpoints: ["switch34:eth4", "serf130:eth1"]
+    - endpoints: ["switch34:eth5", "serf131:eth1"]
+    - endpoints: ["switch34:eth6", "serf132:eth1"]
+    - endpoints: ["switch34:eth7", "serf133:eth1"]
+    - endpoints: ["switch34:eth8", "serf134:eth1"]
+    - endpoints: ["switch34:eth9", "serf135:eth1"]
+    - endpoints: ["switch34:eth10", "serf136:eth1"]
+    - endpoints: ["switch34:eth11", "serf137:eth1"]
+    - endpoints: ["switch34:eth12", "serf138:eth1"]
+    - endpoints: ["switch34:eth13", "serf139:eth1"]
+    - endpoints: ["switch34:eth14", "serf140:eth1"]
+    - endpoints: ["switch34:eth15", "serf141:eth1"]
+    #Switch35
+    - endpoints: ["switch35:eth3", "serf142:eth1"]
+    - endpoints: ["switch35:eth4", "serf143:eth1"]
+    - endpoints: ["switch35:eth5", "serf144:eth1"]
+    - endpoints: ["switch35:eth6", "serf145:eth1"]
+    - endpoints: ["switch35:eth7", "serf146:eth1"]
+    #Switch36
+    - endpoints: ["switch36:eth3", "serf147:eth1"]
+    - endpoints: ["switch36:eth4", "serf148:eth1"]
+    - endpoints: ["switch36:eth5", "serf149:eth1"]
+    - endpoints: ["switch36:eth6", "serf150:eth1"]
+    - endpoints: ["switch36:eth7", "serf151:eth1"]
+    - endpoints: ["switch36:eth8", "serf152:eth1"]
+    - endpoints: ["switch36:eth9", "serf153:eth1"]
+    - endpoints: ["switch36:eth10", "serf154:eth1"]
+    - endpoints: ["switch36:eth11", "serf155:eth1"]
+    - endpoints: ["switch36:eth12", "serf156:eth1"]
+    #Switch37
+    - endpoints: ["switch37:eth2", "serf162:eth1"]
+
+    #---------------------------------SerfNode2Router connections---------------------------------
+    #Router1
+    - endpoints: ["router1:eth5", "serf16:eth1"]
+    - endpoints: ["router1:eth6", "serf17:eth1"]
+    #Router2
+    - endpoints: ["router2:eth3", "serf18:eth1"]
+    - endpoints: ["router2:eth4", "serf19:eth1"]
+    #Router3
+    - endpoints: ["router3:eth4", "serf52:eth1"]
+    - endpoints: ["router3:eth5", "serf53:eth1"]
+    - endpoints: ["router3:eth6", "serf54:eth1"]
+    - endpoints: ["router3:eth7", "serf55:eth1"]
+    - endpoints: ["router3:eth8", "serf56:eth1"]
+    #Router4
+    - endpoints: ["router4:eth8", "serf30:eth1"]
+    - endpoints: ["router4:eth9", "serf31:eth1"]
+    - endpoints: ["router4:eth10", "serf32:eth1"]
+    #Router5
+    - endpoints: ["router5:eth6", "serf48:eth1"]
+    - endpoints: ["router5:eth7", "serf49:eth1"]
+    - endpoints: ["router5:eth8", "serf50:eth1"]
+    #Router6 => no connected serf nodes
+    #Router7 => no connected serf nodes
+    #Router8
+    - endpoints: ["router8:eth8", "serf57:eth1"]
+    - endpoints: ["router8:eth9", "serf58:eth1"]
+    - endpoints: ["router8:eth10", "serf59:eth1"]
+    - endpoints: ["router8:eth11", "serf60:eth1"]
+    - endpoints: ["router8:eth12", "serf61:eth1"]
+    #Router9 => no connected serf nodes
+    #Router10 => no connected serf nodes
+    #Router11 => no connected serf nodes
+    #Router12 => no connected serf nodes
+    #Router13
+    - endpoints: ["router13:eth7", "serf81:eth1"]
+    #Router14 => no connected serf nodes
+    #Router15 => no connected serf nodes
+    #Router16
+    - endpoints: ["router16:eth4", "serf90:eth1"]
+    - endpoints: ["router16:eth5", "serf91:eth1"]
+    - endpoints: ["router16:eth6", "serf92:eth1"]
+    - endpoints: ["router16:eth7", "serf93:eth1"]
+    - endpoints: ["router16:eth8", "serf94:eth1"]
+    - endpoints: ["router16:eth9", "serf95:eth1"]
+    #Router17
+    - endpoints: ["router17:eth6", "serf104:eth1"]
+    - endpoints: ["router17:eth7", "serf105:eth1"]
+    #Router18 => no connected serf nodes
+    #Router19 => no connected serf nodes
+    #Router20
+    - endpoints: ["router20:eth10", "serf106:eth1"]
+    - endpoints: ["router20:eth11", "serf107:eth1"]
+    - endpoints: ["router20:eth12", "serf108:eth1"]
+    - endpoints: ["router20:eth13", "serf109:eth1"]
+    - endpoints: ["router20:eth14", "serf110:eth1"]
+    - endpoints: ["router20:eth15", "serf111:eth1"]
+    #Router21 => no connected serf nodes
+    #Router22
+    - endpoints: ["router22:eth3", "serf99:eth1"]
+    - endpoints: ["router22:eth4", "serf100:eth1"]
+    - endpoints: ["router22:eth5", "serf101:eth1"]
+    - endpoints: ["router22:eth6", "serf102:eth1"]
+    - endpoints: ["router22:eth7", "serf103:eth1"]
+    #Router23
+    - endpoints: ["router23:eth3", "serf121:eth1"]
+    - endpoints: ["router23:eth4", "serf122:eth1"]
+    - endpoints: ["router23:eth5", "serf123:eth1"]
+    - endpoints: ["router23:eth6", "serf124:eth1"]
+    #Router24
+    - endpoints: ["router24:eth4", "serf125:eth1"]
+    - endpoints: ["router24:eth5", "serf126:eth1"]
+    #Router25
+    - endpoints: ["router25:eth7", "serf127:eth1"]
+    #Router26 => no connected serf nodes
+    #Router27
+    - endpoints: ["router27:eth5", "serf157:eth1"]
+    - endpoints: ["router27:eth6", "serf158:eth1"]
+    - endpoints: ["router27:eth7", "serf159:eth1"]
+    - endpoints: ["router27:eth8", "serf160:eth1"]
+    - endpoints: ["router27:eth9", "serf161:eth1"]
