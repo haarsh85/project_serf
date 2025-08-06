@@ -1,20 +1,24 @@
 #!/bin/bash
 
 LATENCY_FILE="latency_list.txt"
+QUEUE_LENGTH=5000
 
 reset_container_latency() {
     node=$1
     interface=$2
     echo "  [Container] Resetting latency on ${node}:${interface}..."
-    sudo containerlab tools netem set -n "${node}" -i "${interface}"
+    docker exec "${node}" tc qdisc del dev "${interface}" root 2>/dev/null
 }
 
 set_container_latency() {
     node=$1
     interface=$2
     delay=$3
-    echo "  [Container] Applying ${delay}ms to ${node}:${interface}..."
-    sudo containerlab tools netem set -n "${node}" -i "${interface}" --delay "${delay}ms"
+    echo "  [Container] Setting txqueuelen ${QUEUE_LENGTH} on ${node}:${interface}..."
+    docker exec "${node}" ip link set "${interface}" txqueuelen "${QUEUE_LENGTH}"
+
+    echo "  [Container] Applying ${delay}ms delay and limit ${QUEUE_LENGTH} on ${node}:${interface}..."
+    docker exec "${node}" tc qdisc add dev "${interface}" root netem delay "${delay}ms" limit "${QUEUE_LENGTH}"
 }
 
 reset_switch_latency() {
@@ -26,8 +30,13 @@ reset_switch_latency() {
 set_switch_latency() {
     interface=$1
     delay=$2
-    echo "  [Switch] Applying ${delay}ms to ${interface}..."
-    sudo tc qdisc add dev "${interface}" root netem delay "${delay}ms"
+
+    echo "  [Switch] Setting txqueuelen ${QUEUE_LENGTH} on ${interface}..."
+    sudo ip link set dev "${interface}" txqueuelen "${QUEUE_LENGTH}"
+
+    echo "  [Switch] Applying ${delay}ms delay to ${interface}..."
+    sudo tc qdisc add dev "${interface}" root netem delay "${delay}ms" limit "${QUEUE_LENGTH}" 2>/dev/null || \
+    sudo tc qdisc change dev "${interface}" root netem delay "${delay}ms" limit "${QUEUE_LENGTH}"
 }
 
 process_endpoint() {
@@ -77,6 +86,3 @@ while IFS= read -r line; do
 done < "${LATENCY_FILE}"
 
 echo "========== Latency Configuration Complete =========="
-echo "Verification commands:"
-echo "For containers: clab tools netem show -n <node>"
-echo "For switches: tc qdisc show dev <interface>"

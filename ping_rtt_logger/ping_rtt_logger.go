@@ -92,8 +92,8 @@ func main() {
 
 		// Intra-network pings (only for networks with >= 2 nodes)
 		if len(currentNetwork.Nodes) >= 2 {
-			fmt.Printf("\n=== Intra-network pings for %s ===\n", currentNetwork.Name)
-			logFile.WriteString(fmt.Sprintf("\n=== Intra-network pings for %s ===\n", currentNetwork.Name))
+			fmt.Printf("=== Intra-network pings for %s ===\n", currentNetwork.Name)
+			logFile.WriteString(fmt.Sprintf("=== Intra-network pings for %s ===\n", currentNetwork.Name))
 
 			// Generate unique pairs for intra-network
 			for srcIdx := 0; srcIdx < len(currentNetwork.Nodes); srcIdx++ {
@@ -108,8 +108,8 @@ func main() {
 		// Inter-network pings to all subsequent networks
 		for j := i + 1; j < len(networks); j++ {
 			targetNetwork := networks[j]
-			fmt.Printf("\n=== Inter-network pings %s → %s ===\n", currentNetwork.Name, targetNetwork.Name)
-			logFile.WriteString(fmt.Sprintf("\n=== Inter-network pings %s → %s ===\n", currentNetwork.Name, targetNetwork.Name))
+			fmt.Printf("=== Inter-network pings %s → %s ===\n", currentNetwork.Name, targetNetwork.Name)
+			logFile.WriteString(fmt.Sprintf("=== Inter-network pings %s → %s ===\n", currentNetwork.Name, targetNetwork.Name))
 
 			// Ping all nodes in target network
 			for _, srcNode := range currentNetwork.Nodes {
@@ -125,7 +125,11 @@ func processPing(srcNet Network, dstNet Network, srcNode string, dstNode string,
 	srcIP := srcNet.IPs[srcNode]
 	dstIP := dstNet.IPs[dstNode]
 
-	// Execute ping command in source container
+	// 1) Warm-up ping (discard output and errors)
+	warmupCmd := exec.Command("docker", "exec", srcNode, "ping", "-c", "1", "-W", "1", dstIP)
+	_ = warmupCmd.Run() // ignore errors and output
+
+	// 2) Actual ping measurement (5 pings)
 	cmd := exec.Command("docker", "exec", srcNode, "ping", "-c", "5", "-W", "1", dstIP)
 	startTime := time.Now()
 	out, err := cmd.CombinedOutput()
@@ -133,7 +137,7 @@ func processPing(srcNet Network, dstNet Network, srcNode string, dstNode string,
 
 	// Parse results
 	output := string(out)
-	var avgRTT string
+	var minRTT string
 	lines := strings.Split(output, "\n")
 	for _, line := range lines {
 		if strings.Contains(line, "rtt min/avg/max/mdev") {
@@ -141,7 +145,7 @@ func processPing(srcNet Network, dstNet Network, srcNode string, dstNode string,
 			if len(parts) >= 4 {
 				stats := strings.Split(parts[3], "/")
 				if len(stats) >= 2 {
-					avgRTT = fmt.Sprintf("%sms", stats[1])
+					minRTT = fmt.Sprintf("%sms", stats[0])
 				}
 			}
 		}
@@ -150,9 +154,9 @@ func processPing(srcNet Network, dstNet Network, srcNode string, dstNode string,
 	// Format log entry
 	timestamp := startTime.Format("2006/01/02 15:04:05")
 	var logEntry string
-	if avgRTT != "" {
+	if minRTT != "" {
 		logEntry = fmt.Sprintf("%s [%s] %s (%s) → [%s] %s (%s): %s (test duration: %s)\n",
-			timestamp, srcNet.Name, srcNode, srcIP, dstNet.Name, dstNode, dstIP, avgRTT, duration)
+			timestamp, srcNet.Name, srcNode, srcIP, dstNet.Name, dstNode, dstIP, minRTT, duration)
 	} else {
 		errorMsg := "Unknown error"
 		if err != nil {

@@ -1,0 +1,1912 @@
+=== Normalization Ranges ===
+x: (np.float64(-0.0563500336120904), np.float64(0.05357250216433766)), y: (np.float64(-0.02421527254164507), np.float64(0.03404627853376331)), z: (np.float64(-0.06375495534582733), np.float64(0.05669757433535809)), w: (np.float64(-0.04765979128879956), np.float64(0.03947126294173661))
+
+=== Hilbert Indices ===
+clab-century-serf1: Hilbert Index = 214453822
+clab-century-serf2: Hilbert Index = 214454376
+clab-century-serf3: Hilbert Index = 214454364
+clab-century-serf4: Hilbert Index = 214454374
+clab-century-serf5: Hilbert Index = 214458279
+clab-century-serf6: Hilbert Index = 214458205
+clab-century-serf7: Hilbert Index = 214454359
+clab-century-serf8: Hilbert Index = 214454362
+clab-century-serf9: Hilbert Index = 214454357
+clab-century-serf10: Hilbert Index = 214458276
+clab-century-serf11: Hilbert Index = 215456261
+clab-century-serf12: Hilbert Index = 215460058
+clab-century-serf13: Hilbert Index = 214456262
+clab-century-serf14: Hilbert Index = 214457354
+clab-century-serf15: Hilbert Index = 214456311
+clab-century-serf16: Hilbert Index = 214458202
+clab-century-serf17: Hilbert Index = 214456511
+clab-century-serf18: Hilbert Index = 214456891
+clab-century-serf19: Hilbert Index = 214457507
+clab-century-serf20: Hilbert Index = 214457261
+clab-century-serf21: Hilbert Index = 203955626
+clab-century-serf22: Hilbert Index = 215444417
+clab-century-serf23: Hilbert Index = 214595733
+clab-century-serf24: Hilbert Index = 204062549
+clab-century-serf25: Hilbert Index = 204951083
+clab-century-serf26: Hilbert Index = 215223485
+clab-century-serf27: Hilbert Index = 205055825
+clab-century-serf28: Hilbert Index = 215318418
+clab-century-serf29: Hilbert Index = 215281572
+clab-century-serf30: Hilbert Index = 205232523
+clab-century-serf31: Hilbert Index = 214220789
+clab-century-serf32: Hilbert Index = 204275231
+clab-century-serf33: Hilbert Index = 205658084
+clab-century-serf34: Hilbert Index = 203868174
+clab-century-serf35: Hilbert Index = 215820359
+clab-century-serf36: Hilbert Index = 204778395
+clab-century-serf37: Hilbert Index = 204907067
+clab-century-serf38: Hilbert Index = 204728025
+clab-century-serf39: Hilbert Index = 214265386
+clab-century-serf40: Hilbert Index = 207476005
+clab-century-serf41: Hilbert Index = 114849170
+clab-century-serf42: Hilbert Index = 114837385
+clab-century-serf43: Hilbert Index = 114850420
+clab-century-serf44: Hilbert Index = 103254636
+clab-century-serf45: Hilbert Index = 114850393
+clab-century-serf46: Hilbert Index = 114837389
+clab-century-serf47: Hilbert Index = 114837311
+clab-century-serf48: Hilbert Index = 103265431
+clab-century-serf49: Hilbert Index = 103266404
+clab-century-serf50: Hilbert Index = 114837371
+clab-century-serf51: Hilbert Index = 103266942
+clab-century-serf52: Hilbert Index = 19641677
+clab-century-serf53: Hilbert Index = 114849638
+clab-century-serf54: Hilbert Index = 114837531
+clab-century-serf55: Hilbert Index = 114837596
+clab-century-serf56: Hilbert Index = 114849999
+clab-century-serf57: Hilbert Index = 114837147
+clab-century-serf58: Hilbert Index = 114848636
+clab-century-serf59: Hilbert Index = 114838287
+clab-century-serf60: Hilbert Index = 30689978
+clab-century-serf61: Hilbert Index = 103328907
+clab-century-serf62: Hilbert Index = 113820063
+clab-century-serf63: Hilbert Index = 19157273
+clab-century-serf64: Hilbert Index = 19158631
+clab-century-serf65: Hilbert Index = 113812749
+clab-century-serf66: Hilbert Index = 19596659
+clab-century-serf67: Hilbert Index = 115750114
+clab-century-serf68: Hilbert Index = 115855974
+clab-century-serf69: Hilbert Index = 114907258
+clab-century-serf70: Hilbert Index = 113815916
+clab-century-serf71: Hilbert Index = 113951947
+clab-century-serf72: Hilbert Index = 114650477
+clab-century-serf73: Hilbert Index = 19669338
+clab-century-serf74: Hilbert Index = 111646075
+clab-century-serf75: Hilbert Index = 114924086
+clab-century-serf76: Hilbert Index = 111410232
+clab-century-serf77: Hilbert Index = 18677978
+clab-century-serf78: Hilbert Index = 112118108
+clab-century-serf79: Hilbert Index = 19284877
+clab-century-serf80: Hilbert Index = 114592216
+
+=== RTT-Hilbert Mapping for clab-century-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 4455
+RTT ≤ 10ms → Hilbert threshold: 154723
+RTT ≤ 20ms → Hilbert threshold: 10169139
+RTT ≤ 40ms → Hilbert threshold: 10401965
+RTT ≤ 50ms → Hilbert threshold: 10401965
+RTT ≤ 100ms → Hilbert threshold: 10401965
+RTT ≤ 150ms → Hilbert threshold: 194888341
+RTT ≤ 200ms → Hilbert threshold: 194888341
+
+=== Range Query from clab-century-serf1 ===
+RTT ≤ 20ms
+Hilbert threshold: 10169139
+Matched nodes: 36
+               name   hilbert  hilbert_distance
+ clab-century-serf1 214453822                 0
+ clab-century-serf9 214454357               535
+ clab-century-serf7 214454359               537
+ clab-century-serf8 214454362               540
+ clab-century-serf3 214454364               542
+ clab-century-serf4 214454374               552
+ clab-century-serf2 214454376               554
+clab-century-serf13 214456262              2440
+clab-century-serf15 214456311              2489
+clab-century-serf17 214456511              2689
+clab-century-serf18 214456891              3069
+clab-century-serf20 214457261              3439
+clab-century-serf14 214457354              3532
+clab-century-serf19 214457507              3685
+clab-century-serf16 214458202              4380
+ clab-century-serf6 214458205              4383
+clab-century-serf10 214458276              4454
+ clab-century-serf5 214458279              4457
+clab-century-serf23 214595733            141911
+clab-century-serf39 214265386            188436
+clab-century-serf31 214220789            233033
+clab-century-serf26 215223485            769663
+clab-century-serf29 215281572            827750
+clab-century-serf28 215318418            864596
+clab-century-serf22 215444417            990595
+clab-century-serf11 215456261           1002439
+clab-century-serf12 215460058           1006236
+clab-century-serf35 215820359           1366537
+clab-century-serf40 207476005           6977817
+clab-century-serf33 205658084           8795738
+clab-century-serf30 205232523           9221299
+clab-century-serf27 205055825           9397997
+clab-century-serf25 204951083           9502739
+clab-century-serf37 204907067           9546755
+clab-century-serf36 204778395           9675427
+clab-century-serf38 204728025           9725797
+
+[True RTT Matches for clab-century-serf1 <= 20 ms]
+Count: 26
+Nodes: ['clab-century-serf10', 'clab-century-serf11', 'clab-century-serf12', 'clab-century-serf13', 'clab-century-serf14', 'clab-century-serf15', 'clab-century-serf16', 'clab-century-serf17', 'clab-century-serf18', 'clab-century-serf19', 'clab-century-serf2', 'clab-century-serf20', 'clab-century-serf21', 'clab-century-serf22', 'clab-century-serf24', 'clab-century-serf25', 'clab-century-serf26', 'clab-century-serf27', 'clab-century-serf28', 'clab-century-serf3', 'clab-century-serf4', 'clab-century-serf5', 'clab-century-serf6', 'clab-century-serf7', 'clab-century-serf8', 'clab-century-serf9']
+
+False Positives (11):
+clab-century-serf23
+clab-century-serf29
+clab-century-serf30
+clab-century-serf31
+clab-century-serf33
+clab-century-serf35
+clab-century-serf36
+clab-century-serf37
+clab-century-serf38
+clab-century-serf39
+clab-century-serf40
+
+False Negatives (2):
+clab-century-serf21
+clab-century-serf24
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424))
+
+=== Hilbert Indices ===
+clab-nebula-serf1: Hilbert Index = 30995198
+clab-nebula-serf2: Hilbert Index = 30730686
+clab-nebula-serf3: Hilbert Index = 31125508
+clab-nebula-serf4: Hilbert Index = 30873961
+clab-nebula-serf5: Hilbert Index = 31033846
+clab-nebula-serf6: Hilbert Index = 30674878
+clab-nebula-serf7: Hilbert Index = 30670921
+clab-nebula-serf8: Hilbert Index = 30670822
+clab-nebula-serf9: Hilbert Index = 30670585
+clab-nebula-serf10: Hilbert Index = 30146566
+clab-nebula-serf11: Hilbert Index = 30670595
+clab-nebula-serf12: Hilbert Index = 28513043
+clab-nebula-serf13: Hilbert Index = 28513140
+clab-nebula-serf14: Hilbert Index = 28372322
+clab-nebula-serf15: Hilbert Index = 28513029
+clab-nebula-serf16: Hilbert Index = 28513137
+clab-nebula-serf17: Hilbert Index = 28513136
+clab-nebula-serf18: Hilbert Index = 28391808
+clab-nebula-serf19: Hilbert Index = 28428046
+clab-nebula-serf20: Hilbert Index = 40389255
+clab-nebula-serf21: Hilbert Index = 40385552
+clab-nebula-serf22: Hilbert Index = 43498730
+clab-nebula-serf23: Hilbert Index = 40386585
+clab-nebula-serf24: Hilbert Index = 40386741
+clab-nebula-serf25: Hilbert Index = 43498728
+clab-nebula-serf26: Hilbert Index = 40388364
+clab-nebula-serf27: Hilbert Index = 40532795
+clab-nebula-serf28: Hilbert Index = 228251098
+clab-nebula-serf29: Hilbert Index = 228026260
+clab-nebula-serf30: Hilbert Index = 40387351
+clab-nebula-serf31: Hilbert Index = 40387351
+clab-nebula-serf32: Hilbert Index = 40390346
+clab-nebula-serf33: Hilbert Index = 28811654
+clab-nebula-serf34: Hilbert Index = 28815255
+clab-nebula-serf35: Hilbert Index = 28811353
+clab-nebula-serf36: Hilbert Index = 28811617
+clab-nebula-serf37: Hilbert Index = 28812167
+clab-nebula-serf38: Hilbert Index = 28815205
+clab-nebula-serf39: Hilbert Index = 239618471
+clab-nebula-serf40: Hilbert Index = 28811645
+clab-nebula-serf41: Hilbert Index = 28825139
+clab-nebula-serf42: Hilbert Index = 28811378
+clab-nebula-serf43: Hilbert Index = 42972010
+clab-nebula-serf44: Hilbert Index = 42971838
+clab-nebula-serf45: Hilbert Index = 42974827
+clab-nebula-serf46: Hilbert Index = 42971918
+clab-nebula-serf47: Hilbert Index = 42977397
+clab-nebula-serf48: Hilbert Index = 42971944
+clab-nebula-serf49: Hilbert Index = 42971651
+clab-nebula-serf50: Hilbert Index = 42971791
+clab-nebula-serf51: Hilbert Index = 28540771
+clab-nebula-serf52: Hilbert Index = 28537223
+clab-nebula-serf53: Hilbert Index = 28540823
+clab-nebula-serf54: Hilbert Index = 28540684
+clab-nebula-serf55: Hilbert Index = 28540616
+clab-nebula-serf56: Hilbert Index = 28540528
+clab-nebula-serf57: Hilbert Index = 28579952
+clab-nebula-serf58: Hilbert Index = 28579996
+clab-nebula-serf59: Hilbert Index = 28632706
+clab-nebula-serf60: Hilbert Index = 28541233
+clab-nebula-serf61: Hilbert Index = 28579977
+clab-nebula-serf62: Hilbert Index = 28632951
+clab-nebula-serf63: Hilbert Index = 28579989
+clab-nebula-serf64: Hilbert Index = 42720616
+clab-nebula-serf65: Hilbert Index = 99662564
+clab-nebula-serf66: Hilbert Index = 101665147
+clab-nebula-serf67: Hilbert Index = 101664402
+clab-nebula-serf68: Hilbert Index = 101677422
+clab-nebula-serf69: Hilbert Index = 28617301
+clab-nebula-serf70: Hilbert Index = 28618059
+clab-nebula-serf71: Hilbert Index = 28616099
+clab-nebula-serf72: Hilbert Index = 101693880
+clab-nebula-serf73: Hilbert Index = 101693885
+clab-nebula-serf74: Hilbert Index = 101693609
+clab-nebula-serf75: Hilbert Index = 101693769
+clab-nebula-serf76: Hilbert Index = 101693608
+clab-nebula-serf77: Hilbert Index = 101693875
+clab-nebula-serf78: Hilbert Index = 101694083
+clab-nebula-serf79: Hilbert Index = 101693872
+clab-nebula-serf80: Hilbert Index = 101693073
+clab-nebula-serf81: Hilbert Index = 101664369
+clab-nebula-serf82: Hilbert Index = 29083938
+clab-nebula-serf83: Hilbert Index = 166982782
+clab-nebula-serf84: Hilbert Index = 166730415
+clab-nebula-serf85: Hilbert Index = 166982704
+clab-nebula-serf86: Hilbert Index = 161243427
+clab-nebula-serf87: Hilbert Index = 161259172
+clab-nebula-serf88: Hilbert Index = 161259015
+clab-nebula-serf89: Hilbert Index = 161277295
+clab-nebula-serf90: Hilbert Index = 101691142
+clab-nebula-serf91: Hilbert Index = 166748734
+clab-nebula-serf92: Hilbert Index = 101691191
+clab-nebula-serf93: Hilbert Index = 101691384
+clab-nebula-serf94: Hilbert Index = 166744198
+clab-nebula-serf95: Hilbert Index = 166744118
+clab-nebula-serf96: Hilbert Index = 83067217
+clab-nebula-serf97: Hilbert Index = 83507881
+clab-nebula-serf98: Hilbert Index = 75628301
+clab-nebula-serf99: Hilbert Index = 83050793
+clab-nebula-serf100: Hilbert Index = 83067163
+clab-nebula-serf101: Hilbert Index = 83067163
+clab-nebula-serf102: Hilbert Index = 83066589
+clab-nebula-serf103: Hilbert Index = 83068639
+clab-nebula-serf104: Hilbert Index = 118585836
+clab-nebula-serf105: Hilbert Index = 118584860
+clab-nebula-serf106: Hilbert Index = 118584999
+clab-nebula-serf107: Hilbert Index = 119441812
+clab-nebula-serf108: Hilbert Index = 118585632
+clab-nebula-serf109: Hilbert Index = 118584951
+clab-nebula-serf110: Hilbert Index = 118584852
+clab-nebula-serf111: Hilbert Index = 118584992
+clab-nebula-serf112: Hilbert Index = 118575666
+clab-nebula-serf113: Hilbert Index = 58219529
+clab-nebula-serf114: Hilbert Index = 58215969
+clab-nebula-serf115: Hilbert Index = 262500469
+clab-nebula-serf116: Hilbert Index = 262733742
+clab-nebula-serf117: Hilbert Index = 194538088
+clab-nebula-serf118: Hilbert Index = 197352878
+clab-nebula-serf119: Hilbert Index = 197339881
+clab-nebula-serf120: Hilbert Index = 197338444
+clab-nebula-serf121: Hilbert Index = 149471884
+clab-nebula-serf122: Hilbert Index = 149830219
+clab-nebula-serf123: Hilbert Index = 118538924
+clab-nebula-serf124: Hilbert Index = 149549465
+clab-nebula-serf125: Hilbert Index = 119002819
+clab-nebula-serf126: Hilbert Index = 119002882
+clab-nebula-serf127: Hilbert Index = 119006438
+clab-nebula-serf128: Hilbert Index = 118585045
+clab-nebula-serf129: Hilbert Index = 119424737
+clab-nebula-serf130: Hilbert Index = 118218579
+clab-nebula-serf131: Hilbert Index = 150220411
+clab-nebula-serf132: Hilbert Index = 118218602
+clab-nebula-serf133: Hilbert Index = 118218316
+clab-nebula-serf134: Hilbert Index = 118218128
+clab-nebula-serf135: Hilbert Index = 150218256
+clab-nebula-serf136: Hilbert Index = 118218307
+clab-nebula-serf137: Hilbert Index = 117711509
+clab-nebula-serf138: Hilbert Index = 118218372
+clab-nebula-serf139: Hilbert Index = 118215080
+clab-nebula-serf140: Hilbert Index = 118215046
+clab-nebula-serf141: Hilbert Index = 118218579
+clab-nebula-serf142: Hilbert Index = 119224182
+clab-nebula-serf143: Hilbert Index = 119216210
+clab-nebula-serf144: Hilbert Index = 119212684
+clab-nebula-serf145: Hilbert Index = 119212701
+clab-nebula-serf146: Hilbert Index = 119212663
+clab-nebula-serf147: Hilbert Index = 11719311
+clab-nebula-serf148: Hilbert Index = 11719066
+clab-nebula-serf149: Hilbert Index = 11720394
+clab-nebula-serf150: Hilbert Index = 5073715
+clab-nebula-serf151: Hilbert Index = 11719053
+clab-nebula-serf152: Hilbert Index = 11719099
+clab-nebula-serf153: Hilbert Index = 11871500
+clab-nebula-serf154: Hilbert Index = 11719295
+clab-nebula-serf155: Hilbert Index = 11719111
+clab-nebula-serf156: Hilbert Index = 11719104
+clab-nebula-serf157: Hilbert Index = 121155532
+clab-nebula-serf158: Hilbert Index = 121155671
+clab-nebula-serf159: Hilbert Index = 121155639
+clab-nebula-serf160: Hilbert Index = 121146654
+clab-nebula-serf161: Hilbert Index = 121146718
+clab-nebula-serf162: Hilbert Index = 121154340
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424))
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424)), h: (np.float64(-0.0105286790086616), np.float64(0.04752269500367636))
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424)), h: (np.float64(-0.0105286790086616), np.float64(0.04752269500367636))
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424)), h: (np.float64(-0.0105286790086616), np.float64(0.04752269500367636))
+
+=== Hilbert Indices ===
+clab-nebula-serf1: Hilbert Index = 3069237244
+clab-nebula-serf2: Hilbert Index = 3076639264
+clab-nebula-serf3: Hilbert Index = 3066004944
+clab-nebula-serf4: Hilbert Index = 3072215474
+clab-nebula-serf5: Hilbert Index = 3066804194
+clab-nebula-serf6: Hilbert Index = 3077505772
+clab-nebula-serf7: Hilbert Index = 3077506306
+clab-nebula-serf8: Hilbert Index = 3079701619
+clab-nebula-serf9: Hilbert Index = 3079703507
+clab-nebula-serf10: Hilbert Index = 2960096205
+clab-nebula-serf11: Hilbert Index = 3079702470
+clab-nebula-serf12: Hilbert Index = 3496551105
+clab-nebula-serf13: Hilbert Index = 3496551354
+clab-nebula-serf14: Hilbert Index = 3491156844
+clab-nebula-serf15: Hilbert Index = 3496551375
+clab-nebula-serf16: Hilbert Index = 3496551336
+clab-nebula-serf17: Hilbert Index = 3496551352
+clab-nebula-serf18: Hilbert Index = 2950478214
+clab-nebula-serf19: Hilbert Index = 2949860447
+clab-nebula-serf20: Hilbert Index = 4947916532
+clab-nebula-serf21: Hilbert Index = 4948039816
+clab-nebula-serf22: Hilbert Index = 4915337796
+clab-nebula-serf23: Hilbert Index = 4947895142
+clab-nebula-serf24: Hilbert Index = 4947894783
+clab-nebula-serf25: Hilbert Index = 4915455417
+clab-nebula-serf26: Hilbert Index = 4947910697
+clab-nebula-serf27: Hilbert Index = 4711784664
+clab-nebula-serf28: Hilbert Index = 29649392795
+clab-nebula-serf29: Hilbert Index = 29412052370
+clab-nebula-serf30: Hilbert Index = 4947908744
+clab-nebula-serf31: Hilbert Index = 4947908744
+clab-nebula-serf32: Hilbert Index = 4947869956
+clab-nebula-serf33: Hilbert Index = 3503588266
+clab-nebula-serf34: Hilbert Index = 3503592049
+clab-nebula-serf35: Hilbert Index = 3503590782
+clab-nebula-serf36: Hilbert Index = 3503587447
+clab-nebula-serf37: Hilbert Index = 3503590022
+clab-nebula-serf38: Hilbert Index = 3503591960
+clab-nebula-serf39: Hilbert Index = 30855705256
+clab-nebula-serf40: Hilbert Index = 3503587750
+clab-nebula-serf41: Hilbert Index = 3503521150
+clab-nebula-serf42: Hilbert Index = 3503591011
+clab-nebula-serf43: Hilbert Index = 4898679336
+clab-nebula-serf44: Hilbert Index = 4898657996
+clab-nebula-serf45: Hilbert Index = 4898654106
+clab-nebula-serf46: Hilbert Index = 4898679213
+clab-nebula-serf47: Hilbert Index = 4898702585
+clab-nebula-serf48: Hilbert Index = 4898679456
+clab-nebula-serf49: Hilbert Index = 4898657673
+clab-nebula-serf50: Hilbert Index = 4898657855
+clab-nebula-serf51: Hilbert Index = 3496444750
+clab-nebula-serf52: Hilbert Index = 3496446723
+clab-nebula-serf53: Hilbert Index = 3496444768
+clab-nebula-serf54: Hilbert Index = 3496443954
+clab-nebula-serf55: Hilbert Index = 3496447490
+clab-nebula-serf56: Hilbert Index = 3496447213
+clab-nebula-serf57: Hilbert Index = 3500116176
+clab-nebula-serf58: Hilbert Index = 3500116531
+clab-nebula-serf59: Hilbert Index = 3500016363
+clab-nebula-serf60: Hilbert Index = 3495980774
+clab-nebula-serf61: Hilbert Index = 3500116285
+clab-nebula-serf62: Hilbert Index = 3500047866
+clab-nebula-serf63: Hilbert Index = 3500116689
+clab-nebula-serf64: Hilbert Index = 4883282803
+clab-nebula-serf65: Hilbert Index = 11826364099
+clab-nebula-serf66: Hilbert Index = 13956810767
+clab-nebula-serf67: Hilbert Index = 13956811877
+clab-nebula-serf68: Hilbert Index = 13956793086
+clab-nebula-serf69: Hilbert Index = 3499765461
+clab-nebula-serf70: Hilbert Index = 3499757862
+clab-nebula-serf71: Hilbert Index = 3499761979
+clab-nebula-serf72: Hilbert Index = 13957329131
+clab-nebula-serf73: Hilbert Index = 13957329118
+clab-nebula-serf74: Hilbert Index = 13957332778
+clab-nebula-serf75: Hilbert Index = 13957328947
+clab-nebula-serf76: Hilbert Index = 13957332786
+clab-nebula-serf77: Hilbert Index = 13957074789
+clab-nebula-serf78: Hilbert Index = 13957320483
+clab-nebula-serf79: Hilbert Index = 13957329097
+clab-nebula-serf80: Hilbert Index = 13957327755
+clab-nebula-serf81: Hilbert Index = 13956812017
+clab-nebula-serf82: Hilbert Index = 3502034253
+clab-nebula-serf83: Hilbert Index = 20407974934
+clab-nebula-serf84: Hilbert Index = 20402327192
+clab-nebula-serf85: Hilbert Index = 20407975816
+clab-nebula-serf86: Hilbert Index = 20811509886
+clab-nebula-serf87: Hilbert Index = 20811444566
+clab-nebula-serf88: Hilbert Index = 20811445231
+clab-nebula-serf89: Hilbert Index = 20811780496
+clab-nebula-serf90: Hilbert Index = 13957232713
+clab-nebula-serf91: Hilbert Index = 20402304034
+clab-nebula-serf92: Hilbert Index = 13957233059
+clab-nebula-serf93: Hilbert Index = 13957233585
+clab-nebula-serf94: Hilbert Index = 20402509941
+clab-nebula-serf95: Hilbert Index = 20402510430
+clab-nebula-serf96: Hilbert Index = 9603387069
+clab-nebula-serf97: Hilbert Index = 9625181027
+clab-nebula-serf98: Hilbert Index = 9163506114
+clab-nebula-serf99: Hilbert Index = 9606906160
+clab-nebula-serf100: Hilbert Index = 9603386455
+clab-nebula-serf101: Hilbert Index = 9603387303
+clab-nebula-serf102: Hilbert Index = 9603379365
+clab-nebula-serf103: Hilbert Index = 9603395745
+clab-nebula-serf104: Hilbert Index = 16187867212
+clab-nebula-serf105: Hilbert Index = 16187867084
+clab-nebula-serf106: Hilbert Index = 16187859454
+clab-nebula-serf107: Hilbert Index = 16192167821
+clab-nebula-serf108: Hilbert Index = 16187867473
+clab-nebula-serf109: Hilbert Index = 16187859850
+clab-nebula-serf110: Hilbert Index = 16187859028
+clab-nebula-serf111: Hilbert Index = 16187859425
+clab-nebula-serf112: Hilbert Index = 16175721274
+clab-nebula-serf113: Hilbert Index = 8010564402
+clab-nebula-serf114: Hilbert Index = 8010627852
+clab-nebula-serf115: Hilbert Index = 32904774157
+clab-nebula-serf116: Hilbert Index = 32934689434
+clab-nebula-serf117: Hilbert Index = 24244573617
+clab-nebula-serf118: Hilbert Index = 24453485420
+clab-nebula-serf119: Hilbert Index = 24453147749
+clab-nebula-serf120: Hilbert Index = 24453124330
+clab-nebula-serf121: Hilbert Index = 18170549761
+clab-nebula-serf122: Hilbert Index = 18172603491
+clab-nebula-serf123: Hilbert Index = 16188173485
+clab-nebula-serf124: Hilbert Index = 17260095884
+clab-nebula-serf125: Hilbert Index = 17096667610
+clab-nebula-serf126: Hilbert Index = 17096670685
+clab-nebula-serf127: Hilbert Index = 17096606295
+clab-nebula-serf128: Hilbert Index = 16187866808
+clab-nebula-serf129: Hilbert Index = 16193142102
+clab-nebula-serf130: Hilbert Index = 17122064750
+clab-nebula-serf131: Hilbert Index = 17237685466
+clab-nebula-serf132: Hilbert Index = 17122064548
+clab-nebula-serf133: Hilbert Index = 17122063665
+clab-nebula-serf134: Hilbert Index = 17122060406
+clab-nebula-serf135: Hilbert Index = 17237701993
+clab-nebula-serf136: Hilbert Index = 17122063663
+clab-nebula-serf137: Hilbert Index = 17137014347
+clab-nebula-serf138: Hilbert Index = 17121806336
+clab-nebula-serf139: Hilbert Index = 17122053024
+clab-nebula-serf140: Hilbert Index = 17121807384
+clab-nebula-serf141: Hilbert Index = 17121805929
+clab-nebula-serf142: Hilbert Index = 17086730203
+clab-nebula-serf143: Hilbert Index = 17086980018
+clab-nebula-serf144: Hilbert Index = 17086632170
+clab-nebula-serf145: Hilbert Index = 17086632118
+clab-nebula-serf146: Hilbert Index = 17086635937
+clab-nebula-serf147: Hilbert Index = 331147246
+clab-nebula-serf148: Hilbert Index = 331154868
+clab-nebula-serf149: Hilbert Index = 331152638
+clab-nebula-serf150: Hilbert Index = 295705155
+clab-nebula-serf151: Hilbert Index = 331151539
+clab-nebula-serf152: Hilbert Index = 331151492
+clab-nebula-serf153: Hilbert Index = 323132430
+clab-nebula-serf154: Hilbert Index = 331147223
+clab-nebula-serf155: Hilbert Index = 331152233
+clab-nebula-serf156: Hilbert Index = 331152235
+clab-nebula-serf157: Hilbert Index = 16945077052
+clab-nebula-serf158: Hilbert Index = 16945042522
+clab-nebula-serf159: Hilbert Index = 16945043276
+clab-nebula-serf160: Hilbert Index = 16945449885
+clab-nebula-serf161: Hilbert Index = 16945449539
+clab-nebula-serf162: Hilbert Index = 16945055508
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424)), h: (np.float64(-0.0105286790086616), np.float64(0.04752269500367636))
+
+=== Hilbert Indices ===
+clab-nebula-serf1: Hilbert Index = 3069237244
+clab-nebula-serf2: Hilbert Index = 3076639264
+clab-nebula-serf3: Hilbert Index = 3066004944
+clab-nebula-serf4: Hilbert Index = 3072215474
+clab-nebula-serf5: Hilbert Index = 3066804194
+clab-nebula-serf6: Hilbert Index = 3077505772
+clab-nebula-serf7: Hilbert Index = 3077506306
+clab-nebula-serf8: Hilbert Index = 3079701619
+clab-nebula-serf9: Hilbert Index = 3079703507
+clab-nebula-serf10: Hilbert Index = 2960096205
+clab-nebula-serf11: Hilbert Index = 3079702470
+clab-nebula-serf12: Hilbert Index = 3496551105
+clab-nebula-serf13: Hilbert Index = 3496551354
+clab-nebula-serf14: Hilbert Index = 3491156844
+clab-nebula-serf15: Hilbert Index = 3496551375
+clab-nebula-serf16: Hilbert Index = 3496551336
+clab-nebula-serf17: Hilbert Index = 3496551352
+clab-nebula-serf18: Hilbert Index = 2950478214
+clab-nebula-serf19: Hilbert Index = 2949860447
+clab-nebula-serf20: Hilbert Index = 4947916532
+clab-nebula-serf21: Hilbert Index = 4948039816
+clab-nebula-serf22: Hilbert Index = 4915337796
+clab-nebula-serf23: Hilbert Index = 4947895142
+clab-nebula-serf24: Hilbert Index = 4947894783
+clab-nebula-serf25: Hilbert Index = 4915455417
+clab-nebula-serf26: Hilbert Index = 4947910697
+clab-nebula-serf27: Hilbert Index = 4711784664
+clab-nebula-serf28: Hilbert Index = 29649392795
+clab-nebula-serf29: Hilbert Index = 29412052370
+clab-nebula-serf30: Hilbert Index = 4947908744
+clab-nebula-serf31: Hilbert Index = 4947908744
+clab-nebula-serf32: Hilbert Index = 4947869956
+clab-nebula-serf33: Hilbert Index = 3503588266
+clab-nebula-serf34: Hilbert Index = 3503592049
+clab-nebula-serf35: Hilbert Index = 3503590782
+clab-nebula-serf36: Hilbert Index = 3503587447
+clab-nebula-serf37: Hilbert Index = 3503590022
+clab-nebula-serf38: Hilbert Index = 3503591960
+clab-nebula-serf39: Hilbert Index = 30855705256
+clab-nebula-serf40: Hilbert Index = 3503587750
+clab-nebula-serf41: Hilbert Index = 3503521150
+clab-nebula-serf42: Hilbert Index = 3503591011
+clab-nebula-serf43: Hilbert Index = 4898679336
+clab-nebula-serf44: Hilbert Index = 4898657996
+clab-nebula-serf45: Hilbert Index = 4898654106
+clab-nebula-serf46: Hilbert Index = 4898679213
+clab-nebula-serf47: Hilbert Index = 4898702585
+clab-nebula-serf48: Hilbert Index = 4898679456
+clab-nebula-serf49: Hilbert Index = 4898657673
+clab-nebula-serf50: Hilbert Index = 4898657855
+clab-nebula-serf51: Hilbert Index = 3496444750
+clab-nebula-serf52: Hilbert Index = 3496446723
+clab-nebula-serf53: Hilbert Index = 3496444768
+clab-nebula-serf54: Hilbert Index = 3496443954
+clab-nebula-serf55: Hilbert Index = 3496447490
+clab-nebula-serf56: Hilbert Index = 3496447213
+clab-nebula-serf57: Hilbert Index = 3500116176
+clab-nebula-serf58: Hilbert Index = 3500116531
+clab-nebula-serf59: Hilbert Index = 3500016363
+clab-nebula-serf60: Hilbert Index = 3495980774
+clab-nebula-serf61: Hilbert Index = 3500116285
+clab-nebula-serf62: Hilbert Index = 3500047866
+clab-nebula-serf63: Hilbert Index = 3500116689
+clab-nebula-serf64: Hilbert Index = 4883282803
+clab-nebula-serf65: Hilbert Index = 11826364099
+clab-nebula-serf66: Hilbert Index = 13956810767
+clab-nebula-serf67: Hilbert Index = 13956811877
+clab-nebula-serf68: Hilbert Index = 13956793086
+clab-nebula-serf69: Hilbert Index = 3499765461
+clab-nebula-serf70: Hilbert Index = 3499757862
+clab-nebula-serf71: Hilbert Index = 3499761979
+clab-nebula-serf72: Hilbert Index = 13957329131
+clab-nebula-serf73: Hilbert Index = 13957329118
+clab-nebula-serf74: Hilbert Index = 13957332778
+clab-nebula-serf75: Hilbert Index = 13957328947
+clab-nebula-serf76: Hilbert Index = 13957332786
+clab-nebula-serf77: Hilbert Index = 13957074789
+clab-nebula-serf78: Hilbert Index = 13957320483
+clab-nebula-serf79: Hilbert Index = 13957329097
+clab-nebula-serf80: Hilbert Index = 13957327755
+clab-nebula-serf81: Hilbert Index = 13956812017
+clab-nebula-serf82: Hilbert Index = 3502034253
+clab-nebula-serf83: Hilbert Index = 20407974934
+clab-nebula-serf84: Hilbert Index = 20402327192
+clab-nebula-serf85: Hilbert Index = 20407975816
+clab-nebula-serf86: Hilbert Index = 20811509886
+clab-nebula-serf87: Hilbert Index = 20811444566
+clab-nebula-serf88: Hilbert Index = 20811445231
+clab-nebula-serf89: Hilbert Index = 20811780496
+clab-nebula-serf90: Hilbert Index = 13957232713
+clab-nebula-serf91: Hilbert Index = 20402304034
+clab-nebula-serf92: Hilbert Index = 13957233059
+clab-nebula-serf93: Hilbert Index = 13957233585
+clab-nebula-serf94: Hilbert Index = 20402509941
+clab-nebula-serf95: Hilbert Index = 20402510430
+clab-nebula-serf96: Hilbert Index = 9603387069
+clab-nebula-serf97: Hilbert Index = 9625181027
+clab-nebula-serf98: Hilbert Index = 9163506114
+clab-nebula-serf99: Hilbert Index = 9606906160
+clab-nebula-serf100: Hilbert Index = 9603386455
+clab-nebula-serf101: Hilbert Index = 9603387303
+clab-nebula-serf102: Hilbert Index = 9603379365
+clab-nebula-serf103: Hilbert Index = 9603395745
+clab-nebula-serf104: Hilbert Index = 16187867212
+clab-nebula-serf105: Hilbert Index = 16187867084
+clab-nebula-serf106: Hilbert Index = 16187859454
+clab-nebula-serf107: Hilbert Index = 16192167821
+clab-nebula-serf108: Hilbert Index = 16187867473
+clab-nebula-serf109: Hilbert Index = 16187859850
+clab-nebula-serf110: Hilbert Index = 16187859028
+clab-nebula-serf111: Hilbert Index = 16187859425
+clab-nebula-serf112: Hilbert Index = 16175721274
+clab-nebula-serf113: Hilbert Index = 8010564402
+clab-nebula-serf114: Hilbert Index = 8010627852
+clab-nebula-serf115: Hilbert Index = 32904774157
+clab-nebula-serf116: Hilbert Index = 32934689434
+clab-nebula-serf117: Hilbert Index = 24244573617
+clab-nebula-serf118: Hilbert Index = 24453485420
+clab-nebula-serf119: Hilbert Index = 24453147749
+clab-nebula-serf120: Hilbert Index = 24453124330
+clab-nebula-serf121: Hilbert Index = 18170549761
+clab-nebula-serf122: Hilbert Index = 18172603491
+clab-nebula-serf123: Hilbert Index = 16188173485
+clab-nebula-serf124: Hilbert Index = 17260095884
+clab-nebula-serf125: Hilbert Index = 17096667610
+clab-nebula-serf126: Hilbert Index = 17096670685
+clab-nebula-serf127: Hilbert Index = 17096606295
+clab-nebula-serf128: Hilbert Index = 16187866808
+clab-nebula-serf129: Hilbert Index = 16193142102
+clab-nebula-serf130: Hilbert Index = 17122064750
+clab-nebula-serf131: Hilbert Index = 17237685466
+clab-nebula-serf132: Hilbert Index = 17122064548
+clab-nebula-serf133: Hilbert Index = 17122063665
+clab-nebula-serf134: Hilbert Index = 17122060406
+clab-nebula-serf135: Hilbert Index = 17237701993
+clab-nebula-serf136: Hilbert Index = 17122063663
+clab-nebula-serf137: Hilbert Index = 17137014347
+clab-nebula-serf138: Hilbert Index = 17121806336
+clab-nebula-serf139: Hilbert Index = 17122053024
+clab-nebula-serf140: Hilbert Index = 17121807384
+clab-nebula-serf141: Hilbert Index = 17121805929
+clab-nebula-serf142: Hilbert Index = 17086730203
+clab-nebula-serf143: Hilbert Index = 17086980018
+clab-nebula-serf144: Hilbert Index = 17086632170
+clab-nebula-serf145: Hilbert Index = 17086632118
+clab-nebula-serf146: Hilbert Index = 17086635937
+clab-nebula-serf147: Hilbert Index = 331147246
+clab-nebula-serf148: Hilbert Index = 331154868
+clab-nebula-serf149: Hilbert Index = 331152638
+clab-nebula-serf150: Hilbert Index = 295705155
+clab-nebula-serf151: Hilbert Index = 331151539
+clab-nebula-serf152: Hilbert Index = 331151492
+clab-nebula-serf153: Hilbert Index = 323132430
+clab-nebula-serf154: Hilbert Index = 331147223
+clab-nebula-serf155: Hilbert Index = 331152233
+clab-nebula-serf156: Hilbert Index = 331152235
+clab-nebula-serf157: Hilbert Index = 16945077052
+clab-nebula-serf158: Hilbert Index = 16945042522
+clab-nebula-serf159: Hilbert Index = 16945043276
+clab-nebula-serf160: Hilbert Index = 16945449885
+clab-nebula-serf161: Hilbert Index = 16945449539
+clab-nebula-serf162: Hilbert Index = 16945055508
+
+=== RTT-Hilbert Mapping for clab-nebula-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 2978230
+RTT ≤ 10ms → Hilbert threshold: 8268928
+RTT ≤ 20ms → Hilbert threshold: 427314112
+RTT ≤ 30ms → Hilbert threshold: 17742207521
+RTT ≤ 40ms → Hilbert threshold: 17742207787
+RTT ≤ 50ms → Hilbert threshold: 17742207322
+RTT ≤ 60ms → Hilbert threshold: 17742207588
+RTT ≤ 70ms → Hilbert threshold: 17742217685
+RTT ≤ 80ms → Hilbert threshold: 21175336373
+RTT ≤ 90ms → Hilbert threshold: 21175336373
+
+=== Range Query from clab-nebula-serf1 ===
+RTT ≤ 20ms
+Hilbert threshold: 427314112
+Matched nodes: 25
+              name    hilbert  hilbert_distance
+ clab-nebula-serf1 3069237244                 0
+ clab-nebula-serf5 3066804194           2433050
+ clab-nebula-serf4 3072215474           2978230
+ clab-nebula-serf3 3066004944           3232300
+ clab-nebula-serf2 3076639264           7402020
+ clab-nebula-serf6 3077505772           8268528
+ clab-nebula-serf7 3077506306           8269062
+ clab-nebula-serf8 3079701619          10464375
+clab-nebula-serf11 3079702470          10465226
+ clab-nebula-serf9 3079703507          10466263
+clab-nebula-serf10 2960096205         109141039
+clab-nebula-serf18 2950478214         118759030
+clab-nebula-serf19 2949860447         119376797
+clab-nebula-serf14 3491156844         421919600
+clab-nebula-serf60 3495980774         426743530
+clab-nebula-serf54 3496443954         427206710
+clab-nebula-serf51 3496444750         427207506
+clab-nebula-serf53 3496444768         427207524
+clab-nebula-serf52 3496446723         427209479
+clab-nebula-serf56 3496447213         427209969
+clab-nebula-serf55 3496447490         427210246
+clab-nebula-serf12 3496551105         427313861
+clab-nebula-serf16 3496551336         427314092
+clab-nebula-serf17 3496551352         427314108
+clab-nebula-serf13 3496551354         427314110
+
+[True RTT Matches for clab-nebula-serf1 <= 20 ms]
+Count: 19
+Nodes: ['clab-nebula-serf10', 'clab-nebula-serf11', 'clab-nebula-serf12', 'clab-nebula-serf13', 'clab-nebula-serf14', 'clab-nebula-serf15', 'clab-nebula-serf16', 'clab-nebula-serf17', 'clab-nebula-serf18', 'clab-nebula-serf19', 'clab-nebula-serf2', 'clab-nebula-serf3', 'clab-nebula-serf4', 'clab-nebula-serf5', 'clab-nebula-serf56', 'clab-nebula-serf6', 'clab-nebula-serf7', 'clab-nebula-serf8', 'clab-nebula-serf9']
+
+False Positives (6):
+clab-nebula-serf51
+clab-nebula-serf52
+clab-nebula-serf53
+clab-nebula-serf54
+clab-nebula-serf55
+clab-nebula-serf60
+
+False Negatives (1):
+clab-nebula-serf15
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424)), h: (np.float64(-0.0105286790086616), np.float64(0.04752269500367636))
+
+=== Hilbert Indices ===
+clab-nebula-serf1: Hilbert Index = 3069237244
+clab-nebula-serf2: Hilbert Index = 3076639264
+clab-nebula-serf3: Hilbert Index = 3066004944
+clab-nebula-serf4: Hilbert Index = 3072215474
+clab-nebula-serf5: Hilbert Index = 3066804194
+clab-nebula-serf6: Hilbert Index = 3077505772
+clab-nebula-serf7: Hilbert Index = 3077506306
+clab-nebula-serf8: Hilbert Index = 3079701619
+clab-nebula-serf9: Hilbert Index = 3079703507
+clab-nebula-serf10: Hilbert Index = 2960096205
+clab-nebula-serf11: Hilbert Index = 3079702470
+clab-nebula-serf12: Hilbert Index = 3496551105
+clab-nebula-serf13: Hilbert Index = 3496551354
+clab-nebula-serf14: Hilbert Index = 3491156844
+clab-nebula-serf15: Hilbert Index = 3496551375
+clab-nebula-serf16: Hilbert Index = 3496551336
+clab-nebula-serf17: Hilbert Index = 3496551352
+clab-nebula-serf18: Hilbert Index = 2950478214
+clab-nebula-serf19: Hilbert Index = 2949860447
+clab-nebula-serf20: Hilbert Index = 4947916532
+clab-nebula-serf21: Hilbert Index = 4948039816
+clab-nebula-serf22: Hilbert Index = 4915337796
+clab-nebula-serf23: Hilbert Index = 4947895142
+clab-nebula-serf24: Hilbert Index = 4947894783
+clab-nebula-serf25: Hilbert Index = 4915455417
+clab-nebula-serf26: Hilbert Index = 4947910697
+clab-nebula-serf27: Hilbert Index = 4711784664
+clab-nebula-serf28: Hilbert Index = 29649392795
+clab-nebula-serf29: Hilbert Index = 29412052370
+clab-nebula-serf30: Hilbert Index = 4947908744
+clab-nebula-serf31: Hilbert Index = 4947908744
+clab-nebula-serf32: Hilbert Index = 4947869956
+clab-nebula-serf33: Hilbert Index = 3503588266
+clab-nebula-serf34: Hilbert Index = 3503592049
+clab-nebula-serf35: Hilbert Index = 3503590782
+clab-nebula-serf36: Hilbert Index = 3503587447
+clab-nebula-serf37: Hilbert Index = 3503590022
+clab-nebula-serf38: Hilbert Index = 3503591960
+clab-nebula-serf39: Hilbert Index = 30855705256
+clab-nebula-serf40: Hilbert Index = 3503587750
+clab-nebula-serf41: Hilbert Index = 3503521150
+clab-nebula-serf42: Hilbert Index = 3503591011
+clab-nebula-serf43: Hilbert Index = 4898679336
+clab-nebula-serf44: Hilbert Index = 4898657996
+clab-nebula-serf45: Hilbert Index = 4898654106
+clab-nebula-serf46: Hilbert Index = 4898679213
+clab-nebula-serf47: Hilbert Index = 4898702585
+clab-nebula-serf48: Hilbert Index = 4898679456
+clab-nebula-serf49: Hilbert Index = 4898657673
+clab-nebula-serf50: Hilbert Index = 4898657855
+clab-nebula-serf51: Hilbert Index = 3496444750
+clab-nebula-serf52: Hilbert Index = 3496446723
+clab-nebula-serf53: Hilbert Index = 3496444768
+clab-nebula-serf54: Hilbert Index = 3496443954
+clab-nebula-serf55: Hilbert Index = 3496447490
+clab-nebula-serf56: Hilbert Index = 3496447213
+clab-nebula-serf57: Hilbert Index = 3500116176
+clab-nebula-serf58: Hilbert Index = 3500116531
+clab-nebula-serf59: Hilbert Index = 3500016363
+clab-nebula-serf60: Hilbert Index = 3495980774
+clab-nebula-serf61: Hilbert Index = 3500116285
+clab-nebula-serf62: Hilbert Index = 3500047866
+clab-nebula-serf63: Hilbert Index = 3500116689
+clab-nebula-serf64: Hilbert Index = 4883282803
+clab-nebula-serf65: Hilbert Index = 11826364099
+clab-nebula-serf66: Hilbert Index = 13956810767
+clab-nebula-serf67: Hilbert Index = 13956811877
+clab-nebula-serf68: Hilbert Index = 13956793086
+clab-nebula-serf69: Hilbert Index = 3499765461
+clab-nebula-serf70: Hilbert Index = 3499757862
+clab-nebula-serf71: Hilbert Index = 3499761979
+clab-nebula-serf72: Hilbert Index = 13957329131
+clab-nebula-serf73: Hilbert Index = 13957329118
+clab-nebula-serf74: Hilbert Index = 13957332778
+clab-nebula-serf75: Hilbert Index = 13957328947
+clab-nebula-serf76: Hilbert Index = 13957332786
+clab-nebula-serf77: Hilbert Index = 13957074789
+clab-nebula-serf78: Hilbert Index = 13957320483
+clab-nebula-serf79: Hilbert Index = 13957329097
+clab-nebula-serf80: Hilbert Index = 13957327755
+clab-nebula-serf81: Hilbert Index = 13956812017
+clab-nebula-serf82: Hilbert Index = 3502034253
+clab-nebula-serf83: Hilbert Index = 20407974934
+clab-nebula-serf84: Hilbert Index = 20402327192
+clab-nebula-serf85: Hilbert Index = 20407975816
+clab-nebula-serf86: Hilbert Index = 20811509886
+clab-nebula-serf87: Hilbert Index = 20811444566
+clab-nebula-serf88: Hilbert Index = 20811445231
+clab-nebula-serf89: Hilbert Index = 20811780496
+clab-nebula-serf90: Hilbert Index = 13957232713
+clab-nebula-serf91: Hilbert Index = 20402304034
+clab-nebula-serf92: Hilbert Index = 13957233059
+clab-nebula-serf93: Hilbert Index = 13957233585
+clab-nebula-serf94: Hilbert Index = 20402509941
+clab-nebula-serf95: Hilbert Index = 20402510430
+clab-nebula-serf96: Hilbert Index = 9603387069
+clab-nebula-serf97: Hilbert Index = 9625181027
+clab-nebula-serf98: Hilbert Index = 9163506114
+clab-nebula-serf99: Hilbert Index = 9606906160
+clab-nebula-serf100: Hilbert Index = 9603386455
+clab-nebula-serf101: Hilbert Index = 9603387303
+clab-nebula-serf102: Hilbert Index = 9603379365
+clab-nebula-serf103: Hilbert Index = 9603395745
+clab-nebula-serf104: Hilbert Index = 16187867212
+clab-nebula-serf105: Hilbert Index = 16187867084
+clab-nebula-serf106: Hilbert Index = 16187859454
+clab-nebula-serf107: Hilbert Index = 16192167821
+clab-nebula-serf108: Hilbert Index = 16187867473
+clab-nebula-serf109: Hilbert Index = 16187859850
+clab-nebula-serf110: Hilbert Index = 16187859028
+clab-nebula-serf111: Hilbert Index = 16187859425
+clab-nebula-serf112: Hilbert Index = 16175721274
+clab-nebula-serf113: Hilbert Index = 8010564402
+clab-nebula-serf114: Hilbert Index = 8010627852
+clab-nebula-serf115: Hilbert Index = 32904774157
+clab-nebula-serf116: Hilbert Index = 32934689434
+clab-nebula-serf117: Hilbert Index = 24244573617
+clab-nebula-serf118: Hilbert Index = 24453485420
+clab-nebula-serf119: Hilbert Index = 24453147749
+clab-nebula-serf120: Hilbert Index = 24453124330
+clab-nebula-serf121: Hilbert Index = 18170549761
+clab-nebula-serf122: Hilbert Index = 18172603491
+clab-nebula-serf123: Hilbert Index = 16188173485
+clab-nebula-serf124: Hilbert Index = 17260095884
+clab-nebula-serf125: Hilbert Index = 17096667610
+clab-nebula-serf126: Hilbert Index = 17096670685
+clab-nebula-serf127: Hilbert Index = 17096606295
+clab-nebula-serf128: Hilbert Index = 16187866808
+clab-nebula-serf129: Hilbert Index = 16193142102
+clab-nebula-serf130: Hilbert Index = 17122064750
+clab-nebula-serf131: Hilbert Index = 17237685466
+clab-nebula-serf132: Hilbert Index = 17122064548
+clab-nebula-serf133: Hilbert Index = 17122063665
+clab-nebula-serf134: Hilbert Index = 17122060406
+clab-nebula-serf135: Hilbert Index = 17237701993
+clab-nebula-serf136: Hilbert Index = 17122063663
+clab-nebula-serf137: Hilbert Index = 17137014347
+clab-nebula-serf138: Hilbert Index = 17121806336
+clab-nebula-serf139: Hilbert Index = 17122053024
+clab-nebula-serf140: Hilbert Index = 17121807384
+clab-nebula-serf141: Hilbert Index = 17121805929
+clab-nebula-serf142: Hilbert Index = 17086730203
+clab-nebula-serf143: Hilbert Index = 17086980018
+clab-nebula-serf144: Hilbert Index = 17086632170
+clab-nebula-serf145: Hilbert Index = 17086632118
+clab-nebula-serf146: Hilbert Index = 17086635937
+clab-nebula-serf147: Hilbert Index = 331147246
+clab-nebula-serf148: Hilbert Index = 331154868
+clab-nebula-serf149: Hilbert Index = 331152638
+clab-nebula-serf150: Hilbert Index = 295705155
+clab-nebula-serf151: Hilbert Index = 331151539
+clab-nebula-serf152: Hilbert Index = 331151492
+clab-nebula-serf153: Hilbert Index = 323132430
+clab-nebula-serf154: Hilbert Index = 331147223
+clab-nebula-serf155: Hilbert Index = 331152233
+clab-nebula-serf156: Hilbert Index = 331152235
+clab-nebula-serf157: Hilbert Index = 16945077052
+clab-nebula-serf158: Hilbert Index = 16945042522
+clab-nebula-serf159: Hilbert Index = 16945043276
+clab-nebula-serf160: Hilbert Index = 16945449885
+clab-nebula-serf161: Hilbert Index = 16945449539
+clab-nebula-serf162: Hilbert Index = 16945055508
+
+=== RTT-Hilbert Mapping for clab-nebula-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 2978230
+RTT ≤ 10ms → Hilbert threshold: 8268928
+RTT ≤ 20ms → Hilbert threshold: 427314112
+RTT ≤ 30ms → Hilbert threshold: 17742207521
+RTT ≤ 40ms → Hilbert threshold: 17742207787
+RTT ≤ 50ms → Hilbert threshold: 17742207322
+RTT ≤ 60ms → Hilbert threshold: 17742207588
+RTT ≤ 70ms → Hilbert threshold: 17742217685
+RTT ≤ 80ms → Hilbert threshold: 21175336373
+RTT ≤ 90ms → Hilbert threshold: 21175336373
+
+=== Range Query from clab-nebula-serf1 ===
+RTT ≤ 5ms
+Hilbert threshold: 2978230
+Matched nodes: 3
+             name    hilbert  hilbert_distance
+clab-nebula-serf1 3069237244                 0
+clab-nebula-serf5 3066804194           2433050
+clab-nebula-serf4 3072215474           2978230
+
+[True RTT Matches for clab-nebula-serf1 <= 5 ms]
+Count: 0
+Nodes: []
+
+False Positives (2):
+clab-nebula-serf4
+clab-nebula-serf5
+
+False Negatives (0):
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424)), h: (np.float64(-0.0105286790086616), np.float64(0.04752269500367636))
+
+=== Hilbert Indices ===
+clab-nebula-serf1: Hilbert Index = 3069237244
+clab-nebula-serf2: Hilbert Index = 3076639264
+clab-nebula-serf3: Hilbert Index = 3066004944
+clab-nebula-serf4: Hilbert Index = 3072215474
+clab-nebula-serf5: Hilbert Index = 3066804194
+clab-nebula-serf6: Hilbert Index = 3077505772
+clab-nebula-serf7: Hilbert Index = 3077506306
+clab-nebula-serf8: Hilbert Index = 3079701619
+clab-nebula-serf9: Hilbert Index = 3079703507
+clab-nebula-serf10: Hilbert Index = 2960096205
+clab-nebula-serf11: Hilbert Index = 3079702470
+clab-nebula-serf12: Hilbert Index = 3496551105
+clab-nebula-serf13: Hilbert Index = 3496551354
+clab-nebula-serf14: Hilbert Index = 3491156844
+clab-nebula-serf15: Hilbert Index = 3496551375
+clab-nebula-serf16: Hilbert Index = 3496551336
+clab-nebula-serf17: Hilbert Index = 3496551352
+clab-nebula-serf18: Hilbert Index = 2950478214
+clab-nebula-serf19: Hilbert Index = 2949860447
+clab-nebula-serf20: Hilbert Index = 4947916532
+clab-nebula-serf21: Hilbert Index = 4948039816
+clab-nebula-serf22: Hilbert Index = 4915337796
+clab-nebula-serf23: Hilbert Index = 4947895142
+clab-nebula-serf24: Hilbert Index = 4947894783
+clab-nebula-serf25: Hilbert Index = 4915455417
+clab-nebula-serf26: Hilbert Index = 4947910697
+clab-nebula-serf27: Hilbert Index = 4711784664
+clab-nebula-serf28: Hilbert Index = 29649392795
+clab-nebula-serf29: Hilbert Index = 29412052370
+clab-nebula-serf30: Hilbert Index = 4947908744
+clab-nebula-serf31: Hilbert Index = 4947908744
+clab-nebula-serf32: Hilbert Index = 4947869956
+clab-nebula-serf33: Hilbert Index = 3503588266
+clab-nebula-serf34: Hilbert Index = 3503592049
+clab-nebula-serf35: Hilbert Index = 3503590782
+clab-nebula-serf36: Hilbert Index = 3503587447
+clab-nebula-serf37: Hilbert Index = 3503590022
+clab-nebula-serf38: Hilbert Index = 3503591960
+clab-nebula-serf39: Hilbert Index = 30855705256
+clab-nebula-serf40: Hilbert Index = 3503587750
+clab-nebula-serf41: Hilbert Index = 3503521150
+clab-nebula-serf42: Hilbert Index = 3503591011
+clab-nebula-serf43: Hilbert Index = 4898679336
+clab-nebula-serf44: Hilbert Index = 4898657996
+clab-nebula-serf45: Hilbert Index = 4898654106
+clab-nebula-serf46: Hilbert Index = 4898679213
+clab-nebula-serf47: Hilbert Index = 4898702585
+clab-nebula-serf48: Hilbert Index = 4898679456
+clab-nebula-serf49: Hilbert Index = 4898657673
+clab-nebula-serf50: Hilbert Index = 4898657855
+clab-nebula-serf51: Hilbert Index = 3496444750
+clab-nebula-serf52: Hilbert Index = 3496446723
+clab-nebula-serf53: Hilbert Index = 3496444768
+clab-nebula-serf54: Hilbert Index = 3496443954
+clab-nebula-serf55: Hilbert Index = 3496447490
+clab-nebula-serf56: Hilbert Index = 3496447213
+clab-nebula-serf57: Hilbert Index = 3500116176
+clab-nebula-serf58: Hilbert Index = 3500116531
+clab-nebula-serf59: Hilbert Index = 3500016363
+clab-nebula-serf60: Hilbert Index = 3495980774
+clab-nebula-serf61: Hilbert Index = 3500116285
+clab-nebula-serf62: Hilbert Index = 3500047866
+clab-nebula-serf63: Hilbert Index = 3500116689
+clab-nebula-serf64: Hilbert Index = 4883282803
+clab-nebula-serf65: Hilbert Index = 11826364099
+clab-nebula-serf66: Hilbert Index = 13956810767
+clab-nebula-serf67: Hilbert Index = 13956811877
+clab-nebula-serf68: Hilbert Index = 13956793086
+clab-nebula-serf69: Hilbert Index = 3499765461
+clab-nebula-serf70: Hilbert Index = 3499757862
+clab-nebula-serf71: Hilbert Index = 3499761979
+clab-nebula-serf72: Hilbert Index = 13957329131
+clab-nebula-serf73: Hilbert Index = 13957329118
+clab-nebula-serf74: Hilbert Index = 13957332778
+clab-nebula-serf75: Hilbert Index = 13957328947
+clab-nebula-serf76: Hilbert Index = 13957332786
+clab-nebula-serf77: Hilbert Index = 13957074789
+clab-nebula-serf78: Hilbert Index = 13957320483
+clab-nebula-serf79: Hilbert Index = 13957329097
+clab-nebula-serf80: Hilbert Index = 13957327755
+clab-nebula-serf81: Hilbert Index = 13956812017
+clab-nebula-serf82: Hilbert Index = 3502034253
+clab-nebula-serf83: Hilbert Index = 20407974934
+clab-nebula-serf84: Hilbert Index = 20402327192
+clab-nebula-serf85: Hilbert Index = 20407975816
+clab-nebula-serf86: Hilbert Index = 20811509886
+clab-nebula-serf87: Hilbert Index = 20811444566
+clab-nebula-serf88: Hilbert Index = 20811445231
+clab-nebula-serf89: Hilbert Index = 20811780496
+clab-nebula-serf90: Hilbert Index = 13957232713
+clab-nebula-serf91: Hilbert Index = 20402304034
+clab-nebula-serf92: Hilbert Index = 13957233059
+clab-nebula-serf93: Hilbert Index = 13957233585
+clab-nebula-serf94: Hilbert Index = 20402509941
+clab-nebula-serf95: Hilbert Index = 20402510430
+clab-nebula-serf96: Hilbert Index = 9603387069
+clab-nebula-serf97: Hilbert Index = 9625181027
+clab-nebula-serf98: Hilbert Index = 9163506114
+clab-nebula-serf99: Hilbert Index = 9606906160
+clab-nebula-serf100: Hilbert Index = 9603386455
+clab-nebula-serf101: Hilbert Index = 9603387303
+clab-nebula-serf102: Hilbert Index = 9603379365
+clab-nebula-serf103: Hilbert Index = 9603395745
+clab-nebula-serf104: Hilbert Index = 16187867212
+clab-nebula-serf105: Hilbert Index = 16187867084
+clab-nebula-serf106: Hilbert Index = 16187859454
+clab-nebula-serf107: Hilbert Index = 16192167821
+clab-nebula-serf108: Hilbert Index = 16187867473
+clab-nebula-serf109: Hilbert Index = 16187859850
+clab-nebula-serf110: Hilbert Index = 16187859028
+clab-nebula-serf111: Hilbert Index = 16187859425
+clab-nebula-serf112: Hilbert Index = 16175721274
+clab-nebula-serf113: Hilbert Index = 8010564402
+clab-nebula-serf114: Hilbert Index = 8010627852
+clab-nebula-serf115: Hilbert Index = 32904774157
+clab-nebula-serf116: Hilbert Index = 32934689434
+clab-nebula-serf117: Hilbert Index = 24244573617
+clab-nebula-serf118: Hilbert Index = 24453485420
+clab-nebula-serf119: Hilbert Index = 24453147749
+clab-nebula-serf120: Hilbert Index = 24453124330
+clab-nebula-serf121: Hilbert Index = 18170549761
+clab-nebula-serf122: Hilbert Index = 18172603491
+clab-nebula-serf123: Hilbert Index = 16188173485
+clab-nebula-serf124: Hilbert Index = 17260095884
+clab-nebula-serf125: Hilbert Index = 17096667610
+clab-nebula-serf126: Hilbert Index = 17096670685
+clab-nebula-serf127: Hilbert Index = 17096606295
+clab-nebula-serf128: Hilbert Index = 16187866808
+clab-nebula-serf129: Hilbert Index = 16193142102
+clab-nebula-serf130: Hilbert Index = 17122064750
+clab-nebula-serf131: Hilbert Index = 17237685466
+clab-nebula-serf132: Hilbert Index = 17122064548
+clab-nebula-serf133: Hilbert Index = 17122063665
+clab-nebula-serf134: Hilbert Index = 17122060406
+clab-nebula-serf135: Hilbert Index = 17237701993
+clab-nebula-serf136: Hilbert Index = 17122063663
+clab-nebula-serf137: Hilbert Index = 17137014347
+clab-nebula-serf138: Hilbert Index = 17121806336
+clab-nebula-serf139: Hilbert Index = 17122053024
+clab-nebula-serf140: Hilbert Index = 17121807384
+clab-nebula-serf141: Hilbert Index = 17121805929
+clab-nebula-serf142: Hilbert Index = 17086730203
+clab-nebula-serf143: Hilbert Index = 17086980018
+clab-nebula-serf144: Hilbert Index = 17086632170
+clab-nebula-serf145: Hilbert Index = 17086632118
+clab-nebula-serf146: Hilbert Index = 17086635937
+clab-nebula-serf147: Hilbert Index = 331147246
+clab-nebula-serf148: Hilbert Index = 331154868
+clab-nebula-serf149: Hilbert Index = 331152638
+clab-nebula-serf150: Hilbert Index = 295705155
+clab-nebula-serf151: Hilbert Index = 331151539
+clab-nebula-serf152: Hilbert Index = 331151492
+clab-nebula-serf153: Hilbert Index = 323132430
+clab-nebula-serf154: Hilbert Index = 331147223
+clab-nebula-serf155: Hilbert Index = 331152233
+clab-nebula-serf156: Hilbert Index = 331152235
+clab-nebula-serf157: Hilbert Index = 16945077052
+clab-nebula-serf158: Hilbert Index = 16945042522
+clab-nebula-serf159: Hilbert Index = 16945043276
+clab-nebula-serf160: Hilbert Index = 16945449885
+clab-nebula-serf161: Hilbert Index = 16945449539
+clab-nebula-serf162: Hilbert Index = 16945055508
+
+=== RTT-Hilbert Mapping for clab-nebula-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 2978230
+RTT ≤ 10ms → Hilbert threshold: 8268928
+RTT ≤ 20ms → Hilbert threshold: 427314112
+RTT ≤ 30ms → Hilbert threshold: 17742207521
+RTT ≤ 40ms → Hilbert threshold: 17742207787
+RTT ≤ 50ms → Hilbert threshold: 17742207322
+RTT ≤ 60ms → Hilbert threshold: 17742207588
+RTT ≤ 70ms → Hilbert threshold: 17742217685
+RTT ≤ 80ms → Hilbert threshold: 21175336373
+RTT ≤ 90ms → Hilbert threshold: 21175336373
+
+=== Range Query from clab-nebula-serf1 ===
+RTT ≤ 10ms
+Hilbert threshold: 8268928
+Matched nodes: 6
+             name    hilbert  hilbert_distance
+clab-nebula-serf1 3069237244                 0
+clab-nebula-serf5 3066804194           2433050
+clab-nebula-serf4 3072215474           2978230
+clab-nebula-serf3 3066004944           3232300
+clab-nebula-serf2 3076639264           7402020
+clab-nebula-serf6 3077505772           8268528
+
+[True RTT Matches for clab-nebula-serf1 <= 10 ms]
+Count: 6
+Nodes: ['clab-nebula-serf2', 'clab-nebula-serf3', 'clab-nebula-serf4', 'clab-nebula-serf5', 'clab-nebula-serf6', 'clab-nebula-serf7']
+
+False Positives (0):
+
+False Negatives (1):
+clab-nebula-serf7
+=== Normalization Ranges ===
+x: (np.float64(-0.02022189636824578), np.float64(0.023853486181189543)), y: (np.float64(-0.02550385583969609), np.float64(0.024371114583219503)), z: (np.float64(-0.023596550651253993), np.float64(0.03441714519055084)), w: (np.float64(-0.041349202436480485), np.float64(0.027310471294265424)), h: (np.float64(-0.0105286790086616), np.float64(0.04752269500367636))
+
+=== Hilbert Indices ===
+clab-nebula-serf1: Hilbert Index = 3069237244
+clab-nebula-serf2: Hilbert Index = 3076639264
+clab-nebula-serf3: Hilbert Index = 3066004944
+clab-nebula-serf4: Hilbert Index = 3072215474
+clab-nebula-serf5: Hilbert Index = 3066804194
+clab-nebula-serf6: Hilbert Index = 3077505772
+clab-nebula-serf7: Hilbert Index = 3077506306
+clab-nebula-serf8: Hilbert Index = 3079701619
+clab-nebula-serf9: Hilbert Index = 3079703507
+clab-nebula-serf10: Hilbert Index = 2960096205
+clab-nebula-serf11: Hilbert Index = 3079702470
+clab-nebula-serf12: Hilbert Index = 3496551105
+clab-nebula-serf13: Hilbert Index = 3496551354
+clab-nebula-serf14: Hilbert Index = 3491156844
+clab-nebula-serf15: Hilbert Index = 3496551375
+clab-nebula-serf16: Hilbert Index = 3496551336
+clab-nebula-serf17: Hilbert Index = 3496551352
+clab-nebula-serf18: Hilbert Index = 2950478214
+clab-nebula-serf19: Hilbert Index = 2949860447
+clab-nebula-serf20: Hilbert Index = 4947916532
+clab-nebula-serf21: Hilbert Index = 4948039816
+clab-nebula-serf22: Hilbert Index = 4915337796
+clab-nebula-serf23: Hilbert Index = 4947895142
+clab-nebula-serf24: Hilbert Index = 4947894783
+clab-nebula-serf25: Hilbert Index = 4915455417
+clab-nebula-serf26: Hilbert Index = 4947910697
+clab-nebula-serf27: Hilbert Index = 4711784664
+clab-nebula-serf28: Hilbert Index = 29649392795
+clab-nebula-serf29: Hilbert Index = 29412052370
+clab-nebula-serf30: Hilbert Index = 4947908744
+clab-nebula-serf31: Hilbert Index = 4947908744
+clab-nebula-serf32: Hilbert Index = 4947869956
+clab-nebula-serf33: Hilbert Index = 3503588266
+clab-nebula-serf34: Hilbert Index = 3503592049
+clab-nebula-serf35: Hilbert Index = 3503590782
+clab-nebula-serf36: Hilbert Index = 3503587447
+clab-nebula-serf37: Hilbert Index = 3503590022
+clab-nebula-serf38: Hilbert Index = 3503591960
+clab-nebula-serf39: Hilbert Index = 30855705256
+clab-nebula-serf40: Hilbert Index = 3503587750
+clab-nebula-serf41: Hilbert Index = 3503521150
+clab-nebula-serf42: Hilbert Index = 3503591011
+clab-nebula-serf43: Hilbert Index = 4898679336
+clab-nebula-serf44: Hilbert Index = 4898657996
+clab-nebula-serf45: Hilbert Index = 4898654106
+clab-nebula-serf46: Hilbert Index = 4898679213
+clab-nebula-serf47: Hilbert Index = 4898702585
+clab-nebula-serf48: Hilbert Index = 4898679456
+clab-nebula-serf49: Hilbert Index = 4898657673
+clab-nebula-serf50: Hilbert Index = 4898657855
+clab-nebula-serf51: Hilbert Index = 3496444750
+clab-nebula-serf52: Hilbert Index = 3496446723
+clab-nebula-serf53: Hilbert Index = 3496444768
+clab-nebula-serf54: Hilbert Index = 3496443954
+clab-nebula-serf55: Hilbert Index = 3496447490
+clab-nebula-serf56: Hilbert Index = 3496447213
+clab-nebula-serf57: Hilbert Index = 3500116176
+clab-nebula-serf58: Hilbert Index = 3500116531
+clab-nebula-serf59: Hilbert Index = 3500016363
+clab-nebula-serf60: Hilbert Index = 3495980774
+clab-nebula-serf61: Hilbert Index = 3500116285
+clab-nebula-serf62: Hilbert Index = 3500047866
+clab-nebula-serf63: Hilbert Index = 3500116689
+clab-nebula-serf64: Hilbert Index = 4883282803
+clab-nebula-serf65: Hilbert Index = 11826364099
+clab-nebula-serf66: Hilbert Index = 13956810767
+clab-nebula-serf67: Hilbert Index = 13956811877
+clab-nebula-serf68: Hilbert Index = 13956793086
+clab-nebula-serf69: Hilbert Index = 3499765461
+clab-nebula-serf70: Hilbert Index = 3499757862
+clab-nebula-serf71: Hilbert Index = 3499761979
+clab-nebula-serf72: Hilbert Index = 13957329131
+clab-nebula-serf73: Hilbert Index = 13957329118
+clab-nebula-serf74: Hilbert Index = 13957332778
+clab-nebula-serf75: Hilbert Index = 13957328947
+clab-nebula-serf76: Hilbert Index = 13957332786
+clab-nebula-serf77: Hilbert Index = 13957074789
+clab-nebula-serf78: Hilbert Index = 13957320483
+clab-nebula-serf79: Hilbert Index = 13957329097
+clab-nebula-serf80: Hilbert Index = 13957327755
+clab-nebula-serf81: Hilbert Index = 13956812017
+clab-nebula-serf82: Hilbert Index = 3502034253
+clab-nebula-serf83: Hilbert Index = 20407974934
+clab-nebula-serf84: Hilbert Index = 20402327192
+clab-nebula-serf85: Hilbert Index = 20407975816
+clab-nebula-serf86: Hilbert Index = 20811509886
+clab-nebula-serf87: Hilbert Index = 20811444566
+clab-nebula-serf88: Hilbert Index = 20811445231
+clab-nebula-serf89: Hilbert Index = 20811780496
+clab-nebula-serf90: Hilbert Index = 13957232713
+clab-nebula-serf91: Hilbert Index = 20402304034
+clab-nebula-serf92: Hilbert Index = 13957233059
+clab-nebula-serf93: Hilbert Index = 13957233585
+clab-nebula-serf94: Hilbert Index = 20402509941
+clab-nebula-serf95: Hilbert Index = 20402510430
+clab-nebula-serf96: Hilbert Index = 9603387069
+clab-nebula-serf97: Hilbert Index = 9625181027
+clab-nebula-serf98: Hilbert Index = 9163506114
+clab-nebula-serf99: Hilbert Index = 9606906160
+clab-nebula-serf100: Hilbert Index = 9603386455
+clab-nebula-serf101: Hilbert Index = 9603387303
+clab-nebula-serf102: Hilbert Index = 9603379365
+clab-nebula-serf103: Hilbert Index = 9603395745
+clab-nebula-serf104: Hilbert Index = 16187867212
+clab-nebula-serf105: Hilbert Index = 16187867084
+clab-nebula-serf106: Hilbert Index = 16187859454
+clab-nebula-serf107: Hilbert Index = 16192167821
+clab-nebula-serf108: Hilbert Index = 16187867473
+clab-nebula-serf109: Hilbert Index = 16187859850
+clab-nebula-serf110: Hilbert Index = 16187859028
+clab-nebula-serf111: Hilbert Index = 16187859425
+clab-nebula-serf112: Hilbert Index = 16175721274
+clab-nebula-serf113: Hilbert Index = 8010564402
+clab-nebula-serf114: Hilbert Index = 8010627852
+clab-nebula-serf115: Hilbert Index = 32904774157
+clab-nebula-serf116: Hilbert Index = 32934689434
+clab-nebula-serf117: Hilbert Index = 24244573617
+clab-nebula-serf118: Hilbert Index = 24453485420
+clab-nebula-serf119: Hilbert Index = 24453147749
+clab-nebula-serf120: Hilbert Index = 24453124330
+clab-nebula-serf121: Hilbert Index = 18170549761
+clab-nebula-serf122: Hilbert Index = 18172603491
+clab-nebula-serf123: Hilbert Index = 16188173485
+clab-nebula-serf124: Hilbert Index = 17260095884
+clab-nebula-serf125: Hilbert Index = 17096667610
+clab-nebula-serf126: Hilbert Index = 17096670685
+clab-nebula-serf127: Hilbert Index = 17096606295
+clab-nebula-serf128: Hilbert Index = 16187866808
+clab-nebula-serf129: Hilbert Index = 16193142102
+clab-nebula-serf130: Hilbert Index = 17122064750
+clab-nebula-serf131: Hilbert Index = 17237685466
+clab-nebula-serf132: Hilbert Index = 17122064548
+clab-nebula-serf133: Hilbert Index = 17122063665
+clab-nebula-serf134: Hilbert Index = 17122060406
+clab-nebula-serf135: Hilbert Index = 17237701993
+clab-nebula-serf136: Hilbert Index = 17122063663
+clab-nebula-serf137: Hilbert Index = 17137014347
+clab-nebula-serf138: Hilbert Index = 17121806336
+clab-nebula-serf139: Hilbert Index = 17122053024
+clab-nebula-serf140: Hilbert Index = 17121807384
+clab-nebula-serf141: Hilbert Index = 17121805929
+clab-nebula-serf142: Hilbert Index = 17086730203
+clab-nebula-serf143: Hilbert Index = 17086980018
+clab-nebula-serf144: Hilbert Index = 17086632170
+clab-nebula-serf145: Hilbert Index = 17086632118
+clab-nebula-serf146: Hilbert Index = 17086635937
+clab-nebula-serf147: Hilbert Index = 331147246
+clab-nebula-serf148: Hilbert Index = 331154868
+clab-nebula-serf149: Hilbert Index = 331152638
+clab-nebula-serf150: Hilbert Index = 295705155
+clab-nebula-serf151: Hilbert Index = 331151539
+clab-nebula-serf152: Hilbert Index = 331151492
+clab-nebula-serf153: Hilbert Index = 323132430
+clab-nebula-serf154: Hilbert Index = 331147223
+clab-nebula-serf155: Hilbert Index = 331152233
+clab-nebula-serf156: Hilbert Index = 331152235
+clab-nebula-serf157: Hilbert Index = 16945077052
+clab-nebula-serf158: Hilbert Index = 16945042522
+clab-nebula-serf159: Hilbert Index = 16945043276
+clab-nebula-serf160: Hilbert Index = 16945449885
+clab-nebula-serf161: Hilbert Index = 16945449539
+clab-nebula-serf162: Hilbert Index = 16945055508
+
+=== RTT-Hilbert Mapping for clab-nebula-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 2978230
+RTT ≤ 10ms → Hilbert threshold: 8268928
+RTT ≤ 20ms → Hilbert threshold: 427314112
+RTT ≤ 30ms → Hilbert threshold: 17742207521
+RTT ≤ 40ms → Hilbert threshold: 17742207787
+RTT ≤ 50ms → Hilbert threshold: 17742207322
+RTT ≤ 60ms → Hilbert threshold: 17742207588
+RTT ≤ 70ms → Hilbert threshold: 17742217685
+RTT ≤ 80ms → Hilbert threshold: 21175336373
+RTT ≤ 90ms → Hilbert threshold: 21175336373
+
+=== Range Query from clab-nebula-serf1 ===
+RTT ≤ 20ms
+Hilbert threshold: 427314112
+Matched nodes: 25
+              name    hilbert  hilbert_distance
+ clab-nebula-serf1 3069237244                 0
+ clab-nebula-serf5 3066804194           2433050
+ clab-nebula-serf4 3072215474           2978230
+ clab-nebula-serf3 3066004944           3232300
+ clab-nebula-serf2 3076639264           7402020
+ clab-nebula-serf6 3077505772           8268528
+ clab-nebula-serf7 3077506306           8269062
+ clab-nebula-serf8 3079701619          10464375
+clab-nebula-serf11 3079702470          10465226
+ clab-nebula-serf9 3079703507          10466263
+clab-nebula-serf10 2960096205         109141039
+clab-nebula-serf18 2950478214         118759030
+clab-nebula-serf19 2949860447         119376797
+clab-nebula-serf14 3491156844         421919600
+clab-nebula-serf60 3495980774         426743530
+clab-nebula-serf54 3496443954         427206710
+clab-nebula-serf51 3496444750         427207506
+clab-nebula-serf53 3496444768         427207524
+clab-nebula-serf52 3496446723         427209479
+clab-nebula-serf56 3496447213         427209969
+clab-nebula-serf55 3496447490         427210246
+clab-nebula-serf12 3496551105         427313861
+clab-nebula-serf16 3496551336         427314092
+clab-nebula-serf17 3496551352         427314108
+clab-nebula-serf13 3496551354         427314110
+
+[True RTT Matches for clab-nebula-serf1 <= 20 ms]
+Count: 19
+Nodes: ['clab-nebula-serf10', 'clab-nebula-serf11', 'clab-nebula-serf12', 'clab-nebula-serf13', 'clab-nebula-serf14', 'clab-nebula-serf15', 'clab-nebula-serf16', 'clab-nebula-serf17', 'clab-nebula-serf18', 'clab-nebula-serf19', 'clab-nebula-serf2', 'clab-nebula-serf3', 'clab-nebula-serf4', 'clab-nebula-serf5', 'clab-nebula-serf56', 'clab-nebula-serf6', 'clab-nebula-serf7', 'clab-nebula-serf8', 'clab-nebula-serf9']
+
+False Positives (6):
+clab-nebula-serf51
+clab-nebula-serf52
+clab-nebula-serf53
+clab-nebula-serf54
+clab-nebula-serf55
+clab-nebula-serf60
+
+False Negatives (1):
+clab-nebula-serf15
+=== Normalization Ranges ===
+x: (np.float64(-0.0563500336120904), np.float64(0.05357250216433766)), y: (np.float64(-0.02421527254164507), np.float64(0.03404627853376331)), z: (np.float64(-0.06375495534582733), np.float64(0.05669757433535809)), w: (np.float64(-0.04765979128879956), np.float64(0.03947126294173661))
+=== Normalization Ranges ===
+x: (np.float64(-0.0563500336120904), np.float64(0.05357250216433766)), y: (np.float64(-0.02421527254164507), np.float64(0.03404627853376331)), z: (np.float64(-0.06375495534582733), np.float64(0.05669757433535809)), w: (np.float64(-0.04765979128879956), np.float64(0.03947126294173661))
+
+=== Hilbert Indices ===
+clab-century-serf1: Hilbert Index = 214453822
+clab-century-serf2: Hilbert Index = 214454376
+clab-century-serf3: Hilbert Index = 214454364
+clab-century-serf4: Hilbert Index = 214454374
+clab-century-serf5: Hilbert Index = 214458279
+clab-century-serf6: Hilbert Index = 214458205
+clab-century-serf7: Hilbert Index = 214454359
+clab-century-serf8: Hilbert Index = 214454362
+clab-century-serf9: Hilbert Index = 214454357
+clab-century-serf10: Hilbert Index = 214458276
+clab-century-serf11: Hilbert Index = 215456261
+clab-century-serf12: Hilbert Index = 215460058
+clab-century-serf13: Hilbert Index = 214456262
+clab-century-serf14: Hilbert Index = 214457354
+clab-century-serf15: Hilbert Index = 214456311
+clab-century-serf16: Hilbert Index = 214458202
+clab-century-serf17: Hilbert Index = 214456511
+clab-century-serf18: Hilbert Index = 214456891
+clab-century-serf19: Hilbert Index = 214457507
+clab-century-serf20: Hilbert Index = 214457261
+clab-century-serf21: Hilbert Index = 203955626
+clab-century-serf22: Hilbert Index = 215444417
+clab-century-serf23: Hilbert Index = 214595733
+clab-century-serf24: Hilbert Index = 204062549
+clab-century-serf25: Hilbert Index = 204951083
+clab-century-serf26: Hilbert Index = 215223485
+clab-century-serf27: Hilbert Index = 205055825
+clab-century-serf28: Hilbert Index = 215318418
+clab-century-serf29: Hilbert Index = 215281572
+clab-century-serf30: Hilbert Index = 205232523
+clab-century-serf31: Hilbert Index = 214220789
+clab-century-serf32: Hilbert Index = 204275231
+clab-century-serf33: Hilbert Index = 205658084
+clab-century-serf34: Hilbert Index = 203868174
+clab-century-serf35: Hilbert Index = 215820359
+clab-century-serf36: Hilbert Index = 204778395
+clab-century-serf37: Hilbert Index = 204907067
+clab-century-serf38: Hilbert Index = 204728025
+clab-century-serf39: Hilbert Index = 214265386
+clab-century-serf40: Hilbert Index = 207476005
+clab-century-serf41: Hilbert Index = 114849170
+clab-century-serf42: Hilbert Index = 114837385
+clab-century-serf43: Hilbert Index = 114850420
+clab-century-serf44: Hilbert Index = 103254636
+clab-century-serf45: Hilbert Index = 114850393
+clab-century-serf46: Hilbert Index = 114837389
+clab-century-serf47: Hilbert Index = 114837311
+clab-century-serf48: Hilbert Index = 103265431
+clab-century-serf49: Hilbert Index = 103266404
+clab-century-serf50: Hilbert Index = 114837371
+clab-century-serf51: Hilbert Index = 103266942
+clab-century-serf52: Hilbert Index = 19641677
+clab-century-serf53: Hilbert Index = 114849638
+clab-century-serf54: Hilbert Index = 114837531
+clab-century-serf55: Hilbert Index = 114837596
+clab-century-serf56: Hilbert Index = 114849999
+clab-century-serf57: Hilbert Index = 114837147
+clab-century-serf58: Hilbert Index = 114848636
+clab-century-serf59: Hilbert Index = 114838287
+clab-century-serf60: Hilbert Index = 30689978
+clab-century-serf61: Hilbert Index = 103328907
+clab-century-serf62: Hilbert Index = 113820063
+clab-century-serf63: Hilbert Index = 19157273
+clab-century-serf64: Hilbert Index = 19158631
+clab-century-serf65: Hilbert Index = 113812749
+clab-century-serf66: Hilbert Index = 19596659
+clab-century-serf67: Hilbert Index = 115750114
+clab-century-serf68: Hilbert Index = 115855974
+clab-century-serf69: Hilbert Index = 114907258
+clab-century-serf70: Hilbert Index = 113815916
+clab-century-serf71: Hilbert Index = 113951947
+clab-century-serf72: Hilbert Index = 114650477
+clab-century-serf73: Hilbert Index = 19669338
+clab-century-serf74: Hilbert Index = 111646075
+clab-century-serf75: Hilbert Index = 114924086
+clab-century-serf76: Hilbert Index = 111410232
+clab-century-serf77: Hilbert Index = 18677978
+clab-century-serf78: Hilbert Index = 112118108
+clab-century-serf79: Hilbert Index = 19284877
+clab-century-serf80: Hilbert Index = 114592216
+
+=== RTT-Hilbert Mapping for clab-century-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 4455
+RTT ≤ 10ms → Hilbert threshold: 154723
+RTT ≤ 15ms → Hilbert threshold: 1002818
+RTT ≤ 20ms → Hilbert threshold: 10169139
+RTT ≤ 25ms → Hilbert threshold: 10080286
+RTT ≤ 30ms → Hilbert threshold: 10033350
+RTT ≤ 35ms → Hilbert threshold: 10412657
+RTT ≤ 40ms → Hilbert threshold: 10401965
+RTT ≤ 45ms → Hilbert threshold: 10401965
+RTT ≤ 50ms → Hilbert threshold: 10401965
+RTT ≤ 60ms → Hilbert threshold: 10401965
+
+=== Range Query from clab-century-serf1 ===
+RTT ≤ 5ms
+Hilbert threshold: 4455
+Matched nodes: 17
+               name   hilbert  hilbert_distance
+ clab-century-serf1 214453822                 0
+ clab-century-serf9 214454357               535
+ clab-century-serf7 214454359               537
+ clab-century-serf8 214454362               540
+ clab-century-serf3 214454364               542
+ clab-century-serf4 214454374               552
+ clab-century-serf2 214454376               554
+clab-century-serf13 214456262              2440
+clab-century-serf15 214456311              2489
+clab-century-serf17 214456511              2689
+clab-century-serf18 214456891              3069
+clab-century-serf20 214457261              3439
+clab-century-serf14 214457354              3532
+clab-century-serf19 214457507              3685
+clab-century-serf16 214458202              4380
+ clab-century-serf6 214458205              4383
+clab-century-serf10 214458276              4454
+
+[True RTT Matches for clab-century-serf1 <= 5 ms]
+Count: 14
+Nodes: ['clab-century-serf10', 'clab-century-serf12', 'clab-century-serf13', 'clab-century-serf15', 'clab-century-serf18', 'clab-century-serf2', 'clab-century-serf20', 'clab-century-serf3', 'clab-century-serf4', 'clab-century-serf5', 'clab-century-serf6', 'clab-century-serf7', 'clab-century-serf8', 'clab-century-serf9']
+
+False Positives (4):
+clab-century-serf14
+clab-century-serf16
+clab-century-serf17
+clab-century-serf19
+
+False Negatives (2):
+clab-century-serf12
+clab-century-serf5
+=== Normalization Ranges ===
+x: (np.float64(-0.0563500336120904), np.float64(0.05357250216433766)), y: (np.float64(-0.02421527254164507), np.float64(0.03404627853376331)), z: (np.float64(-0.06375495534582733), np.float64(0.05669757433535809)), w: (np.float64(-0.04765979128879956), np.float64(0.03947126294173661))
+
+=== Hilbert Indices ===
+clab-century-serf1: Hilbert Index = 214453822
+clab-century-serf2: Hilbert Index = 214454376
+clab-century-serf3: Hilbert Index = 214454364
+clab-century-serf4: Hilbert Index = 214454374
+clab-century-serf5: Hilbert Index = 214458279
+clab-century-serf6: Hilbert Index = 214458205
+clab-century-serf7: Hilbert Index = 214454359
+clab-century-serf8: Hilbert Index = 214454362
+clab-century-serf9: Hilbert Index = 214454357
+clab-century-serf10: Hilbert Index = 214458276
+clab-century-serf11: Hilbert Index = 215456261
+clab-century-serf12: Hilbert Index = 215460058
+clab-century-serf13: Hilbert Index = 214456262
+clab-century-serf14: Hilbert Index = 214457354
+clab-century-serf15: Hilbert Index = 214456311
+clab-century-serf16: Hilbert Index = 214458202
+clab-century-serf17: Hilbert Index = 214456511
+clab-century-serf18: Hilbert Index = 214456891
+clab-century-serf19: Hilbert Index = 214457507
+clab-century-serf20: Hilbert Index = 214457261
+clab-century-serf21: Hilbert Index = 203955626
+clab-century-serf22: Hilbert Index = 215444417
+clab-century-serf23: Hilbert Index = 214595733
+clab-century-serf24: Hilbert Index = 204062549
+clab-century-serf25: Hilbert Index = 204951083
+clab-century-serf26: Hilbert Index = 215223485
+clab-century-serf27: Hilbert Index = 205055825
+clab-century-serf28: Hilbert Index = 215318418
+clab-century-serf29: Hilbert Index = 215281572
+clab-century-serf30: Hilbert Index = 205232523
+clab-century-serf31: Hilbert Index = 214220789
+clab-century-serf32: Hilbert Index = 204275231
+clab-century-serf33: Hilbert Index = 205658084
+clab-century-serf34: Hilbert Index = 203868174
+clab-century-serf35: Hilbert Index = 215820359
+clab-century-serf36: Hilbert Index = 204778395
+clab-century-serf37: Hilbert Index = 204907067
+clab-century-serf38: Hilbert Index = 204728025
+clab-century-serf39: Hilbert Index = 214265386
+clab-century-serf40: Hilbert Index = 207476005
+clab-century-serf41: Hilbert Index = 114849170
+clab-century-serf42: Hilbert Index = 114837385
+clab-century-serf43: Hilbert Index = 114850420
+clab-century-serf44: Hilbert Index = 103254636
+clab-century-serf45: Hilbert Index = 114850393
+clab-century-serf46: Hilbert Index = 114837389
+clab-century-serf47: Hilbert Index = 114837311
+clab-century-serf48: Hilbert Index = 103265431
+clab-century-serf49: Hilbert Index = 103266404
+clab-century-serf50: Hilbert Index = 114837371
+clab-century-serf51: Hilbert Index = 103266942
+clab-century-serf52: Hilbert Index = 19641677
+clab-century-serf53: Hilbert Index = 114849638
+clab-century-serf54: Hilbert Index = 114837531
+clab-century-serf55: Hilbert Index = 114837596
+clab-century-serf56: Hilbert Index = 114849999
+clab-century-serf57: Hilbert Index = 114837147
+clab-century-serf58: Hilbert Index = 114848636
+clab-century-serf59: Hilbert Index = 114838287
+clab-century-serf60: Hilbert Index = 30689978
+clab-century-serf61: Hilbert Index = 103328907
+clab-century-serf62: Hilbert Index = 113820063
+clab-century-serf63: Hilbert Index = 19157273
+clab-century-serf64: Hilbert Index = 19158631
+clab-century-serf65: Hilbert Index = 113812749
+clab-century-serf66: Hilbert Index = 19596659
+clab-century-serf67: Hilbert Index = 115750114
+clab-century-serf68: Hilbert Index = 115855974
+clab-century-serf69: Hilbert Index = 114907258
+clab-century-serf70: Hilbert Index = 113815916
+clab-century-serf71: Hilbert Index = 113951947
+clab-century-serf72: Hilbert Index = 114650477
+clab-century-serf73: Hilbert Index = 19669338
+clab-century-serf74: Hilbert Index = 111646075
+clab-century-serf75: Hilbert Index = 114924086
+clab-century-serf76: Hilbert Index = 111410232
+clab-century-serf77: Hilbert Index = 18677978
+clab-century-serf78: Hilbert Index = 112118108
+clab-century-serf79: Hilbert Index = 19284877
+clab-century-serf80: Hilbert Index = 114592216
+
+=== RTT-Hilbert Mapping for clab-century-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 4455
+RTT ≤ 10ms → Hilbert threshold: 154723
+RTT ≤ 15ms → Hilbert threshold: 1002818
+RTT ≤ 20ms → Hilbert threshold: 10169139
+RTT ≤ 25ms → Hilbert threshold: 10080286
+RTT ≤ 30ms → Hilbert threshold: 10033350
+RTT ≤ 35ms → Hilbert threshold: 10412657
+RTT ≤ 40ms → Hilbert threshold: 10401965
+RTT ≤ 45ms → Hilbert threshold: 10401965
+RTT ≤ 50ms → Hilbert threshold: 10401965
+RTT ≤ 60ms → Hilbert threshold: 10401965
+
+=== Range Query from clab-century-serf1 ===
+RTT ≤ 10ms
+Hilbert threshold: 154723
+Matched nodes: 19
+               name   hilbert  hilbert_distance
+ clab-century-serf1 214453822                 0
+ clab-century-serf9 214454357               535
+ clab-century-serf7 214454359               537
+ clab-century-serf8 214454362               540
+ clab-century-serf3 214454364               542
+ clab-century-serf4 214454374               552
+ clab-century-serf2 214454376               554
+clab-century-serf13 214456262              2440
+clab-century-serf15 214456311              2489
+clab-century-serf17 214456511              2689
+clab-century-serf18 214456891              3069
+clab-century-serf20 214457261              3439
+clab-century-serf14 214457354              3532
+clab-century-serf19 214457507              3685
+clab-century-serf16 214458202              4380
+ clab-century-serf6 214458205              4383
+clab-century-serf10 214458276              4454
+ clab-century-serf5 214458279              4457
+clab-century-serf23 214595733            141911
+
+[True RTT Matches for clab-century-serf1 <= 10 ms]
+Count: 18
+Nodes: ['clab-century-serf10', 'clab-century-serf12', 'clab-century-serf13', 'clab-century-serf14', 'clab-century-serf15', 'clab-century-serf16', 'clab-century-serf17', 'clab-century-serf18', 'clab-century-serf19', 'clab-century-serf2', 'clab-century-serf20', 'clab-century-serf3', 'clab-century-serf4', 'clab-century-serf5', 'clab-century-serf6', 'clab-century-serf7', 'clab-century-serf8', 'clab-century-serf9']
+
+False Positives (1):
+clab-century-serf23
+
+False Negatives (1):
+clab-century-serf12
+=== Normalization Ranges ===
+x: (np.float64(-0.0563500336120904), np.float64(0.05357250216433766)), y: (np.float64(-0.02421527254164507), np.float64(0.03404627853376331)), z: (np.float64(-0.06375495534582733), np.float64(0.05669757433535809)), w: (np.float64(-0.04765979128879956), np.float64(0.03947126294173661))
+
+=== Hilbert Indices ===
+clab-century-serf1: Hilbert Index = 214453822
+clab-century-serf2: Hilbert Index = 214454376
+clab-century-serf3: Hilbert Index = 214454364
+clab-century-serf4: Hilbert Index = 214454374
+clab-century-serf5: Hilbert Index = 214458279
+clab-century-serf6: Hilbert Index = 214458205
+clab-century-serf7: Hilbert Index = 214454359
+clab-century-serf8: Hilbert Index = 214454362
+clab-century-serf9: Hilbert Index = 214454357
+clab-century-serf10: Hilbert Index = 214458276
+clab-century-serf11: Hilbert Index = 215456261
+clab-century-serf12: Hilbert Index = 215460058
+clab-century-serf13: Hilbert Index = 214456262
+clab-century-serf14: Hilbert Index = 214457354
+clab-century-serf15: Hilbert Index = 214456311
+clab-century-serf16: Hilbert Index = 214458202
+clab-century-serf17: Hilbert Index = 214456511
+clab-century-serf18: Hilbert Index = 214456891
+clab-century-serf19: Hilbert Index = 214457507
+clab-century-serf20: Hilbert Index = 214457261
+clab-century-serf21: Hilbert Index = 203955626
+clab-century-serf22: Hilbert Index = 215444417
+clab-century-serf23: Hilbert Index = 214595733
+clab-century-serf24: Hilbert Index = 204062549
+clab-century-serf25: Hilbert Index = 204951083
+clab-century-serf26: Hilbert Index = 215223485
+clab-century-serf27: Hilbert Index = 205055825
+clab-century-serf28: Hilbert Index = 215318418
+clab-century-serf29: Hilbert Index = 215281572
+clab-century-serf30: Hilbert Index = 205232523
+clab-century-serf31: Hilbert Index = 214220789
+clab-century-serf32: Hilbert Index = 204275231
+clab-century-serf33: Hilbert Index = 205658084
+clab-century-serf34: Hilbert Index = 203868174
+clab-century-serf35: Hilbert Index = 215820359
+clab-century-serf36: Hilbert Index = 204778395
+clab-century-serf37: Hilbert Index = 204907067
+clab-century-serf38: Hilbert Index = 204728025
+clab-century-serf39: Hilbert Index = 214265386
+clab-century-serf40: Hilbert Index = 207476005
+clab-century-serf41: Hilbert Index = 114849170
+clab-century-serf42: Hilbert Index = 114837385
+clab-century-serf43: Hilbert Index = 114850420
+clab-century-serf44: Hilbert Index = 103254636
+clab-century-serf45: Hilbert Index = 114850393
+clab-century-serf46: Hilbert Index = 114837389
+clab-century-serf47: Hilbert Index = 114837311
+clab-century-serf48: Hilbert Index = 103265431
+clab-century-serf49: Hilbert Index = 103266404
+clab-century-serf50: Hilbert Index = 114837371
+clab-century-serf51: Hilbert Index = 103266942
+clab-century-serf52: Hilbert Index = 19641677
+clab-century-serf53: Hilbert Index = 114849638
+clab-century-serf54: Hilbert Index = 114837531
+clab-century-serf55: Hilbert Index = 114837596
+clab-century-serf56: Hilbert Index = 114849999
+clab-century-serf57: Hilbert Index = 114837147
+clab-century-serf58: Hilbert Index = 114848636
+clab-century-serf59: Hilbert Index = 114838287
+clab-century-serf60: Hilbert Index = 30689978
+clab-century-serf61: Hilbert Index = 103328907
+clab-century-serf62: Hilbert Index = 113820063
+clab-century-serf63: Hilbert Index = 19157273
+clab-century-serf64: Hilbert Index = 19158631
+clab-century-serf65: Hilbert Index = 113812749
+clab-century-serf66: Hilbert Index = 19596659
+clab-century-serf67: Hilbert Index = 115750114
+clab-century-serf68: Hilbert Index = 115855974
+clab-century-serf69: Hilbert Index = 114907258
+clab-century-serf70: Hilbert Index = 113815916
+clab-century-serf71: Hilbert Index = 113951947
+clab-century-serf72: Hilbert Index = 114650477
+clab-century-serf73: Hilbert Index = 19669338
+clab-century-serf74: Hilbert Index = 111646075
+clab-century-serf75: Hilbert Index = 114924086
+clab-century-serf76: Hilbert Index = 111410232
+clab-century-serf77: Hilbert Index = 18677978
+clab-century-serf78: Hilbert Index = 112118108
+clab-century-serf79: Hilbert Index = 19284877
+clab-century-serf80: Hilbert Index = 114592216
+
+=== RTT-Hilbert Mapping for clab-century-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 4455
+RTT ≤ 10ms → Hilbert threshold: 154723
+RTT ≤ 15ms → Hilbert threshold: 1002818
+RTT ≤ 20ms → Hilbert threshold: 10169139
+RTT ≤ 25ms → Hilbert threshold: 10080286
+RTT ≤ 30ms → Hilbert threshold: 10033350
+RTT ≤ 35ms → Hilbert threshold: 10412657
+RTT ≤ 40ms → Hilbert threshold: 10401965
+RTT ≤ 45ms → Hilbert threshold: 10401965
+RTT ≤ 50ms → Hilbert threshold: 10401965
+RTT ≤ 60ms → Hilbert threshold: 10401965
+
+=== Range Query from clab-century-serf1 ===
+RTT ≤ 15ms
+Hilbert threshold: 1002818
+Matched nodes: 26
+               name   hilbert  hilbert_distance
+ clab-century-serf1 214453822                 0
+ clab-century-serf9 214454357               535
+ clab-century-serf7 214454359               537
+ clab-century-serf8 214454362               540
+ clab-century-serf3 214454364               542
+ clab-century-serf4 214454374               552
+ clab-century-serf2 214454376               554
+clab-century-serf13 214456262              2440
+clab-century-serf15 214456311              2489
+clab-century-serf17 214456511              2689
+clab-century-serf18 214456891              3069
+clab-century-serf20 214457261              3439
+clab-century-serf14 214457354              3532
+clab-century-serf19 214457507              3685
+clab-century-serf16 214458202              4380
+ clab-century-serf6 214458205              4383
+clab-century-serf10 214458276              4454
+ clab-century-serf5 214458279              4457
+clab-century-serf23 214595733            141911
+clab-century-serf39 214265386            188436
+clab-century-serf31 214220789            233033
+clab-century-serf26 215223485            769663
+clab-century-serf29 215281572            827750
+clab-century-serf28 215318418            864596
+clab-century-serf22 215444417            990595
+clab-century-serf11 215456261           1002439
+
+[True RTT Matches for clab-century-serf1 <= 15 ms]
+Count: 19
+Nodes: ['clab-century-serf10', 'clab-century-serf11', 'clab-century-serf12', 'clab-century-serf13', 'clab-century-serf14', 'clab-century-serf15', 'clab-century-serf16', 'clab-century-serf17', 'clab-century-serf18', 'clab-century-serf19', 'clab-century-serf2', 'clab-century-serf20', 'clab-century-serf3', 'clab-century-serf4', 'clab-century-serf5', 'clab-century-serf6', 'clab-century-serf7', 'clab-century-serf8', 'clab-century-serf9']
+
+False Positives (7):
+clab-century-serf22
+clab-century-serf23
+clab-century-serf26
+clab-century-serf28
+clab-century-serf29
+clab-century-serf31
+clab-century-serf39
+
+False Negatives (1):
+clab-century-serf12
+=== Normalization Ranges ===
+x: (np.float64(-0.0563500336120904), np.float64(0.05357250216433766)), y: (np.float64(-0.02421527254164507), np.float64(0.03404627853376331)), z: (np.float64(-0.06375495534582733), np.float64(0.05669757433535809)), w: (np.float64(-0.04765979128879956), np.float64(0.03947126294173661))
+
+=== Hilbert Indices ===
+clab-century-serf1: Hilbert Index = 214453822
+clab-century-serf2: Hilbert Index = 214454376
+clab-century-serf3: Hilbert Index = 214454364
+clab-century-serf4: Hilbert Index = 214454374
+clab-century-serf5: Hilbert Index = 214458279
+clab-century-serf6: Hilbert Index = 214458205
+clab-century-serf7: Hilbert Index = 214454359
+clab-century-serf8: Hilbert Index = 214454362
+clab-century-serf9: Hilbert Index = 214454357
+clab-century-serf10: Hilbert Index = 214458276
+clab-century-serf11: Hilbert Index = 215456261
+clab-century-serf12: Hilbert Index = 215460058
+clab-century-serf13: Hilbert Index = 214456262
+clab-century-serf14: Hilbert Index = 214457354
+clab-century-serf15: Hilbert Index = 214456311
+clab-century-serf16: Hilbert Index = 214458202
+clab-century-serf17: Hilbert Index = 214456511
+clab-century-serf18: Hilbert Index = 214456891
+clab-century-serf19: Hilbert Index = 214457507
+clab-century-serf20: Hilbert Index = 214457261
+clab-century-serf21: Hilbert Index = 203955626
+clab-century-serf22: Hilbert Index = 215444417
+clab-century-serf23: Hilbert Index = 214595733
+clab-century-serf24: Hilbert Index = 204062549
+clab-century-serf25: Hilbert Index = 204951083
+clab-century-serf26: Hilbert Index = 215223485
+clab-century-serf27: Hilbert Index = 205055825
+clab-century-serf28: Hilbert Index = 215318418
+clab-century-serf29: Hilbert Index = 215281572
+clab-century-serf30: Hilbert Index = 205232523
+clab-century-serf31: Hilbert Index = 214220789
+clab-century-serf32: Hilbert Index = 204275231
+clab-century-serf33: Hilbert Index = 205658084
+clab-century-serf34: Hilbert Index = 203868174
+clab-century-serf35: Hilbert Index = 215820359
+clab-century-serf36: Hilbert Index = 204778395
+clab-century-serf37: Hilbert Index = 204907067
+clab-century-serf38: Hilbert Index = 204728025
+clab-century-serf39: Hilbert Index = 214265386
+clab-century-serf40: Hilbert Index = 207476005
+clab-century-serf41: Hilbert Index = 114849170
+clab-century-serf42: Hilbert Index = 114837385
+clab-century-serf43: Hilbert Index = 114850420
+clab-century-serf44: Hilbert Index = 103254636
+clab-century-serf45: Hilbert Index = 114850393
+clab-century-serf46: Hilbert Index = 114837389
+clab-century-serf47: Hilbert Index = 114837311
+clab-century-serf48: Hilbert Index = 103265431
+clab-century-serf49: Hilbert Index = 103266404
+clab-century-serf50: Hilbert Index = 114837371
+clab-century-serf51: Hilbert Index = 103266942
+clab-century-serf52: Hilbert Index = 19641677
+clab-century-serf53: Hilbert Index = 114849638
+clab-century-serf54: Hilbert Index = 114837531
+clab-century-serf55: Hilbert Index = 114837596
+clab-century-serf56: Hilbert Index = 114849999
+clab-century-serf57: Hilbert Index = 114837147
+clab-century-serf58: Hilbert Index = 114848636
+clab-century-serf59: Hilbert Index = 114838287
+clab-century-serf60: Hilbert Index = 30689978
+clab-century-serf61: Hilbert Index = 103328907
+clab-century-serf62: Hilbert Index = 113820063
+clab-century-serf63: Hilbert Index = 19157273
+clab-century-serf64: Hilbert Index = 19158631
+clab-century-serf65: Hilbert Index = 113812749
+clab-century-serf66: Hilbert Index = 19596659
+clab-century-serf67: Hilbert Index = 115750114
+clab-century-serf68: Hilbert Index = 115855974
+clab-century-serf69: Hilbert Index = 114907258
+clab-century-serf70: Hilbert Index = 113815916
+clab-century-serf71: Hilbert Index = 113951947
+clab-century-serf72: Hilbert Index = 114650477
+clab-century-serf73: Hilbert Index = 19669338
+clab-century-serf74: Hilbert Index = 111646075
+clab-century-serf75: Hilbert Index = 114924086
+clab-century-serf76: Hilbert Index = 111410232
+clab-century-serf77: Hilbert Index = 18677978
+clab-century-serf78: Hilbert Index = 112118108
+clab-century-serf79: Hilbert Index = 19284877
+clab-century-serf80: Hilbert Index = 114592216
+
+=== RTT-Hilbert Mapping for clab-century-serf1 ===
+RTT ≤ 5ms → Hilbert threshold: 4455
+RTT ≤ 10ms → Hilbert threshold: 154723
+RTT ≤ 15ms → Hilbert threshold: 1002818
+RTT ≤ 20ms → Hilbert threshold: 10169139
+RTT ≤ 25ms → Hilbert threshold: 10080286
+RTT ≤ 30ms → Hilbert threshold: 10033350
+RTT ≤ 35ms → Hilbert threshold: 10412657
+RTT ≤ 40ms → Hilbert threshold: 10401965
+RTT ≤ 45ms → Hilbert threshold: 10401965
+RTT ≤ 50ms → Hilbert threshold: 10401965
+RTT ≤ 60ms → Hilbert threshold: 10401965
+
+=== Range Query from clab-century-serf1 ===
+RTT ≤ 20ms
+Hilbert threshold: 10169139
+Matched nodes: 36
+               name   hilbert  hilbert_distance
+ clab-century-serf1 214453822                 0
+ clab-century-serf9 214454357               535
+ clab-century-serf7 214454359               537
+ clab-century-serf8 214454362               540
+ clab-century-serf3 214454364               542
+ clab-century-serf4 214454374               552
+ clab-century-serf2 214454376               554
+clab-century-serf13 214456262              2440
+clab-century-serf15 214456311              2489
+clab-century-serf17 214456511              2689
+clab-century-serf18 214456891              3069
+clab-century-serf20 214457261              3439
+clab-century-serf14 214457354              3532
+clab-century-serf19 214457507              3685
+clab-century-serf16 214458202              4380
+ clab-century-serf6 214458205              4383
+clab-century-serf10 214458276              4454
+ clab-century-serf5 214458279              4457
+clab-century-serf23 214595733            141911
+clab-century-serf39 214265386            188436
+clab-century-serf31 214220789            233033
+clab-century-serf26 215223485            769663
+clab-century-serf29 215281572            827750
+clab-century-serf28 215318418            864596
+clab-century-serf22 215444417            990595
+clab-century-serf11 215456261           1002439
+clab-century-serf12 215460058           1006236
+clab-century-serf35 215820359           1366537
+clab-century-serf40 207476005           6977817
+clab-century-serf33 205658084           8795738
+clab-century-serf30 205232523           9221299
+clab-century-serf27 205055825           9397997
+clab-century-serf25 204951083           9502739
+clab-century-serf37 204907067           9546755
+clab-century-serf36 204778395           9675427
+clab-century-serf38 204728025           9725797
+
+[True RTT Matches for clab-century-serf1 <= 20 ms]
+Count: 26
+Nodes: ['clab-century-serf10', 'clab-century-serf11', 'clab-century-serf12', 'clab-century-serf13', 'clab-century-serf14', 'clab-century-serf15', 'clab-century-serf16', 'clab-century-serf17', 'clab-century-serf18', 'clab-century-serf19', 'clab-century-serf2', 'clab-century-serf20', 'clab-century-serf21', 'clab-century-serf22', 'clab-century-serf24', 'clab-century-serf25', 'clab-century-serf26', 'clab-century-serf27', 'clab-century-serf28', 'clab-century-serf3', 'clab-century-serf4', 'clab-century-serf5', 'clab-century-serf6', 'clab-century-serf7', 'clab-century-serf8', 'clab-century-serf9']
+
+False Positives (11):
+clab-century-serf23
+clab-century-serf29
+clab-century-serf30
+clab-century-serf31
+clab-century-serf33
+clab-century-serf35
+clab-century-serf36
+clab-century-serf37
+clab-century-serf38
+clab-century-serf39
+clab-century-serf40
+
+False Negatives (2):
+clab-century-serf21
+clab-century-serf24

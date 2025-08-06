@@ -1,0 +1,48 @@
+net_1 10.0.1.0/24 clab-nebula-serf1 clab-nebula-serf2 clab-nebula-serf3 clab-nebula-serf4 clab-nebula-serf5 clab-nebula-serf6 clab-nebula-serf7 clab-nebula-serf8 clab-nebula-serf9 clab-nebula-serf10 clab-nebula-serf11 clab-nebula-serf12 clab-nebula-serf13 clab-nebula-serf14
+net_2 10.0.2.0/24 clab-nebula-serf15
+net_3 10.0.3.0/24 clab-nebula-serf16
+net_4 10.0.4.0/24 clab-nebula-serf17
+net_5 10.0.5.0/24 clab-nebula-serf18
+net_6 10.0.6.0/24 clab-nebula-serf19
+net_7 10.0.7.0/24 clab-nebula-serf20 clab-nebula-serf21
+net_8 10.0.8.0/24 clab-nebula-serf22 clab-nebula-serf23 clab-nebula-serf24 clab-nebula-serf25
+net_9 10.0.9.0/24 clab-nebula-serf26
+net_10 10.0.10.0/24 clab-nebula-serf27 clab-nebula-serf28 clab-nebula-serf29
+net_11 10.0.11.0/24 clab-nebula-serf30
+net_12 10.0.12.0/24 clab-nebula-serf31
+net_13 10.0.13.0/24 clab-nebula-serf32
+net_14 10.0.14.0/24 clab-nebula-serf33 clab-nebula-serf34
+net_15 10.0.15.0/24 clab-nebula-serf35 clab-nebula-serf36 clab-nebula-serf37 clab-nebula-serf38 clab-nebula-serf39 clab-nebula-serf40 clab-nebula-serf41 clab-nebula-serf42
+net_16 10.0.16.0/24 clab-nebula-serf43 clab-nebula-serf44 clab-nebula-serf45
+net_17 10.0.17.0/24 clab-nebula-serf46
+net_18 10.0.18.0/24 clab-nebula-serf47
+net_19 10.0.19.0/24 clab-nebula-serf48
+net_20 10.0.20.0/24 clab-nebula-serf49
+net_21 10.0.21.0/24 clab-nebula-serf50
+net_22 10.0.22.0/24 clab-nebula-serf51
+net_23 10.0.23.0/24 clab-nebula-serf52
+net_24 10.0.24.0/24 clab-nebula-serf53
+net_25 10.0.25.0/24 clab-nebula-serf54
+net_26 10.0.26.0/24 clab-nebula-serf55
+net_27 10.0.27.0/24 clab-nebula-serf56
+net_28 10.0.28.0/24 clab-nebula-serf57
+net_29 10.0.29.0/24 clab-nebula-serf58
+net_30 10.0.30.0/24 clab-nebula-serf59
+net_31 10.0.31.0/24 clab-nebula-serf60
+net_32 10.0.32.0/24 clab-nebula-serf61
+net_33 10.0.33.0/24 clab-nebula-serf62
+net_34 10.0.34.0/24 clab-nebula-serf63
+net_35 10.0.35.0/24 clab-nebula-serf64
+net_36 10.0.36.0/24 clab-nebula-serf65
+net_37 10.0.37.0/24 clab-nebula-serf66 clab-nebula-serf67 clab-nebula-serf68
+net_38 10.0.38.0/24 clab-nebula-serf69 clab-nebula-serf70 clab-nebula-serf71 clab-nebula-serf72 clab-nebula-serf73 clab-nebula-serf74 clab-nebula-serf75 clab-nebula-serf76 clab-nebula-serf77 clab-nebula-serf78 clab-nebula-serf79
+net_39 10.0.39.0/24 clab-nebula-serf80
+net_40 10.0.40.0/24 clab-nebula-serf81
+net_41 10.0.41.0/24 clab-nebula-serf82
+net_42 10.0.42.0/24 clab-nebula-serf83 clab-nebula-serf84 clab-nebula-serf85 clab-nebula-serf86 clab-nebula-serf87 clab-nebula-serf88 clab-nebula-serf89
+net_43 10.0.43.0/24 clab-nebula-serf90
+net_44 10.0.44.0/24 clab-nebula-serf91
+net_45 10.0.45.0/24 clab-nebula-serf92
+net_46 10.0.46.0/24 clab-nebula-serf93
+net_47 10.0.47.0/24 clab-nebula-serf94
+net_48 10.0.48.0/24 clab-nebula-serf95

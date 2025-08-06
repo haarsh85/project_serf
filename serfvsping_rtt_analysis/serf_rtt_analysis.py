@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from tabulate import tabulate
 
 # --- Configuration ---
-log_path = "serf_ping_rtt_signed_diff_2D_26052025.log"
+log_path = "serf_ping_rtt_absolute_diff_part1.log"
 low_deviation_threshold = 3
 ping_bins = [0, 10, 30, 60, 90]
 output_file = "analysis_output.txt"

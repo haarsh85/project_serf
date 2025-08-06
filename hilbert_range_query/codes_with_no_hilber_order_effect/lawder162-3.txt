@@ -1,0 +1,343 @@
+=== Debug log for 5D Serf Hilbert RTT Range Query ===
+Loaded 162 nodes from cluster-status-2025-07-05T12_24_59.json
+Selected query node: clab-nebula-serf1
+Bounding box for 5D coordinates:
+  Dimension 0: min = -0.020222, max = 0.023853
+  Dimension 1: min = -0.025504, max = 0.024371
+  Dimension 2: min = -0.023597, max = 0.034417
+  Dimension 3: min = -0.041349, max = 0.027310
+  Dimension 4: min = -0.010529, max = 0.047523
+Calibrated RTT 2ms -> max Euclidean distance 0.000000
+Calibrated RTT 5ms -> max Euclidean distance 0.000000
+Calibrated RTT 10ms -> max Euclidean distance 0.011778
+Calibrated RTT 20ms -> max Euclidean distance 0.023178
+Calibrated RTT 40ms -> max Euclidean distance 0.048247
+Calibrated RTT 60ms -> max Euclidean distance 0.057887
+Calibrated RTT 80ms -> max Euclidean distance 0.082218
+
+=== Hilbert-based query for RTT <= 60ms ===
+Query Node: clab-nebula-serf1
+Query Vec: [-0.016321835848296277, -0.009871863192478703, -0.004296827031861737, 0.017424676089579174, 0.028235623837071122]
+Normalized Vec: [0, 0, 0, 0, 0]
+Hilbert Index: 0
+Radius (coord space): 0.057887
+Hilbert Query Result: 156 nodes within 60ms
+  -> clab-nebula-serf130
+  -> clab-nebula-serf161
+  -> clab-nebula-serf32
+  -> clab-nebula-serf63
+  -> clab-nebula-serf45
+  -> clab-nebula-serf49
+  -> clab-nebula-serf83
+  -> clab-nebula-serf91
+  -> clab-nebula-serf136
+  -> clab-nebula-serf146
+  -> clab-nebula-serf12
+  -> clab-nebula-serf19
+  -> clab-nebula-serf80
+  -> clab-nebula-serf111
+  -> clab-nebula-serf109
+  -> clab-nebula-serf147
+  -> clab-nebula-serf4
+  -> clab-nebula-serf100
+  -> clab-nebula-serf75
+  -> clab-nebula-serf89
+  -> clab-nebula-serf101
+  -> clab-nebula-serf105
+  -> clab-nebula-serf65
+  -> clab-nebula-serf68
+  -> clab-nebula-serf94
+  -> clab-nebula-serf103
+  -> clab-nebula-serf127
+  -> clab-nebula-serf129
+  -> clab-nebula-serf155
+  -> clab-nebula-serf3
+  -> clab-nebula-serf14
+  -> clab-nebula-serf142
+  -> clab-nebula-serf96
+  -> clab-nebula-serf116
+  -> clab-nebula-serf56
+  -> clab-nebula-serf59
+  -> clab-nebula-serf70
+  -> clab-nebula-serf81
+  -> clab-nebula-serf95
+  -> clab-nebula-serf114
+  -> clab-nebula-serf9
+  -> clab-nebula-serf17
+  -> clab-nebula-serf139
+  -> clab-nebula-serf52
+  -> clab-nebula-serf71
+  -> clab-nebula-serf26
+  -> clab-nebula-serf34
+  -> clab-nebula-serf126
+  -> clab-nebula-serf36
+  -> clab-nebula-serf82
+  -> clab-nebula-serf85
+  -> clab-nebula-serf97
+  -> clab-nebula-serf99
+  -> clab-nebula-serf124
+  -> clab-nebula-serf157
+  -> clab-nebula-serf159
+  -> clab-nebula-serf33
+  -> clab-nebula-serf123
+  -> clab-nebula-serf135
+  -> clab-nebula-serf13
+  -> clab-nebula-serf47
+  -> clab-nebula-serf84
+  -> clab-nebula-serf92
+  -> clab-nebula-serf106
+  -> clab-nebula-serf108
+  -> clab-nebula-serf125
+  -> clab-nebula-serf54
+  -> clab-nebula-serf57
+  -> clab-nebula-serf24
+  -> clab-nebula-serf42
+  -> clab-nebula-serf48
+  -> clab-nebula-serf2
+  -> clab-nebula-serf21
+  -> clab-nebula-serf67
+  -> clab-nebula-serf102
+  -> clab-nebula-serf110
+  -> clab-nebula-serf132
+  -> clab-nebula-serf134
+  -> clab-nebula-serf137
+  -> clab-nebula-serf10
+  -> clab-nebula-serf46
+  -> clab-nebula-serf74
+  -> clab-nebula-serf76
+  -> clab-nebula-serf149
+  -> clab-nebula-serf20
+  -> clab-nebula-serf22
+  -> clab-nebula-serf160
+  -> clab-nebula-serf31
+  -> clab-nebula-serf93
+  -> clab-nebula-serf122
+  -> clab-nebula-serf38
+  -> clab-nebula-serf55
+  -> clab-nebula-serf79
+  -> clab-nebula-serf113
+  -> clab-nebula-serf128
+  -> clab-nebula-serf8
+  -> clab-nebula-serf27
+  -> clab-nebula-serf78
+  -> clab-nebula-serf104
+  -> clab-nebula-serf133
+  -> clab-nebula-serf64
+  -> clab-nebula-serf73
+  -> clab-nebula-serf5
+  -> clab-nebula-serf87
+  -> clab-nebula-serf88
+  -> clab-nebula-serf153
+  -> clab-nebula-serf53
+  -> clab-nebula-serf69
+  -> clab-nebula-serf60
+  -> clab-nebula-serf145
+  -> clab-nebula-serf6
+  -> clab-nebula-serf11
+  -> clab-nebula-serf98
+  -> clab-nebula-serf138
+  -> clab-nebula-serf150
+  -> clab-nebula-serf18
+  -> clab-nebula-serf30
+  -> clab-nebula-serf44
+  -> clab-nebula-serf131
+  -> clab-nebula-serf35
+  -> clab-nebula-serf40
+  -> clab-nebula-serf144
+  -> clab-nebula-serf152
+  -> clab-nebula-serf41
+  -> clab-nebula-serf72
+  -> clab-nebula-serf141
+  -> clab-nebula-serf25
+  -> clab-nebula-serf50
+  -> clab-nebula-serf51
+  -> clab-nebula-serf66
+  -> clab-nebula-serf86
+  -> clab-nebula-serf90
+  -> clab-nebula-serf143
+  -> clab-nebula-serf7
+  -> clab-nebula-serf37
+  -> clab-nebula-serf43
+  -> clab-nebula-serf58
+  -> clab-nebula-serf61
+  -> clab-nebula-serf112
+  -> clab-nebula-serf15
+  -> clab-nebula-serf16
+  -> clab-nebula-serf77
+  -> clab-nebula-serf121
+  -> clab-nebula-serf140
+  -> clab-nebula-serf148
+  -> clab-nebula-serf154
+  -> clab-nebula-serf156
+  -> clab-nebula-serf23
+  -> clab-nebula-serf39
+  -> clab-nebula-serf62
+  -> clab-nebula-serf107
+  -> clab-nebula-serf115
+  -> clab-nebula-serf151
+  -> clab-nebula-serf158
+  -> clab-nebula-serf28
+  -> clab-nebula-serf29
+
+Ground Truth (RTT <= 60ms): 153 nodes
+ clab-nebula-serf130
+ clab-nebula-serf161
+ clab-nebula-serf32
+ clab-nebula-serf63
+ clab-nebula-serf45
+ clab-nebula-serf49
+ clab-nebula-serf83
+ clab-nebula-serf91
+ clab-nebula-serf136
+ clab-nebula-serf146
+ clab-nebula-serf12
+ clab-nebula-serf19
+ clab-nebula-serf80
+ clab-nebula-serf111
+ clab-nebula-serf109
+ clab-nebula-serf147
+ clab-nebula-serf4
+ clab-nebula-serf100
+ clab-nebula-serf75
+ clab-nebula-serf89
+ clab-nebula-serf101
+ clab-nebula-serf105
+ clab-nebula-serf65
+ clab-nebula-serf68
+ clab-nebula-serf94
+ clab-nebula-serf103
+ clab-nebula-serf127
+ clab-nebula-serf129
+ clab-nebula-serf155
+ clab-nebula-serf3
+ clab-nebula-serf14
+ clab-nebula-serf96
+ clab-nebula-serf116
+ clab-nebula-serf56
+ clab-nebula-serf59
+ clab-nebula-serf70
+ clab-nebula-serf81
+ clab-nebula-serf95
+ clab-nebula-serf114
+ clab-nebula-serf9
+ clab-nebula-serf17
+ clab-nebula-serf139
+ clab-nebula-serf52
+ clab-nebula-serf71
+ clab-nebula-serf26
+ clab-nebula-serf34
+ clab-nebula-serf126
+ clab-nebula-serf36
+ clab-nebula-serf82
+ clab-nebula-serf85
+ clab-nebula-serf97
+ clab-nebula-serf99
+ clab-nebula-serf124
+ clab-nebula-serf157
+ clab-nebula-serf159
+ clab-nebula-serf33
+ clab-nebula-serf123
+ clab-nebula-serf135
+ clab-nebula-serf13
+ clab-nebula-serf47
+ clab-nebula-serf84
+ clab-nebula-serf92
+ clab-nebula-serf106
+ clab-nebula-serf108
+ clab-nebula-serf125
+ clab-nebula-serf54
+ clab-nebula-serf57
+ clab-nebula-serf24
+ clab-nebula-serf42
+ clab-nebula-serf48
+ clab-nebula-serf2
+ clab-nebula-serf21
+ clab-nebula-serf67
+ clab-nebula-serf102
+ clab-nebula-serf110
+ clab-nebula-serf132
+ clab-nebula-serf134
+ clab-nebula-serf137
+ clab-nebula-serf10
+ clab-nebula-serf46
+ clab-nebula-serf74
+ clab-nebula-serf76
+ clab-nebula-serf149
+ clab-nebula-serf20
+ clab-nebula-serf22
+ clab-nebula-serf160
+ clab-nebula-serf31
+ clab-nebula-serf93
+ clab-nebula-serf122
+ clab-nebula-serf38
+ clab-nebula-serf55
+ clab-nebula-serf79
+ clab-nebula-serf113
+ clab-nebula-serf128
+ clab-nebula-serf8
+ clab-nebula-serf27
+ clab-nebula-serf78
+ clab-nebula-serf104
+ clab-nebula-serf133
+ clab-nebula-serf64
+ clab-nebula-serf73
+ clab-nebula-serf5
+ clab-nebula-serf87
+ clab-nebula-serf88
+ clab-nebula-serf153
+ clab-nebula-serf53
+ clab-nebula-serf69
+ clab-nebula-serf60
+ clab-nebula-serf6
+ clab-nebula-serf11
+ clab-nebula-serf98
+ clab-nebula-serf138
+ clab-nebula-serf150
+ clab-nebula-serf18
+ clab-nebula-serf30
+ clab-nebula-serf44
+ clab-nebula-serf131
+ clab-nebula-serf35
+ clab-nebula-serf40
+ clab-nebula-serf144
+ clab-nebula-serf152
+ clab-nebula-serf41
+ clab-nebula-serf72
+ clab-nebula-serf141
+ clab-nebula-serf25
+ clab-nebula-serf50
+ clab-nebula-serf51
+ clab-nebula-serf66
+ clab-nebula-serf86
+ clab-nebula-serf90
+ clab-nebula-serf7
+ clab-nebula-serf37
+ clab-nebula-serf43
+ clab-nebula-serf58
+ clab-nebula-serf61
+ clab-nebula-serf112
+ clab-nebula-serf15
+ clab-nebula-serf16
+ clab-nebula-serf77
+ clab-nebula-serf121
+ clab-nebula-serf140
+ clab-nebula-serf148
+ clab-nebula-serf154
+ clab-nebula-serf156
+ clab-nebula-serf23
+ clab-nebula-serf39
+ clab-nebula-serf62
+ clab-nebula-serf107
+ clab-nebula-serf115
+ clab-nebula-serf151
+ clab-nebula-serf158
+ clab-nebula-serf28
+ clab-nebula-serf29
+
+--- Accuracy Test for clab-nebula-serf1 (RTT <= 60ms) ---
+Hilbert: 156 nodes | RTT True: 153 nodes
+Match: 153 | Precision: 0.98 | Recall: 1.00 | Jaccard: 0.98
+False Positives (3): ['clab-nebula-serf142', 'clab-nebula-serf143', 'clab-nebula-serf145']
+False Negatives (0): []
+
+=== Execution complete ===

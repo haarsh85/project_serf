@@ -1,12 +1,50 @@
-{
-  "node_name": "$container",
-  "bind": "0.0.0.0:7946",
-  "rpc_addr": "0.0.0.0:7373",
-  "advertise": "$ip_address:7946",
-  "log_level": "debug",
-  "statsd_addr": "172.22.120.21:9125"
-}
+sudo containerlab tools netem set -n clab-century-serf1 -i eth1 --delay 100ms
+sudo containerlab tools netem set -n clab-century-serf2 -i eth1 --delay 100ms
+sudo containerlab tools netem set -n clab-century-serf3 -i eth1 --delay 100ms
+sudo containerlab tools netem set -n clab-century-serf4 -i eth1 --delay 100ms
 
+
+docker exec -it clab-century-conn_node bash
+
+ip link add name brx type bridge
+ip link set eth1 master brx
+ip link set eth2 master brx
+ip link set eth1 up
+ip link set eth2 up
+ip link set brx up
+
+root@serf1:/# curl localhost:8080/cluster-status
+docker exec -it clab-century-serf1 bash
+
+sudo ip link add name br_left type bridge
+sudo ip link set br_left up
+
+sudo ip link add name br_right type bridge
+sudo ip link set br_right up
+
+
+containerlab tools netem set -n clab-century-conn_node -i eth1 --delay 50ms
+containerlab tools netem set -n clab-century-conn_node -i eth2 --delay 50ms
+
+sudo tc qdisc add dev port1 root netem delay 12.5ms
+sudo tc qdisc add dev port2 root netem delay 12.5ms
+sudo tc qdisc add dev port3 root netem delay 12.5ms
+sudo tc qdisc add dev port4 root netem delay 12.5ms
+
+sudo tc qdisc add dev port1 root netem delay 1ms
+sudo tc qdisc add dev port2 root netem delay 1ms
+sudo tc qdisc add dev port3 root netem delay 1ms
+sudo tc qdisc add dev port4 root netem delay 1ms
+
+sudo tc qdisc delete dev port1 root
+sudo tc qdisc delete dev port2 root
+sudo tc qdisc delete dev port3 root
+sudo tc qdisc delete dev port4 root
+
+sudo tc qdisc add dev port1 root netem delay 25ms
+sudo tc qdisc add dev port2 root netem delay 25ms
+
+containerlab tools netem reset -n clab-century-conn_node
 
 docker stats --no-trunc
 
@@ -16,6 +54,9 @@ sudo ip link set br0 up
 
 while true; do for i in {2..25}; do ./serf_2D rtt clab-century-serf1 clab-century-serf$i; sleep 1; done; done
 while true; do for i in {2..162}; do ./serf_2D rtt clab-nebula-serf1 clab-nebula-serf$i; sleep 1; done; done
+
+while true; do ./serf rtt clab-nebula-serf1 clab-nebula-serf2 | tee -a serf_rtt_log.txt; sleep 1; done
+
 
 while true; do for i in {2..25}; do ./serf_2D rtt clab-century-serf1 clab-century-serf$i; sleep 1; done; done | tee serf_rtt_values_2D_serf.txt
 
@@ -27,7 +68,7 @@ sudo ovs-vsctl list Interface port1
 sudo ovs-ofctl dump-ports-desc br_left
 sudo tc -s qdisc show dev port1
 
-docker exec -d "$container" '/opt/serfapp/serf_2D agent -log-level=debug -profile=lan -config-file=/opt/serfapp/node.json > /opt/serfapp/serf.log 2>&1'
+docker exec -d "$container" '/opt/serfapp/serf_2D agent -log-level=debug -config-file=/opt/serfapp/node.json > /opt/serfapp/serf.log 2>&1'
 
 Wireshark capturing
 ip netns exec $lab_node_name tcpdump -U -nni $if_name -w -" | sudo wireshark -k -i -
@@ -46,19 +87,20 @@ iperf3 -c 10.0.1.35 -t 5 -P 2 => bandwidth check
 
 
 sudo watch -n 0.5 '
-for iface in port1 port2 port3 port4; do
+for iface in ovs1p1; do
   echo "==== $iface ====";
   tc -s qdisc show dev $iface;
 done'
 
-sudo watch -n 0.5 '
-for iface in $(ip -o link show | awk -F": " '\''{print $2}'\'' | cut -d@ -f1 | grep "^ovs"); do
+
+watch -n 0.5 '
+for iface in eth1; do
   echo "==== $iface ====";
   tc -s qdisc show dev $iface;
 done'
 
-sudo watch -n 0.5 "tc -s qdisc show dev port1; \
-tc -s qdisc show dev port2; \
+sudo watch -n 0.5 "tc -s qdisc show dev eth1; \
+tc -s qdisc show dev eh1; \
 ovs-appctl dpctl/show -s; \
 nstat -az Udp*"
 
@@ -72,6 +114,31 @@ sysctl net.ipv4.udp_wmem_min
 sysctl -w net.ipv4.udp_rmem_min=10485760
 sysctl -w net.ipv4.udp_wmem_min=10485760
 
+default:
+sysctl net.core.wmem_default
+sysctl net.core.rmem_default
+sysctl net.core.rmem_max
+sysctl net.core.wmem_max
+sysctl net.ipv4.udp_rmem_min
+sysctl net.ipv4.udp_wmem_min
+net.core.rmem_default = 212992
+net.core.wmem_default = 212992
+net.core.rmem_max = 212992
+net.core.wmem_max = 212992
+net.ipv4.udp_rmem_min = 4096
+net.ipv4.udp_wmem_min = 4096
+
+updating
+sudo sysctl -w net.core.rmem_default=2097152
+sudo sysctl -w net.core.wmem_default=2097152
+sudo sysctl -w net.core.rmem_max=2097152
+sudo sysctl -w net.core.wmem_max=2097152
+
+sudo sysctl -w net.core.rmem_default=212992
+sudo sysctl -w net.core.wmem_default=212992
+sudo sysctl -w net.core.rmem_max=212992
+sudo sysctl -w net.core.wmem_max=212992
+
 
 for i in {1..25}; do docker exec -d clab-century-serf$i sockperf server -p 11111; done
 
@@ -80,4 +147,55 @@ nping --echo-server "public" --udp --echo-port 11111
 for i in {1..25}; do docker cp udp_probe clab-century-serf$i:/opt/serfapp/; done;
 for i in {1..25}; do docker cp clab-century-serf$i:/opt/serfapp/udp.log ./25node/udpcustom/udp_serf$i.log; done
 
-sudo ip netns exec clab-century-serf1 tcpdump -U -nni eth1 -w - | wireshark -k -i -
+net.ipv4.neigh.default.gc_thresh1 = 30000
+net.ipv4.neigh.default.gc_thresh2 = 32000
+net.ipv4.neigh.default.gc_thresh3 = 32768
+source: https://gist.github.com/polonskiy/00a71bab32360ffcb79f
+
+net.ipv6.neigh.default.gc_thresh1 = 30000
+net.ipv6.neigh.default.gc_thresh2 = 32000
+net.ipv6.neigh.default.gc_thresh3 = 32768
+
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh1=8192
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh2=16384
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh3=32768
+
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh1=8192
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh2=16384
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh3=32768
+
+
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh1=16384
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh2=32768
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh3=65536
+
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh1=16384
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh2=32768
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh3=65536
+
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh1=30000
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh2=32000
+sudo sysctl -w net.ipv4.neigh.default.gc_thresh3=32768
+
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh1=30000
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh2=32000
+sudo sysctl -w net.ipv6.neigh.default.gc_thresh3=32768
+
+# For IPv4
+sysctl net.ipv4.neigh.default.gc_thresh1
+sysctl net.ipv4.neigh.default.gc_thresh2
+sysctl net.ipv4.neigh.default.gc_thresh3
+
+# For IPv6
+sysctl net.ipv6.neigh.default.gc_thresh1
+sysctl net.ipv6.neigh.default.gc_thresh2
+sysctl net.ipv6.neigh.default.gc_thresh3
+
+
+while true; do ./serf rtt clab-nebula-serf1 clab-nebula-serf2; sleep 1; done
+
+watch -n2 'echo -n "UDP Drops: "; grep Udp: /proc/net/snmp | tail -1 | awk "{print \"RcvbufErrors=\"\$6, \"SndbufErrors=\"\$7}"; echo -n "tc Drops: "; tc -s qdisc show | grep -oP "dropped \K[0-9]+"'
+
+
+ 
+   

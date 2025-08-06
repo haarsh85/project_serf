@@ -85,12 +85,6 @@ topology:
       binds:
         - router1/daemons:/etc/frr/daemons
         - router1/frr.conf:/etc/frr/frr.conf
-      # exec:
-      #   - apk update
-      #   - apk add --no-cache gcompat
-      #   - wget https://github.com/microsoft/ethr/releases/latest/download/ethr_linux.zip
-      #   - unzip ethr_linux.zip
-      #   - mv ethr /usr/local/bin
     router2:
       kind: linux
       image: quay.io/frrouting/frr:10.2.1
@@ -252,6 +246,8 @@ topology:
     serf1:
       kind: linux
       image: harsha258/ubuntu-for-serf
+      ports:
+        - "7373:7373"
     serf2:
       kind: linux
       image: harsha258/ubuntu-for-serf

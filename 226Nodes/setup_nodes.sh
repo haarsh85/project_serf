@@ -8,7 +8,7 @@ done
 
 # Paths and file names
 json_file="node.json"
-binary_file="serf_2D"  # Use the full path to the serf binary
+binary_file_loc="serf_binaries/2D"  # Use the full path to the serf binary
 destination_dir="/opt/serfapp"
 
 : << 'EOF'
@@ -61,10 +61,10 @@ EOF
 
     # Copy the generated JSON file and serf binary into the /opt/serfapp/ directory
     docker cp "$temp_json_file" "$container":"$destination_dir"/node.json || { echo "Failed to copy node.json to $container"; exit 1; }
-    docker cp "$binary_file" "$container":"$destination_dir"/ || { echo "Failed to copy serf binary to $container"; exit 1; }
+    docker cp "$binary_file_loc/serf" "$container":"$destination_dir"/ || { echo "Failed to copy serf binary to $container"; exit 1; }
 
     # Make the binary executable
-    docker exec "$container" chmod +x "$destination_dir"/"$binary_file" || { echo "Failed to make serf executable on $container"; exit 1; }
+    docker exec "$container" chmod +x "$destination_dir"/"serf" || { echo "Failed to make serf executable on $container"; exit 1; }
 
     # Remove the temporary JSON file
     rm "$temp_json_file"

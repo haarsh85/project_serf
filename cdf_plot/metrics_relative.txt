@@ -1,9 +1,9 @@
-Source file: serf_ping_rtt_relative_diff_2D_13062025.log
+Source file: serf_ping_rtt_relative_diff_14072025_x.log
 
-        Total Samples          |        Mean Difference         |       Median Difference        |       Standard Deviation       |       Minimum Difference       |       Maximum Difference       |    50th Percentile (Median)    |        80th Percentile         |        90th Percentile         |        95th Percentile         | % Overestimations (Serf > Actual) | % Underestimations (Serf < Actual)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-            13041              |             0.197              |             0.072              |             1.568              |             0.000              |            159.338             |             0.072              |             0.182              |             0.317              |             0.587              |            99.678%             |             0.000%            
+        Total Samples          |        Mean Difference         |       Median Difference        |       Standard Deviation       |       Minimum Difference       |       Maximum Difference       |    50th Percentile (Median)    |        80th Percentile         |        90th Percentile         |        95th Percentile        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            13041              |             0.120              |             0.065              |             1.589              |             0.000              |            178.326             |             0.065              |             0.137              |             0.208              |             0.292             
 
 Nodes with Minimum and Maximum Difference:
-Minimum Difference: 0.000 → [net_1] clab-nebula-serf14 (10.0.1.23) → [net_15] clab-nebula-serf38 (10.0.15.13): 0.000 [serf_rtt: 18.885 ms, ping_rtt: 18.883 ms]
-Maximum Difference: 159.338 → [net_5] clab-nebula-serf18 (10.0.5.10) → [net_6] clab-nebula-serf19 (10.0.6.10): 159.338 [serf_rtt: 11.384 ms, ping_rtt: 0.071 ms]
+Minimum Difference: 0.000 → [net_1] clab-nebula-serf2 (10.0.1.11) → [net_8] clab-nebula-serf23 (10.0.8.11): 0.000 [serf_rtt: 43.477 ms, ping_rtt: 43.481 ms]
+Maximum Difference: 178.326 → [net_5] clab-nebula-serf18 (10.0.5.10) → [net_6] clab-nebula-serf19 (10.0.6.10): 178.326 [serf_rtt: 8.249 ms, ping_rtt: 0.046 ms]

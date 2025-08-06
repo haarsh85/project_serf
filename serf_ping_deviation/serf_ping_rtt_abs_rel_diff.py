@@ -67,10 +67,10 @@ def compare_logs(ping_file, serf_file, output_file_abs, output_file_rel, output_
 
 
 # Update with your actual file paths
-ping_file = "ping_rtt_values.log"
-serf_file = "serf_rtt_values_2D_13062025.log"
-output_file_abs = "serf_ping_rtt_absolute_diff.log"
-output_file_rel = "serf_ping_rtt_relative_diff.log"
-output_file_signed = "serf_ping_rtt_signed_diff.log"
+ping_file = "ping_rtt_latest_new_copy.log"
+serf_file = "serf_rtt_values_14072025_1.log"
+output_file_abs = "serf_ping_rtt_absolute_diff_14072025_x.log"
+output_file_rel = "serf_ping_rtt_relative_diff_14072025_x.log"
+output_file_signed = "serf_ping_rtt_signed_diff_14072025_x.log"
 
 compare_logs(ping_file, serf_file, output_file_abs, output_file_rel, output_file_signed)

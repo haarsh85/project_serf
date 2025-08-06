@@ -130,7 +130,7 @@ func processInter(srcNet, dstNet Network, logFile *os.File) {
 func execAndLog(srcNet, dstNet Network, srcNode, dstNode string, logFile *os.File) {
 	cmd := exec.Command(
 		"docker", "exec", srcNode,
-		"/opt/serfapp/serf_2D", "rtt", dstNode,
+		"/opt/serfapp/serf", "rtt", dstNode,
 	)
 
 	start := time.Now()

@@ -26,4 +26,4 @@ require (
 
 replace github.com/hashicorp/serf => /home/harsha/project/serf
 
-replace github.com/hashicorp/memberlist => github.com/haarsh85/memberlist v0.0.0-20250523085808-60ba966b77d0
+replace github.com/hashicorp/memberlist => /home/harsha/project/memberlist

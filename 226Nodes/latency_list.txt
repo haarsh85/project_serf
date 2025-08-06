@@ -1,4 +1,3 @@
-clab-nebula-router2:eth4 clab-nebula-serf19:eth1 0.003
 clab-nebula-router17:eth4 clab-nebula-router20:eth1 0.034
 clab-nebula-serf86:eth1 switch25:ovs25p3 0.039
 switch31:ovs31p2 clab-nebula-serf118:eth1 0.047
@@ -10,7 +9,7 @@ clab-nebula-serf124:eth1 clab-nebula-router23:eth6 0.190
 clab-nebula-router26:eth1 switch33:ovs33p2 0.102
 clab-nebula-serf15:eth1 switch5:ovs5p2 0.215
 clab-nebula-router24:eth5 clab-nebula-serf126:eth1 0.272
-clab-nebula-router25:eth8 clab-nebula-serf127:eth1 0.280
+clab-nebula-router25:eth7 clab-nebula-serf127:eth1 0.280
 switch19:ovs19p1 clab-nebula-router11:eth4 0.187
 clab-nebula-serf103:eth1 clab-nebula-router22:eth7 0.316
 clab-nebula-serf87:eth1 switch26:ovs26p3 0.307

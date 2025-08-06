@@ -1,0 +1,9 @@
+[Polynomial Regression Coefficients]
+Intercept = 2.7145848211751016
+Coefs = [0.0, 1033.3867593554005, -161.7141900305776]
+Predicted max Euclidean distance for RTT ≤ 20 ms: 6.373433618302987
+Final coord_threshold = 4175
+Dim range: 0 to 127
+Dim range: 0 to 127
+Dim range: 0 to 127
+Dim range: 0 to 127

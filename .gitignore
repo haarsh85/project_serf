@@ -10,3 +10,4 @@ test2/
 get-coordinate.py
 stats.py
 drift/*.log
+hilbert_range_query/hilbert-env

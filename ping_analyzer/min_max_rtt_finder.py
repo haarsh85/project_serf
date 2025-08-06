@@ -1,7 +1,7 @@
 import re
 import numpy as np
 
-log_file_path = "ping_rtt_values_new.log"  # Update as needed
+log_file_path = "ping_rtt_latest_new.log"  # Update as needed
 
 rtt_values = []
 max_rtt = 0.0

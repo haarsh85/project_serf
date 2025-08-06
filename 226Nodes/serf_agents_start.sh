@@ -12,14 +12,15 @@ start_serf_agents() {
     echo "Starting Serf agent on $container..."
     
     # Ensure the serf binary is executable
-    docker exec "$container" chmod +x /opt/serfapp/serf_2D
+    docker exec "$container" chmod +x /opt/serfapp/serf
     
     # Start the serf agent with the specified config file
     # docker exec -d "$container" /opt/serfapp/serf_2D agent -profile wan -config-file=/opt/serfapp/node.json -log-level debug
-    docker exec -d "$container" bash -c '/opt/serfapp/serf_2D agent -log-level=debug -profile=lan -config-file=/opt/serfapp/node.json > /opt/serfapp/serf.log 2>&1'
+    docker exec -d "$container" bash -c '/opt/serfapp/serf agent -log-level=debug -profile=lan -config-file=/opt/serfapp/node.json > /opt/serfapp/serf.log 2>&1'
     
     echo "Serf agent started on $container."
     echo ""
+    #sleep 1
   done
 }
 

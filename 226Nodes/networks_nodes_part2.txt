@@ -1,0 +1,35 @@
+net_49 10.0.49.0/24 clab-nebula-serf96 clab-nebula-serf97 clab-nebula-serf98
+net_50 10.0.50.0/24 clab-nebula-serf99
+net_51 10.0.51.0/24 clab-nebula-serf100
+net_52 10.0.52.0/24 clab-nebula-serf101
+net_53 10.0.53.0/24 clab-nebula-serf102
+net_54 10.0.54.0/24 clab-nebula-serf103
+net_55 10.0.55.0/24 clab-nebula-serf104
+net_56 10.0.56.0/24 clab-nebula-serf105
+net_57 10.0.57.0/24 clab-nebula-serf106
+net_58 10.0.58.0/24 clab-nebula-serf107
+net_59 10.0.59.0/24 clab-nebula-serf108
+net_60 10.0.60.0/24 clab-nebula-serf109
+net_61 10.0.61.0/24 clab-nebula-serf110
+net_62 10.0.62.0/24 clab-nebula-serf111
+net_63 10.0.63.0/24 clab-nebula-serf112 clab-nebula-serf113 clab-nebula-serf114
+net_64 10.0.64.0/24 clab-nebula-serf115 clab-nebula-serf116
+net_65 10.0.65.0/24 clab-nebula-serf117 clab-nebula-serf118 clab-nebula-serf119 clab-nebula-serf120
+net_66 10.0.66.0/24 clab-nebula-serf121
+net_67 10.0.67.0/24 clab-nebula-serf122
+net_68 10.0.68.0/24 clab-nebula-serf123
+net_69 10.0.69.0/24 clab-nebula-serf124
+net_70 10.0.70.0/24 clab-nebula-serf125
+net_71 10.0.71.0/24 clab-nebula-serf126
+net_72 10.0.72.0/24 clab-nebula-serf127
+net_73 10.0.73.0/24 clab-nebula-serf128
+net_74 10.0.74.0/24 clab-nebula-serf129
+net_75 10.0.75.0/24 clab-nebula-serf130 clab-nebula-serf131 clab-nebula-serf132 clab-nebula-serf133 clab-nebula-serf134 clab-nebula-serf135 clab-nebula-serf136 clab-nebula-serf137 clab-nebula-serf138 clab-nebula-serf139 clab-nebula-serf140 clab-nebula-serf141
+net_76 10.0.76.0/24 clab-nebula-serf142 clab-nebula-serf143 clab-nebula-serf144 clab-nebula-serf145 clab-nebula-serf146
+net_77 10.0.77.0/24 clab-nebula-serf147 clab-nebula-serf148 clab-nebula-serf149 clab-nebula-serf150 clab-nebula-serf151 clab-nebula-serf152 clab-nebula-serf153 clab-nebula-serf154 clab-nebula-serf155 clab-nebula-serf156
+net_78 10.0.78.0/24 clab-nebula-serf157
+net_79 10.0.79.0/24 clab-nebula-serf158
+net_80 10.0.80.0/24 clab-nebula-serf159
+net_81 10.0.81.0/24 clab-nebula-serf160
+net_82 10.0.82.0/24 clab-nebula-serf161
+net_83 10.0.83.0/24 clab-nebula-serf162

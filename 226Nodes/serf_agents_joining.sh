@@ -35,7 +35,7 @@ fi
 # Join each node separately with a sleep timer in between
 for ip in "${ip_addresses[@]}"; do
   target_node="${ip_to_node[$ip]}"  # Get the node name for the IP
-  join_command="/opt/serfapp/serf_2D join $ip"
+  join_command="/opt/serfapp/serf join $ip"
 
   # Print formatted message
   echo "Joining target node $target_node ($ip) to $joining_node with the following command:"
