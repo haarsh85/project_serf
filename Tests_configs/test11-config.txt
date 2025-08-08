@@ -1,0 +1,35 @@
+ProbeTimeout=500ms
+ProbeInterval=1s
+Gossip Nodes = 15
+Gossip Interval = 500ms
+
+return &Config{
+		Dimensionality:       5,
+		VivaldiErrorMax:      1.0,
+		VivaldiCE:            0.15,
+		VivaldiCC:            0.18,
+		AdjustmentWindowSize: 0,
+		HeightMin:            10.0e-7,
+		LatencyFilterSize:    15,
+		GravityRho:           150.0,
+
+
+Implemented and took serf rtt log 23.06.2025
+
+Key Metrics for serf_ping_rtt_absolute_diff_23062025_1.log:
+Total Samples: 13041
+Mean Difference: 1.824 ms
+Median Difference: 1.453 ms
+Standard Deviation: 1.671 ms
+Minimum Difference: 0.000 ms
+Maximum Difference: 29.956 ms
+50th Percentile (Median): 1.453 ms
+80th Percentile: 2.778 ms
+90th Percentile: 3.603 ms
+95th Percentile: 4.540 ms
+
+Nodes with Minimum and Maximum Difference:
+Minimum Difference: 0.000 ms → [net_34] clab-nebula-serf63 (10.0.34.10) → [net_76] clab-nebula-serf145 (10.0.76.13): 0.000 [serf_rtt: 51.098 ms, ping_rtt: 51.098 ms]
+Maximum Difference: 29.956 ms → [net_64] clab-nebula-serf115 (10.0.64.10) → [net_64] clab-nebula-serf116 (10.0.64.11): 29.956 [serf_rtt: 54.404 ms, ping_rtt: 24.448 ms]
+
+

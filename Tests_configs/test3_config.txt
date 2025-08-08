@@ -1,0 +1,16 @@
+ProbeTimeout=500ms
+ProbeInterval=1s
+Gossip Nodes = 10
+Gossip Interval = 200ms
+
+return &Config{
+		Dimensionality:       4,
+		VivaldiErrorMax:      1.0,
+		VivaldiCE:            0.20,
+		VivaldiCC:            0.20,
+		AdjustmentWindowSize: 50,
+		HeightMin:            10.0e-7,
+		LatencyFilterSize:    10,
+		GravityRho:           2000.0,
+
+started to give ~7ms between serf1 and serf2 afer 30 minutes of running. fluctuate mostly between 7ms,8ms afterwards. 

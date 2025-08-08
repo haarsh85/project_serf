@@ -1,0 +1,19 @@
+ProbeTimeout=500ms
+ProbeInterval=1s
+Gossip Nodes = 20
+Gossip Interval = 200ms
+
+return &Config{
+		Dimensionality:       5,
+		VivaldiErrorMax:      1.0,
+		VivaldiCE:            0.15,
+		VivaldiCC:            0.18,
+		AdjustmentWindowSize: 20,
+		HeightMin:            10.0e-7,
+		LatencyFilterSize:    10,
+		GravityRho:           150.0,
+
+
+
+
+

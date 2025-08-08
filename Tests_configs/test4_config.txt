@@ -1,0 +1,21 @@
+ProbeTimeout=500ms
+ProbeInterval=700ms
+Gossip Nodes = 10
+Gossip Interval = 200
+
+return &Config{
+		Dimensionality:       4,
+		VivaldiErrorMax:      1,
+		VivaldiCE:            0.15,
+		VivaldiCC:            0.15,
+		AdjustmentWindowSize: 30,
+		HeightMin:            10.0e-7,
+		LatencyFilterSize:    10,
+		GravityRho:           100.0,
+
+files: cdf_plot
+serf_ping_rtt_absolute_diff_part1.log
+serf_ping_rtt_relative_diff_part1.log
+serf_ping_rtt_signed_diff_part1.log
+
+Not working as expected.. for ~7ms it goes up until 11.233 ms and it is not stable. 

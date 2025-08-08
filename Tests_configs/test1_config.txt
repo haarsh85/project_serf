@@ -1,0 +1,19 @@
+ProbeTimeout=500ms
+ProbeInterval=1s
+Gossip Nodes = 15
+Gossip Interval = 500ms
+
+Coordinates:
+		Dimensionality:       5,
+		VivaldiErrorMax:      1.0,
+		VivaldiCE:            0.10,
+		VivaldiCC:            0.10,
+		AdjustmentWindowSize: 50,
+		HeightMin:            1.0e-6,
+		LatencyFilterSize:    20,
+		GravityRho:           150.0,
+
+files: cdf_plot
+serf_ping_rtt_absolute_diff_part1.log
+serf_ping_rtt_relative_diff_part1.log
+serf_ping_rtt_signed_diff_part1.log

@@ -1,0 +1,19 @@
+ProbeTimeout=500ms
+ProbeInterval=1s
+Gossip Nodes = 20
+Gossip Interval = 400ms
+
+return &Config{
+		Dimensionality:       5,
+		VivaldiErrorMax:      0.5,
+		VivaldiCE:            0.22,
+		VivaldiCC:            0.18,
+		AdjustmentWindowSize: 30,
+		HeightMin:            10.0e-7,
+		LatencyFilterSize:    20,
+		GravityRho:           120.0,
+
+noticed :
+I see for 80ms, I get 75-76ms consistently.. for 77ms I get 70-71ms consistently.. for 7ms I get 8ms, for 4ms I get 5ms.. for 8ms I get  10ms, for 60ms I get 58-59ms..
+
+

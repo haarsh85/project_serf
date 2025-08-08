@@ -1,0 +1,20 @@
+ProbeTimeout= 85ms
+ProbeInterval= 15s
+Gossip Nodes = 15
+Gossip Interval = 5s
+
+func DefaultConfig() *Config {
+	return &Config{
+		Dimensionality:       5,
+		VivaldiErrorMax:      1.0,
+		VivaldiCE:            0.18,
+		VivaldiCC:            0.13,
+		AdjustmentWindowSize: 40,
+		HeightMin:            10.0e-7,
+		LatencyFilterSize:    20,
+		GravityRho:           150.0,
+	}
+}
+
+
+All nodes - 

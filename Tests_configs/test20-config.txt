@@ -1,0 +1,43 @@
+ProbeTimeout=500ms
+ProbeInterval=1s
+Gossip Nodes = 15
+Gossip Interval = 500ms
+
+return &Config{
+		Dimensionality:       5,
+		VivaldiErrorMax:      1.0,
+		VivaldiCE:            0.1,
+		VivaldiCC:            0.005,
+		AdjustmentWindowSize: 50,
+		HeightMin:            10.0e-7,
+		LatencyFilterSize:    20,
+		GravityRho:           150.0,
+
+
+All nodes - serf_rtt_values_27062025_1.log
+
+Mean Difference: ~1.983 ms
+
+Standard Deviation: ~2.036 ms
+
+Top 10 Highest Differences (in ms):
+
+25.696
+
+25.551
+
+24.970
+
+21.880
+
+21.773
+
+18.082
+
+17.953
+
+16.281
+
+14.045
+
+13.968
