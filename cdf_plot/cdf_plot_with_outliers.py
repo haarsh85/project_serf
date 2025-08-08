@@ -24,7 +24,7 @@ from matplotlib.lines import Line2D
 node_data = []
 differences = []
 
-with open("signed_error_logs/serf_ping_rtt_signed_diff_14072025_x.log", "r") as f:
+with open("signed_error_logs/serf_ping_rtt_signed_diff_2D_08082025.log", "r") as f:
     for line in f:
         if line.startswith("===") or not line.strip():
             continue

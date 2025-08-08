@@ -1,9 +1,9 @@
-Source file: serf_ping_rtt_relative_diff_14072025_x.log
+Source file: serf_ping_rtt_relative_diff_2D_08082025.log
 
         Total Samples          |        Mean Difference         |       Median Difference        |       Standard Deviation       |       Minimum Difference       |       Maximum Difference       |    50th Percentile (Median)    |        80th Percentile         |        90th Percentile         |        95th Percentile        
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-            13041              |             0.120              |             0.065              |             1.589              |             0.000              |            178.326             |             0.065              |             0.137              |             0.208              |             0.292             
+            13041              |             0.181              |             0.074              |             2.307              |             0.000              |            253.109             |             0.074              |             0.150              |             0.245              |             0.414             
 
 Nodes with Minimum and Maximum Difference:
-Minimum Difference: 0.000 → [net_1] clab-nebula-serf2 (10.0.1.11) → [net_8] clab-nebula-serf23 (10.0.8.11): 0.000 [serf_rtt: 43.477 ms, ping_rtt: 43.481 ms]
-Maximum Difference: 178.326 → [net_5] clab-nebula-serf18 (10.0.5.10) → [net_6] clab-nebula-serf19 (10.0.6.10): 178.326 [serf_rtt: 8.249 ms, ping_rtt: 0.046 ms]
+Minimum Difference: 0.000 → [net_1] clab-nebula-serf8 (10.0.1.17) → [net_37] clab-nebula-serf67 (10.0.37.11): 0.000 [serf_rtt: 24.946 ms, ping_rtt: 24.946 ms]
+Maximum Difference: 253.109 → [net_5] clab-nebula-serf18 (10.0.5.10) → [net_6] clab-nebula-serf19 (10.0.6.10): 253.109 [serf_rtt: 11.689 ms, ping_rtt: 0.046 ms]

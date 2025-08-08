@@ -1,9 +1,9 @@
-Source file: serf_ping_rtt_absolute_diff_14072025_x.log
+Source file: serf_ping_rtt_absolute_diff_2D_08082025.log
 
         Total Samples          |        Mean Difference         |       Median Difference        |       Standard Deviation       |       Minimum Difference       |       Maximum Difference       |    50th Percentile (Median)    |        80th Percentile         |        90th Percentile         |        95th Percentile        
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-            13041              |            2.426 ms            |            2.050 ms            |            1.873 ms            |            0.000 ms            |           26.723 ms            |            2.050 ms            |            3.797 ms            |            4.891 ms            |            5.913 ms           
+            13041              |            2.876 ms            |            2.381 ms            |            2.480 ms            |            0.000 ms            |           58.483 ms            |            2.381 ms            |            4.412 ms            |            5.662 ms            |            6.936 ms           
 
 Nodes with Minimum and Maximum Difference:
-Minimum Difference: 0.000 ms → [net_46] clab-nebula-serf93 (10.0.46.10) → [net_62] clab-nebula-serf111 (10.0.62.10): 0.000 [serf_rtt: 16.879 ms, ping_rtt: 16.879 ms]
-Maximum Difference: 26.723 ms → [net_64] clab-nebula-serf115 (10.0.64.10) → [net_64] clab-nebula-serf116 (10.0.64.11): 26.723 [serf_rtt: 51.156 ms, ping_rtt: 24.433 ms]
+Minimum Difference: 0.000 ms → [net_1] clab-nebula-serf8 (10.0.1.17) → [net_37] clab-nebula-serf67 (10.0.37.11): 0.000 [serf_rtt: 24.946 ms, ping_rtt: 24.946 ms]
+Maximum Difference: 58.483 ms → [net_64] clab-nebula-serf115 (10.0.64.10) → [net_64] clab-nebula-serf116 (10.0.64.11): 58.483 [serf_rtt: 82.916 ms, ping_rtt: 24.433 ms]

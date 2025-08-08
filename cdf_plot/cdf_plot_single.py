@@ -170,16 +170,16 @@ def plot_absolute_cdf(sorted_diffs, filename):
 # --------- Main Execution ---------
 
 # Signed error
-signed_input = "signed_error_logs/serf_ping_rtt_signed_diff_14072025_x.log" #28062025_2
+signed_input = "signed_error_logs/serf_ping_rtt_signed_diff_2D_08082025.log" #28062025_2
 signed_output = "metrics_signed.txt"
 process_log(signed_input, signed_output, is_relative=False)
 
 # Relative error
-relative_input = "relative_error_logs/serf_ping_rtt_relative_diff_14072025_x.log"
-relative_output = "metrics_relative.txt"
-process_log(relative_input, relative_output, is_relative=True)
+# relative_input = "relative_error_logs/serf_ping_rtt_relative_diff_5D_28062025_2.log"
+# relative_output = "metrics_relative.txt"
+# process_log(relative_input, relative_output, is_relative=True)
 
 # Absolute error
-absolute_input = "absolute_error_logs/serf_ping_rtt_absolute_diff_14072025_x.log"
+absolute_input = "absolute_error_logs/serf_ping_rtt_absolute_diff_2D_08082025.log"
 absolute_output = "metrics_absolute.txt"
 process_log(absolute_input, absolute_output, is_absolute=True)
